@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Quattrocento", sans-serif;
+  font-family: "Questrial", sans-serif;
   font-weight: 400;
 }
 
@@ -17,12 +17,18 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: #2d4921;
 }
 
 h1 {
   justify-self: center;
   align-self: center;
   font-size: 250%;
+  color: #f7edcb;
+}
+
+.fa-leaf {
+  color: #5dbc34;
 }
 
 nav {
