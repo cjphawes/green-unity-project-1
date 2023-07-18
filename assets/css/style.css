@@ -17,7 +17,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 70px 1fr;
   background-color: #2d4921;
 }
 
@@ -36,4 +36,12 @@ nav {
   align-self: center;
   justify-self: center;
   font-family: "Quattrocento", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
 }
