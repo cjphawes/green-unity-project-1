@@ -13,28 +13,34 @@ body {
   color: #fff;
 }
 
-/*Header*/
+/***Header Styling***/
 header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 70px 1fr;
+  grid-template-rows: 70px 80px;
   background-color: #2d4921;
 }
 
+/*Title Logo Styling*/
 h1 {
   justify-self: center;
   align-self: center;
   font-size: 250%;
   color: #f7edcb;
 }
+h1:hover {
+  cursor: pointer;
+}
 
 .fa-leaf {
   color: #5dbc34;
 }
 
+/*Navigation Styling*/
 nav {
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Quattrocento", sans-serif;
 }
 
@@ -44,10 +50,22 @@ ul {
 
 li {
   display: inline-block;
-  background-color: #5dbc34;
-  margin-right: 50px;
 }
-a:link {
-  color: #fff;
+
+a:link,
+a:visited {
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+  /* border: 3px solid #000; */
+
   text-decoration: none;
+  padding: 10px;
+  font-size: 150%;
 }
+a:hover,
+a:active {
+  background-color: #f7edcb;
+}
+
+/*Main Styling*/
