@@ -28,9 +28,6 @@ h1 {
   font-size: 250%;
   color: #f7edcb;
 }
-h1:hover {
-  cursor: pointer;
-}
 
 .fa-leaf {
   color: #5dbc34;
@@ -61,7 +58,7 @@ a:visited {
 
   text-decoration: none;
   padding: 10px;
-  font-size: 150%;
+  font-size: 140%;
 }
 a:hover,
 a:active {
