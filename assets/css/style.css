@@ -44,4 +44,10 @@ ul {
 
 li {
   display: inline-block;
+  background-color: #5dbc34;
+  margin-right: 50px;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
 }
