@@ -86,7 +86,7 @@ a:active {
 .hero-links:link,
 .hero-links:visited {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 1%;
 
   font-size: 200%;
@@ -103,11 +103,16 @@ a:active {
 }
 #join-fight:hover,
 #join-fight:active {
-  background-color: #27b9e1;
+  background-color: #33bd1a;
 }
 
 .hero-section > p {
-  font-size: 170%;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 400px;
+  padding: 80px 0 0 20px;
+
+  font-size: 300%;
 }
 
 /*Footer Styling*/
