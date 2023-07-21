@@ -96,14 +96,20 @@ a:active {
 #find-out-more:visited {
   position: absolute;
   left: 21%;
+  background-color: #ec830b;
 }
 #find-out-more:hover,
 #find-out-more:active {
-  background-color: #ec830b;
+  background-color: #f7edcb;
 }
+#join-fight:link,
+#join-fight:visited {
+  background-color: #33bd1a;
+}
+
 #join-fight:hover,
 #join-fight:active {
-  background-color: #33bd1a;
+  background-color: #f7edcb;
 }
 
 .hero-section > p {
