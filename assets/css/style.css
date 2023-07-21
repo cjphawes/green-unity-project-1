@@ -71,9 +71,12 @@ a:active {
 
 /*Hero Section*/
 .hero-section {
-  height: 850px;
+  height: 600px;
 
   background-image: url(../images/handing-over-earth.jpeg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position: 50% 70%;
+
+  filter: brightness(80%);
 }
