@@ -56,10 +56,10 @@ a:link,
 a:visited {
   color: #000;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
 
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 15px;
   font-size: 110%;
   transition: all 0.3s;
 }
@@ -75,43 +75,22 @@ a:active {
   position: relative;
   height: 600px;
 
-  background-image: url(../images/handing-over-earth.jpeg);
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../images/handing-over-earth.jpeg), no-repeat;
   background-size: 100%;
   background-position: 50% 70%;
-
-  /* filter: brightness(80%); */
 }
 
-.hero-links:link,
-.hero-links:visited {
+.hero-link:link,
+.hero-link:visited {
   position: absolute;
-  top: 65%;
-  left: 1%;
+  top: 55%;
+  left: 35%;
 
-  font-size: 170%;
-}
-
-#find-out-more:link,
-#find-out-more:visited {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  position: absolute;
-  left: 18%;
+  font-size: 300%;
+  font-weight: 600;
+  text-transform: uppercase;
   background-color: #f7edcb;
-}
-#find-out-more:hover,
-#find-out-more:active {
-  background-color: #ec830b;
-}
-
-#join-fight:link,
-#join-fight:visited {
-  background-color: #f7edcb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #join-fight:hover,
@@ -121,15 +100,18 @@ a:active {
 
 .hero-section > p {
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 1fr;
   grid-template-rows: 400px;
   padding: 80px 0 0 20px;
+  margin: 0 120px;
+  text-align: center;
 
-  font-size: 300%;
+  font-size: 270%;
+  color: #f9f9f9;
 }
 
 /*Footer Styling*/
 footer {
-  height: 140px;
+  height: 100px;
   background-color: #2d4921;
 }
