@@ -165,7 +165,12 @@ footer {
 }
 #icon-instagram:hover,
 #icon-instagram:active {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(
+    rgb(252, 204, 99),
+    rgb(251, 173, 80),
+    rgb(205, 72, 107),
+    rgb(76, 104, 215)
+  );
 }
 
 #icon-twitter:link,
