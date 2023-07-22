@@ -86,7 +86,7 @@ a:active {
 .hero-links:link,
 .hero-links:visited {
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 1%;
 
   font-size: 200%;
@@ -94,22 +94,29 @@ a:active {
 
 #find-out-more:link,
 #find-out-more:visited {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   position: absolute;
   left: 21%;
-  background-color: #ec830b;
+  background-color: #f7edcb;
 }
 #find-out-more:hover,
 #find-out-more:active {
-  background-color: #f7edcb;
+  background-color: #ec830b;
 }
+
 #join-fight:link,
 #join-fight:visited {
-  background-color: #33bd1a;
+  background-color: #f7edcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #join-fight:hover,
 #join-fight:active {
-  background-color: #f7edcb;
+  background-color: #33bd1a;
 }
 
 .hero-section > p {
