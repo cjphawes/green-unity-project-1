@@ -118,7 +118,7 @@ ul > li {
 
 /***Footer Styling***/
 footer {
-  height: 150px;
+  height: 160px;
   background-color: #2d4921;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -140,6 +140,7 @@ footer {
 #icon-email:link,
 #icon-email:visited {
   color: #f7edcb;
+  transition: all 0.3s;
 }
 #icon-email:hover,
 #icon-email:active {
@@ -149,6 +150,7 @@ footer {
 #icon-phone:link,
 #icon-phone:visited {
   color: #f7edcb;
+  transition: all 0.3s;
 }
 #icon-phone:hover,
 #icon-phone:active {
@@ -159,9 +161,25 @@ footer {
   color: #f7edcb;
 }
 
+/*Socials Styling*/
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0 0 10px;
+  /* margin-left: 100px; */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 #icon-instagram:link,
 #icon-instagram:visited {
   color: #f7edcb;
+  transition: all 0.3s;
 }
 #icon-instagram:hover,
 #icon-instagram:active {
@@ -176,6 +194,7 @@ footer {
 #icon-twitter:link,
 #icon-twitter:visited {
   color: #f7edcb;
+  transition: all 0.3s;
 }
 #icon-twitter:hover,
 #icon-twitter:active {
@@ -185,20 +204,9 @@ footer {
 #icon-facebook:link,
 #icon-facebook:visited {
   color: #f7edcb;
+  transition: all 0.3s;
 }
 #icon-facebook:hover,
 #icon-facebook:active {
   color: #3b5998;
-}
-
-/*Socials Styling*/
-.socials {
-  padding: 20px 0 0 10px;
-  margin-left: 100px;
-}
-
-.social-links {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
