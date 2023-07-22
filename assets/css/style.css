@@ -165,7 +165,7 @@ footer {
 }
 #icon-instagram:hover,
 #icon-instagram:active {
-  color: #00acee;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
 
 #icon-twitter:link,
@@ -183,7 +183,7 @@ footer {
 }
 #icon-facebook:hover,
 #icon-facebook:active {
-  color: #00acee;
+  color: #3b5998;
 }
 
 /*Socials Styling*/
