@@ -30,7 +30,7 @@ header > h1 {
 }
 
 .logo {
-  color: #5dbc34;
+  color: #fff;
 }
 
 /*Navigation Styling*/
@@ -42,7 +42,7 @@ header > nav {
   margin-right: 50px;
 }
 
-nav > ul {
+nav > .nav-links {
   display: flex;
   gap: 10px;
   list-style: none;
@@ -52,8 +52,8 @@ ul > li {
   display: inline-block;
 }
 
-a:link,
-a:visited {
+.links:link,
+.links:visited {
   color: #000;
   background-color: #fff;
   border-radius: 15px;
@@ -63,8 +63,8 @@ a:visited {
   font-size: 110%;
   transition: all 0.3s;
 }
-a:hover,
-a:active {
+.links:hover,
+.links:active {
   background-color: #f7edcb;
 }
 
@@ -91,6 +91,12 @@ a:active {
   font-weight: 600;
   text-transform: uppercase;
   background-color: #f7edcb;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s;
 }
 
 #join-fight:hover,
@@ -98,7 +104,7 @@ a:active {
   background-color: #33bd1a;
 }
 
-.hero-section > p {
+.hero-info > .hero-text {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 400px;
@@ -114,4 +120,13 @@ a:active {
 footer {
   height: 100px;
   background-color: #2d4921;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.socials {
+  display: grid;
 }
