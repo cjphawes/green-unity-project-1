@@ -116,7 +116,7 @@ ul > li {
   color: #f9f9f9;
 }
 
-/*Footer Styling*/
+/***Footer Styling***/
 footer {
   height: 150px;
   background-color: #2d4921;
@@ -124,6 +124,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/*Contact Information Styling*/
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -136,6 +137,56 @@ footer {
   color: #8f8f8f;
 }
 
+#icon-email:link,
+#icon-email:visited {
+  color: #f7edcb;
+}
+#icon-email:hover,
+#icon-email:active {
+  color: #39a9c8;
+}
+
+#icon-phone:link,
+#icon-phone:visited {
+  color: #f7edcb;
+}
+#icon-phone:hover,
+#icon-phone:active {
+  color: #39a9c8;
+}
+
+#icon-location {
+  color: #f7edcb;
+}
+
+#icon-instagram:link,
+#icon-instagram:visited {
+  color: #f7edcb;
+}
+#icon-instagram:hover,
+#icon-instagram:active {
+  color: #00acee;
+}
+
+#icon-twitter:link,
+#icon-twitter:visited {
+  color: #f7edcb;
+}
+#icon-twitter:hover,
+#icon-twitter:active {
+  color: #00acee;
+}
+
+#icon-facebook:link,
+#icon-facebook:visited {
+  color: #f7edcb;
+}
+#icon-facebook:hover,
+#icon-facebook:active {
+  color: #00acee;
+}
+
+/*Socials Styling*/
 .socials {
   padding: 20px 0 0 10px;
   margin-left: 100px;
