@@ -85,7 +85,7 @@ ul > li {
 .hero-link:visited {
   position: absolute;
   top: 55%;
-  left: 35%;
+  left: 0%;
 
   font-size: 300%;
   font-weight: 600;
@@ -121,7 +121,7 @@ footer {
   height: 160px;
   background-color: #2d4921;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 160px 1fr;
 }
 
 /*Contact Information Styling*/
@@ -129,7 +129,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px 0 0 10px;
+  padding: 20px 10px;
   margin-left: 20px;
 }
 
@@ -166,8 +166,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px 0 0 10px;
-  /* margin-left: 100px; */
+  padding: 20px 10px;
 }
 
 .social-links {
@@ -209,4 +208,11 @@ footer {
 #icon-facebook:hover,
 #icon-facebook:active {
   color: #3b5998;
+}
+
+/*Copyright Styling*/
+#copyright {
+  display: flex;
+  align-items: end;
+  padding-bottom: 20px;
 }
