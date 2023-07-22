@@ -118,19 +118,18 @@ ul > li {
 
 /*Footer Styling*/
 footer {
-  height: 140px;
+  height: 150px;
   background-color: #2d4921;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 10px 0 0 10px;
-}
-
-#contact-info > #contact-heading {
-  margin-bottom: 5px;
+  padding: 20px 0 0 10px;
+  margin-left: 20px;
 }
 
 .contact-details {
@@ -138,6 +137,12 @@ footer {
 }
 
 .socials {
-  display: grid;
-  grid-template-columns: 1fr;
+  padding: 20px 0 0 10px;
+  margin-left: 100px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
