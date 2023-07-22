@@ -16,8 +16,8 @@ body {
 /***Header Styling***/
 header {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70px 80px;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 5rem;
   background-color: #2d4921;
 }
 
@@ -34,21 +34,21 @@ header > h1 {
 }
 
 /*Navigation Styling*/
-nav {
+header > nav {
   display: flex;
   font-family: "Quattrocento", sans-serif;
   align-items: center;
-  justify-content: center;
-  margin-left: 10px;
+  justify-content: flex-end;
+  margin-right: 50px;
 }
 
-ul {
+nav > ul {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   list-style: none;
 }
 
-li {
+ul > li {
   display: inline-block;
 }
 
@@ -60,7 +60,7 @@ a:visited {
 
   text-decoration: none;
   padding: 15px;
-  font-size: 120%;
+  font-size: 110%;
   transition: all 0.3s;
 }
 a:hover,
@@ -89,7 +89,7 @@ a:active {
   top: 65%;
   left: 1%;
 
-  font-size: 200%;
+  font-size: 170%;
 }
 
 #find-out-more:link,
@@ -98,7 +98,7 @@ a:active {
   align-items: center;
   gap: 10px;
   position: absolute;
-  left: 21%;
+  left: 18%;
   background-color: #f7edcb;
 }
 #find-out-more:hover,
