@@ -18,7 +18,7 @@ header {
   display: grid;
   grid-template-columns: 20rem 1fr;
   grid-template-rows: 5rem;
-  background-color: #2d4921;
+  background-color: #253c1b;
 }
 
 /*Title Logo Styling*/
@@ -26,7 +26,7 @@ header > h1 {
   justify-self: center;
   align-self: center;
   font-size: 230%;
-  color: #f7edcb;
+  color: #f7ecca;
 }
 
 .logo {
@@ -65,13 +65,13 @@ ul > li {
 }
 .links:hover,
 .links:active {
-  background-color: #f7edcb;
+  background-color: #f7ecca;
 }
 
 /***Footer Styling***/
 footer {
   height: 160px;
-  background-color: #2d4921;
+  background-color: #253c1b;
   display: grid;
   grid-template-columns: 1fr 160px 1fr;
 }
@@ -91,7 +91,7 @@ footer {
 
 #icon-email:link,
 #icon-email:visited {
-  color: #f7edcb;
+  color: #f7ecca;
   transition: all 0.3s;
 }
 #icon-email:hover,
@@ -101,7 +101,7 @@ footer {
 
 #icon-phone:link,
 #icon-phone:visited {
-  color: #f7edcb;
+  color: #f7ecca;
   transition: all 0.3s;
 }
 #icon-phone:hover,
@@ -110,7 +110,7 @@ footer {
 }
 
 #icon-location {
-  color: #f7edcb;
+  color: #f7ecca;
 }
 
 /*Socials Styling*/
@@ -129,7 +129,7 @@ footer {
 
 #icon-instagram:link,
 #icon-instagram:visited {
-  color: #f7edcb;
+  color: #f7ecca;
   transition: all 0.3s;
 }
 #icon-instagram:hover,
@@ -144,7 +144,7 @@ footer {
 
 #icon-twitter:link,
 #icon-twitter:visited {
-  color: #f7edcb;
+  color: #f7ecca;
   transition: all 0.3s;
 }
 #icon-twitter:hover,
@@ -154,7 +154,7 @@ footer {
 
 #icon-facebook:link,
 #icon-facebook:visited {
-  color: #f7edcb;
+  color: #f7ecca;
   transition: all 0.3s;
 }
 #icon-facebook:hover,
