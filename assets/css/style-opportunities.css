@@ -68,6 +68,12 @@ ul > li {
   background-color: #f7ecca;
 }
 
+/***Main Styling***/
+.container {
+  background-color: #f7ecca;
+  color: #000;
+}
+
 /***Footer Styling***/
 footer {
   height: 160px;
