@@ -84,10 +84,12 @@ ul > li {
 #opportunities-text {
   grid-column: 1 / -1;
   margin-top: 50px;
+  font-size: 110%;
 }
 
 .volunteer-title {
   margin-top: 50px;
+  font-size: 180%;
 }
 
 .opportunities-section {
