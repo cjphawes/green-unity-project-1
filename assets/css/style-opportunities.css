@@ -74,6 +74,35 @@ ul > li {
   color: #000;
 }
 
+.opportunities {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1000px;
+  justify-items: center;
+}
+
+#opportunities-text {
+  grid-column: 1 / -1;
+  margin-top: 50px;
+}
+
+.volunteer-title {
+  margin-top: 50px;
+}
+
+.opportunities-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.volunteer-card {
+  height: 120px;
+  width: 550px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
 /***Footer Styling***/
 footer {
   height: 160px;
