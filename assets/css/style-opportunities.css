@@ -85,7 +85,8 @@ ul > li {
 #opportunities-text {
   grid-column: 1 / -1;
   margin-top: 50px;
-  font-size: 110%;
+  font-size: 120%;
+  padding: 10px;
 }
 
 .volunteer-title {
@@ -111,7 +112,7 @@ ul > li {
 #amazon-rainforest {
   background: url(../images/lightscape-LRQsyNQL1TE-unsplash.jpg), no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 0 30%;
 }
 
 #marine-conservation {
@@ -127,7 +128,7 @@ ul > li {
 #natural-disaster {
   background: url(../images/pexels-kelly-4170461.jpg), no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 0 30%;
 }
 #educational {
   background: url(../images/mario-heller-hXLkFpvKRys-unsplash.jpg), no-repeat;
@@ -139,12 +140,12 @@ ul > li {
 #planting-trees {
   background: url(../images/jonathan-kemper-4z3lnwEvZQw-unsplash.jpg), no-repeat;
   background-size: cover;
-  background-position: 0 80%;
+  background-position: 0 90%;
 }
 #donating-to-charity-2 {
   background: url(../images/aaron-doucett-HkbeLxOJlqk-unsplash.jpg), no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 0 30%;
 }
 #helping-the-homeless {
   background: url(../images/pexels-rdne-stock-project-6646914.jpg), no-repeat;
@@ -154,7 +155,7 @@ ul > li {
 #wildlife-conservation {
   background: url(../images/david-clode-azAbifyYlAM-unsplash.jpg), no-repeat;
   background-size: cover;
-  background-position: 0 60%;
+  background-position: 0 40%;
 }
 
 /***Footer Styling***/
