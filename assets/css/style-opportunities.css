@@ -113,10 +113,48 @@ ul > li {
 }
 
 #marine-conservation {
-  background: url(../images/marek-okon-tWWCqIMiUmg-unsplash.jpg), no-repeat;
+  background: url(../images/pexels-jeremy-bishop-2765872.jpg), no-repeat;
   background-size: cover;
-  background-position: 30% 40%;
+  background-position: 0 50%;
 }
+#donating-to-charity {
+  background: url(../images/max-kukurudziak-qbc3Zmxw0G8-unsplash.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+#natural-disaster {
+  background: url(../images/pexels-kelly-4170461.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+}
+#educational {
+  background: url(../images/mario-heller-hXLkFpvKRys-unsplash.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+/*Local Volunteering Cards*/
+#planting-trees {
+  background: url(../images/jonathan-kemper-4z3lnwEvZQw-unsplash.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 80%;
+}
+#donating-to-charity-2 {
+  background: url(../images/aaron-doucett-HkbeLxOJlqk-unsplash.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+}
+#helping-the-homeless {
+  background: url(../images/pexels-rdne-stock-project-6646914.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+#wildlife-conservation {
+  background: url(../images/david-clode-azAbifyYlAM-unsplash.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+}
+
 /***Footer Styling***/
 footer {
   height: 160px;
