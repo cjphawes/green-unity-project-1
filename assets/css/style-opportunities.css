@@ -108,6 +108,14 @@ ul > li {
   border-radius: 20px;
 }
 
+h3 {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px 0 2px 0;
+}
+
 /*Global Volunteering Cards*/
 #amazon-rainforest {
   background: url(../images/lightscape-LRQsyNQL1TE-unsplash.jpg), no-repeat;
