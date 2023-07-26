@@ -166,6 +166,50 @@ h3 {
   background-position: 0 40%;
 }
 
+/*Aside Styling*/
+aside {
+  position: relative;
+  height: 1000px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: #253c1b;
+  color: #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+#top-picks {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 150%;
+}
+
+#top-picks-description {
+  padding: 10px;
+}
+
+aside > ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 110%;
+}
+
+.top-pick-links:link,
+.top-pick-links:visited {
+  text-decoration: none;
+  color: #f7ecca;
+  font-weight: 600;
+}
+
+.top-pick-links:hover,
+.top-pick-links:active {
+  text-decoration: underline;
+}
+
 /***Footer Styling***/
 footer {
   height: 160px;
