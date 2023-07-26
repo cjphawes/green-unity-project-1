@@ -106,6 +106,10 @@ ul > li {
   width: 400px;
   background-color: #fff;
   border-radius: 20px;
+  transition: all 1s;
+}
+.volunteer-card:hover {
+  transform: scale(1.05);
 }
 
 h3 {
@@ -121,27 +125,32 @@ h3 {
   background: url(../images/lightscape-LRQsyNQL1TE-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 30%;
+  transition: all 1s;
 }
 
 #marine-conservation {
   background: url(../images/pexels-jeremy-bishop-2765872.jpg), no-repeat;
   background-size: cover;
   background-position: 0 50%;
+  transition: all 1s;
 }
 #donating-to-charity {
   background: url(../images/max-kukurudziak-qbc3Zmxw0G8-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 40%;
+  transition: all 1s;
 }
 #natural-disaster {
   background: url(../images/pexels-kelly-4170461.jpg), no-repeat;
   background-size: cover;
   background-position: 0 30%;
+  transition: all 1s;
 }
 #educational {
   background: url(../images/mario-heller-hXLkFpvKRys-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 40%;
+  transition: all 1s;
 }
 
 /*Local Volunteering Cards*/
@@ -149,21 +158,25 @@ h3 {
   background: url(../images/jonathan-kemper-4z3lnwEvZQw-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 90%;
+  transition: all 1s;
 }
 #donating-to-charity-2 {
   background: url(../images/aaron-doucett-HkbeLxOJlqk-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 30%;
+  transition: all 1s;
 }
 #helping-the-homeless {
   background: url(../images/pexels-rdne-stock-project-6646914.jpg), no-repeat;
   background-size: cover;
   background-position: 0 40%;
+  transition: all 1s;
 }
 #wildlife-conservation {
   background: url(../images/david-clode-azAbifyYlAM-unsplash.jpg), no-repeat;
   background-size: cover;
   background-position: 0 40%;
+  transition: all 1s;
 }
 
 /*Aside Styling*/
