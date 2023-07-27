@@ -55,23 +55,61 @@
 
     <main id="container">
       <section id="form-container">
-        <form action="POST" id="signup-form">
-          <label for="">First Name</label>
-          <input type="text" name="" id="" />
-          <label for="">Last Name</label>
-          <input type="text" name="" id="" />
-          <label for="">Email Address</label>
-          <input type="text" name="" id="" />
-          <label for="">Re-enter Email Address</label>
-          <input type="text" name="" id="" />
-          <label for="">Password</label>
-          <input type="text" name="" id="" />
-          <label for="">Re-enter Password</label>
-          <input type="text" name="" id="" />
-          <input type="text" name="" id="" />Terms & Conditions
-          <input type="text" name="" id="" />Privacy Policy
-          <input type="text" name="" id="" />Receive Newsletter and Promotions
-          <input type="text" name="" id="" />Sign-up btn
+        <form method="POST" id="signup-form">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="fname"
+            placeholder="Cameron"
+            required
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="lname"
+            placeholder="Hawes"
+            required
+          />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="cameronhawes1234@gmail.com"
+            required
+          />
+          <label for="re-email">Re-enter Email Address</label>
+          <input type="email" name="email" id="re-email" required />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+          <label for="re-password">Re-enter Password</label>
+          <input type="password" name="password" id="re-password" required />
+          <input
+            type="checkbox"
+            name="accept_terms_and_conditions"
+            value="yes"
+            id="t-and-c"
+            required
+          />
+          <label for="t-and-c">Terms & Conditions</label>
+          <input
+            type="checkbox"
+            name="accept_privacy_policy"
+            value="yes"
+            id="priv-policy"
+            required
+          />
+          <label for="priv-policy">Privacy Policy</label>
+          <input
+            type="checkbox"
+            name="receive_news_and_promos"
+            value="yes"
+            id="news-and-promo"
+          />
+          <label for="news-and-promo">Receive Newsletter & Promotions</label>
+          <button id="signup-btn" type="submit">Get Started!</button>
         </form>
       </section>
 
