@@ -107,9 +107,11 @@ ul > li {
   background-color: #fff;
   border-radius: 20px;
   transition: all 0.6s;
+  box-shadow: 3px 4px 10px #000;
 }
 .volunteer-card:hover {
   transform: scale(1.02);
+  box-shadow: 7px 8px 15px -5px #000;
 }
 
 h3 {
@@ -155,6 +157,7 @@ h3 {
   border: 2px solid #f8eecf;
 }
 
+/*Volunteer Card Icon Styling*/
 .donate {
   position: relative;
 }
