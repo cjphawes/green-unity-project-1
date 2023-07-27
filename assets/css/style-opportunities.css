@@ -104,7 +104,6 @@ ul > li {
   position: relative;
   height: 200px;
   width: 400px;
-  text-align: center;
   background-color: #fff;
   border-radius: 20px;
   transition: all 1s;
@@ -123,7 +122,9 @@ h3 {
 }
 
 .volunteer-card-description {
-  text-align: start;
+  display: inline-block;
+  padding: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
 
 .volunteer-now:link,
@@ -142,6 +143,9 @@ h3 {
 }
 .volunteer-now:hover,
 .volunteer-now:active {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #f7ecca;
 }
 
 /*Global Volunteering Cards*/
@@ -154,12 +158,6 @@ h3 {
   background-size: cover;
   background-position: 0 30%;
   transition: all 1s;
-}
-#amazon-rainforest:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../images/lightscape-LRQsyNQL1TE-unsplash.jpg), no-repeat;
-  background-size: cover;
-  background-position: 0 30%;
 }
 
 #marine-conservation {
