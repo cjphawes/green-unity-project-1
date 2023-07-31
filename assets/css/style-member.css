@@ -188,17 +188,21 @@ label {
 }
 
 /*Signup Btn of Form*/
-#signup-btn {
+#signup-btn:link,
+#signup-btn:visited {
   font-size: 120%;
-  font-weight: 600;
+  font-weight: 800;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   background-color: #e8590c;
+  text-decoration: none;
+  color: #000;
   transition: all 0.3s;
 }
 
-#signup-btn:hover {
+#signup-btn:hover,
+#signup-btn:active {
   cursor: pointer;
   background-color: #ff922b;
 }
