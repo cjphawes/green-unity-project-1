@@ -68,6 +68,13 @@ ul > li {
   background-color: #f7ecca;
 }
 
+#become-a-member:link,
+#become-a-member:visited {
+  background-color: #000;
+  color: #f7ecca;
+  border: 2px solid #f7ecca;
+}
+
 /***Main Styling***/
 #container {
   height: 750px;
