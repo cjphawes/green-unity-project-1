@@ -68,6 +68,13 @@ ul > li {
   background-color: #f7ecca;
 }
 
+#opportunities:link,
+#opportunities:visited {
+  background-color: #000;
+  color: #f7ecca;
+  border: 2px solid #f7ecca;
+}
+
 /***Main Styling***/
 .container {
   background-color: #ded4b6;
