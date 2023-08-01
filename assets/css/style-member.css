@@ -70,7 +70,7 @@ ul > li {
 
 /***Main Styling***/
 #container {
-  height: 850px;
+  height: 750px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/mayur-gala-2PODhmrvLik-unsplash.jpg), no-repeat;
   background-size: 170%;
@@ -95,14 +95,6 @@ ul > li {
   border-radius: 10px;
 }
 
-/* #form-container::after {
-  content: "";
-  border-right: 2px solid #000;
-  position: relative;
-  left: 450px;
-  height: 700px;
-} */
-
 #signup-form {
   display: flex;
   flex-wrap: wrap;
@@ -110,12 +102,17 @@ ul > li {
 }
 
 .input-box {
-  height: 50px;
+  height: 35px;
   width: 300px;
   padding: 0 5px;
   font-size: 100%;
 }
 
+label {
+  color: #f7ecca;
+}
+
+/*Form Title of Form*/
 #form-title {
   margin-bottom: 20px;
 }
@@ -124,10 +121,6 @@ ul > li {
   position: relative;
   left: 10px;
   color: #e8590c;
-}
-
-label {
-  color: #f7ecca;
 }
 
 /*Name Section of Form*/
@@ -207,6 +200,53 @@ label {
   background-color: #ff922b;
 }
 
+/*FAQ Styling*/
+#faq-container {
+  height: 500px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #fff;
+}
+
+#faq-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/*FAQ Title of Form*/
+#faq-title {
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.fa-circle-question {
+  position: relative;
+  left: 10px;
+  color: #e8590c;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.faq-q-a {
+  background-color: rgb(247, 236, 202);
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+}
+
+/*First FAQ*/
+.faq-question-title {
+}
 /***Footer Styling***/
 footer {
   height: 160px;
