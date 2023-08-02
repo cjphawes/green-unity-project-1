@@ -19,6 +19,9 @@ header {
   grid-template-columns: 20rem 1fr;
   grid-template-rows: 5rem;
   background-color: #253c1b;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 /*Title Logo Styling*/
