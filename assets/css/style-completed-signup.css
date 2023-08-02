@@ -69,7 +69,67 @@ ul > li {
 }
 
 /*Main Styling*/
+#container {
+  background-color: #f7ecca;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: auto;
+}
 
+#completion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+
+  width: 700px;
+  margin: 50px auto;
+  padding: 100px;
+}
+
+#completion-title-and-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#completion-title {
+  font-size: 300%;
+  font-weight: 700;
+  color: #000;
+}
+
+#completion-text {
+  font-size: 150%;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.fa-circle-check {
+  color: #54e616;
+  align-self: center;
+}
+
+#return-back-text {
+  color: #000;
+  font-size: 130%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.return-links:link,
+.return-links:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.return-links:hover,
+.return-links:active {
+  text-decoration: underline;
+  color: inherit;
+}
 /***Footer Styling***/
 footer {
   height: 160px;
