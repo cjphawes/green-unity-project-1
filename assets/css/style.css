@@ -83,7 +83,7 @@ ul > li {
   height: 600px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../images/handing-over-earth.jpeg), no-repeat;
+    url(../images/handing-over-earth-min.jpeg), no-repeat;
   background-size: 100%;
   background-position: 50% 70%;
 }
