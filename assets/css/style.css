@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Questrial&display=swap");
 
-/*General Elements*/
+/*General Webpage Elements*/
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +13,9 @@ body {
   color: #fff;
 }
 
-/***Header Styling***/
+/*Index.html Page*/
+
+/**Header Styling**/
 header {
   display: grid;
   grid-template-columns: 20rem 1fr;
@@ -21,7 +23,7 @@ header {
   background-color: #253c1b;
 }
 
-/*Title Logo Styling*/
+/***Title Logo Styling***/
 header > h1 {
   justify-self: center;
   align-self: center;
@@ -29,11 +31,11 @@ header > h1 {
   color: #f7ecca;
 }
 
-.logo {
+.fa-hands-holding-circle {
   color: #fff;
 }
 
-/*Navigation Styling*/
+/***Navigation Styling***/
 header > nav {
   display: flex;
   font-family: "Quattrocento", sans-serif;
@@ -52,8 +54,8 @@ ul > li {
   display: inline-block;
 }
 
-.links:link,
-.links:visited {
+li > .links:link,
+li > .links:visited {
   color: #000;
   background-color: #fff;
   border-radius: 15px;
@@ -63,22 +65,22 @@ ul > li {
   font-size: 110%;
   transition: all 0.3s;
 }
-.links:hover,
-.links:active {
+li > .links:hover,
+li > .links:active {
   background-color: #f7ecca;
 }
 
-#home:link,
-#home:visited {
+li > #home:link,
+li > #home:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
 }
 
-/***Main Styling***/
+/**Main Styling**/
 
-/*Hero Section*/
-.hero-section {
+/***Hero Section***/
+main {
   position: relative;
   height: 600px;
 
@@ -88,7 +90,7 @@ ul > li {
   background-position: 50% 70%;
 }
 
-.hero-info {
+main > #hero-info {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px 1fr 50px;
@@ -100,29 +102,11 @@ ul > li {
   color: #f9f9f9;
 }
 
-#join-fight:link,
-#join-fight:visited {
-  font-size: 100%;
-  font-weight: 600;
-  text-transform: uppercase;
-  background-color: #f7ecca;
-  color: #000;
-  background-color: #fff;
-  border-radius: 15px;
-  text-decoration: none;
-  padding: 10px 15px;
-  transition: all 0.3s;
-}
-
-#join-fight:hover,
-#join-fight:active {
-  background-color: #33bd1a;
-}
-
-#volunteer {
+#hero-info > #volunteer {
   font-size: 80%;
 }
-#arrows {
+
+#hero-info > #arrows {
   position: relative;
   animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
 }
@@ -135,7 +119,26 @@ ul > li {
   }
 }
 
-/***Footer Styling***/
+#hero-info > #join-fight:link,
+#hero-info > #join-fight:visited {
+  font-size: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f7ecca;
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+#hero-info > #join-fight:hover,
+#hero-info > #join-fight:active {
+  background-color: #33bd1a;
+}
+
+/**Footer Styling**/
 footer {
   height: 160px;
   background-color: #253c1b;
@@ -143,8 +146,8 @@ footer {
   grid-template-columns: 1fr 160px 1fr;
 }
 
-/*Contact Information Styling*/
-.contact-info {
+/***Contact Information Styling***/
+footer > #contact-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -152,55 +155,56 @@ footer {
   margin-left: 20px;
 }
 
-.contact-details {
+div > .contact-details {
   color: #8f8f8f;
 }
 
-#icon-email:link,
-#icon-email:visited {
+div > #icon-email:link,
+div > #icon-email:visited {
   color: #f7ecca;
   transition: all 0.3s;
 }
-#icon-email:hover,
-#icon-email:active {
+div > #icon-email:hover,
+div > #icon-email:active {
   color: #39a9c8;
 }
 
-#icon-phone:link,
-#icon-phone:visited {
+div > #icon-phone:link,
+div > #icon-phone:visited {
   color: #f7ecca;
   transition: all 0.3s;
 }
-#icon-phone:hover,
-#icon-phone:active {
+div > #icon-phone:hover,
+div > #icon-phone:active {
   color: #39a9c8;
 }
 
-#icon-location {
+div > #icon-location {
   color: #f7ecca;
 }
 
-/*Socials Styling*/
-.socials {
+/***Socials Styling***/
+footer > #socials {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 20px 10px;
 }
 
-.social-links {
+#socials > .social-links {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-#icon-instagram:link,
-#icon-instagram:visited {
+li > #icon-instagram:link,
+li > #icon-instagram:visited {
   color: #f7ecca;
   transition: all 0.3s;
+  border-radius: 5px;
 }
-#icon-instagram:hover,
-#icon-instagram:active {
+li > #icon-instagram:hover,
+li > #icon-instagram:active {
   background-image: linear-gradient(
     rgb(252, 204, 99),
     rgb(251, 173, 80),
@@ -209,29 +213,33 @@ footer {
   );
 }
 
-#icon-twitter:link,
-#icon-twitter:visited {
+li > #icon-twitter:link,
+li > #icon-twitter:visited {
   color: #f7ecca;
   transition: all 0.3s;
 }
-#icon-twitter:hover,
-#icon-twitter:active {
+li > #icon-twitter:hover,
+li > #icon-twitter:active {
   color: #00acee;
 }
 
-#icon-facebook:link,
-#icon-facebook:visited {
+li > #icon-facebook:link,
+li > #icon-facebook:visited {
   color: #f7ecca;
   transition: all 0.3s;
 }
-#icon-facebook:hover,
-#icon-facebook:active {
+li > #icon-facebook:hover,
+li > #icon-facebook:active {
   color: #3b5998;
 }
 
-/*Copyright Styling*/
-#copyright {
+/***Copyright Styling***/
+footer > #copyright {
   display: flex;
   align-items: end;
   padding-bottom: 20px;
 }
+
+/*Opportunities.html*/
+
+/****/
