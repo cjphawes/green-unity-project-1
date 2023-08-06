@@ -16,7 +16,7 @@ body {
 /*Index.html Page*/
 
 /**Header Styling**/
-header {
+#header {
   display: grid;
   grid-template-columns: 20rem 1fr;
   grid-template-rows: 5rem;
@@ -24,7 +24,7 @@ header {
 }
 
 /***Title Logo Styling***/
-header > h1 {
+#header > h1 {
   justify-self: center;
   align-self: center;
   font-size: 230%;
@@ -36,7 +36,7 @@ header > h1 {
 }
 
 /***Navigation Styling***/
-header > nav {
+#header > nav {
   display: flex;
   font-family: "Quattrocento", sans-serif;
   align-items: center;
@@ -80,7 +80,7 @@ li > #home:visited {
 /**Main Styling**/
 
 /***Hero Section***/
-main {
+#hero-section {
   position: relative;
   height: 600px;
 
@@ -90,7 +90,7 @@ main {
   background-position: 50% 70%;
 }
 
-main > #hero-info {
+#hero-section > #hero-info {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px 1fr 50px;
@@ -139,7 +139,7 @@ main > #hero-info {
 }
 
 /**Footer Styling**/
-footer {
+#footer {
   height: 160px;
   background-color: #253c1b;
   display: grid;
@@ -147,7 +147,7 @@ footer {
 }
 
 /***Contact Information Styling***/
-footer > #contact-info {
+#footer > #contact-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -184,7 +184,7 @@ div > #icon-location {
 }
 
 /***Socials Styling***/
-footer > #socials {
+#footer > #socials {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -234,7 +234,7 @@ li > #icon-facebook:active {
 }
 
 /***Copyright Styling***/
-footer > #copyright {
+#footer > #copyright {
   display: flex;
   align-items: end;
   padding-bottom: 20px;
@@ -242,4 +242,69 @@ footer > #copyright {
 
 /*Opportunities.html*/
 
-/****/
+/**Header Styling**/
+/* header {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 5rem;
+  background-color: #253c1b;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+} */
+
+/*Title Logo Styling*/
+/* header > h1 {
+  justify-self: center;
+  align-self: center;
+  font-size: 230%;
+  color: #f7ecca;
+}
+
+.logo {
+  color: #fff;
+} */
+
+/*Navigation Styling*/
+/* header > nav {
+  display: flex;
+  font-family: "Quattrocento", sans-serif;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+nav > .nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+.links:link,
+.links:visited {
+  color: #000;
+  background-color: #fff;
+  border-radius: 15px;
+
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 110%;
+  transition: all 0.3s;
+}
+.links:hover,
+.links:active {
+  background-color: #f7ecca;
+}
+
+#opportunities:link,
+#opportunities:visited {
+  background-color: #000;
+  color: #f7ecca;
+  border: 2px solid #f7ecca;
+} */
+
+/***Main Styling**
