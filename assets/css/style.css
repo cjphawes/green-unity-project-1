@@ -70,8 +70,8 @@ li > .links:active {
   background-color: #f7ecca;
 }
 
-li > #home:link,
-li > #home:visited {
+li > #home-link-active:link,
+li > #home-link-active:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
@@ -139,7 +139,7 @@ li > #home:visited {
 }
 
 /**Footer Styling**/
-#footer {
+footer {
   height: 160px;
   background-color: #253c1b;
   display: grid;
@@ -147,7 +147,7 @@ li > #home:visited {
 }
 
 /***Contact Information Styling***/
-#footer > #contact-info {
+footer > #contact-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -184,7 +184,7 @@ div > #icon-location {
 }
 
 /***Socials Styling***/
-#footer > #socials {
+footer > #socials {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -233,7 +233,7 @@ li > #icon-facebook:active {
 }
 
 /***Copyright Styling***/
-#footer > #copyright {
+footer > #copyright {
   display: flex;
   align-items: end;
   padding-bottom: 20px;
@@ -273,46 +273,20 @@ li > #icon-facebook:active {
   margin-right: 50px;
 }
 
-.nav-bar > .nav-links {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-}
-
-ul > li {
-  display: inline-block;
-}
-
-.links:link,
-.links:visited {
-  color: #000;
-  background-color: #fff;
-  border-radius: 15px;
-
-  text-decoration: none;
-  padding: 10px 15px;
-  font-size: 110%;
-  transition: all 0.3s;
-}
-.links:hover,
-.links:active {
-  background-color: #f7ecca;
-}
-
-#opportunities-link2:link,
-#opportunities-link2:visited {
+#opportunities-link-active:link,
+#opportunities-link-active:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
 }
 
 /**Main Styling**/
-.container {
+#container {
   background-color: #ded4b6;
   color: #000;
 }
 
-.opportunities {
+#opportunities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1250px;
@@ -393,4 +367,191 @@ h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   color: #fff;
   border: 2px solid #f8eecf;
+}
+
+/*Volunteer Card Icon Styling*/
+.donate {
+  position: relative;
+}
+
+.donate::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f4b9";
+  position: absolute;
+  left: 20px;
+  color: #f59f00;
+}
+
+.tree {
+  position: relative;
+}
+.tree::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1bb";
+  position: absolute;
+  left: 20px;
+  color: #37b24d;
+}
+
+.marine {
+  position: relative;
+}
+.marine::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\e4f2";
+  position: absolute;
+  left: 20px;
+  color: #339af0;
+}
+
+.book {
+  position: relative;
+}
+.book::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f02d";
+  position: absolute;
+  left: 20px;
+  color: #e03131;
+}
+
+.help {
+  position: relative;
+}
+.help::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f4be";
+  position: absolute;
+  left: 20px;
+  color: #ff6b6b;
+}
+
+.disaster {
+  position: relative;
+}
+.disaster::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\e515";
+  position: absolute;
+  left: 20px;
+  color: #1864ab;
+}
+
+.wildlife {
+  position: relative;
+}
+.wildlife::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f700";
+  position: absolute;
+  left: 20px;
+  color: #775144;
+}
+
+/*Global Volunteering Cards*/
+#opportunities-section-global {
+  margin-left: 50px;
+}
+
+#amazon-rainforest {
+  background: url(../images/amazon-rainforest-sunset-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+  transition: all 1s;
+}
+
+#marine-conservation {
+  background: url(../images/sea-turtle-swimming-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+}
+#donating-to-charity {
+  background: url(../images/ukraine-flag-waving-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+#natural-disaster {
+  background: url(../images/natural-disaster-aftermath-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+}
+#educational {
+  background: url(../images/children-at-school-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+/*Local Volunteering Cards*/
+#planting-trees {
+  background: url(../images/planting-a-tree-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 90%;
+}
+#donating-to-charity-2 {
+  background: url(../images/man-preparing-food-for-delivery-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+}
+#helping-the-homeless {
+  background: url(../images/volunteers-giving-out-water-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+#wildlife-conservation {
+  background: url(../images/group-of-animals-min.jpg), no-repeat;
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+/*Aside Styling*/
+aside {
+  position: relative;
+  height: 1000px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: #253c1b;
+  color: #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+#top-picks {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 150%;
+}
+
+#top-picks-description {
+  padding: 10px;
+  font-size: 90%;
+}
+
+aside > ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 110%;
+}
+
+.top-pick-links:link,
+.top-pick-links:visited {
+  text-decoration: none;
+  color: #f8eecf;
+  font-weight: 600;
+}
+
+.top-pick-links:hover,
+.top-pick-links:active {
+  text-decoration: underline;
 }
