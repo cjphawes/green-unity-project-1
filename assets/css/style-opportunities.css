@@ -71,8 +71,8 @@ ul > li {
   background-color: #f7ecca;
 }
 
-#opportunities-link2:link,
-#opportunities-link2:visited {
+#opportunities-link-active:link,
+#opportunities-link-active:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
