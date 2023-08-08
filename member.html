@@ -12,7 +12,7 @@
       content="Sign-up, hand in hand, save the earth, help each other"
     />
     <title>Hand In Hand | Become a Member</title>
-    <link rel="stylesheet" href="assets/css/style-member.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
       href="assets/images/favicon.ico.ico"
@@ -20,9 +20,9 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1 id="title-logo">
-        Hand <i class="fa-solid fa-hands-holding-circle logo"></i> Hand
+        Hand <i class="fa-solid fa-hands-holding-circle"></i> Hand
       </h1>
       <nav class="nav-bar">
         <ul class="nav-links">
@@ -30,7 +30,7 @@
             <a
               href="index.html"
               class="links"
-              id="home"
+              id="home-link"
               aria-label="Goes to our home page"
               >Home</a
             >
@@ -39,7 +39,7 @@
             <a
               href="opportunities.html"
               class="links"
-              id="opportunities"
+              id="opportunities-link"
               aria-label="Goes to our volunteering opportunities"
               >Opportunities</a
             >
@@ -48,7 +48,7 @@
             <a
               href="member.html"
               class="links"
-              id="become-a-member"
+              id="member-link-active"
               aria-label="Keeps you on the current page"
               >Become a member</a
             >
@@ -57,7 +57,7 @@
       </nav>
     </header>
 
-    <main id="container">
+    <main id="become-a-member-container">
       <div id="form-faq-container">
         <section id="form-container">
           <form method="POST" id="signup-form">
@@ -242,8 +242,8 @@
       </div>
     </main>
 
-    <footer>
-      <div class="contact-info">
+    <footer class="footer">
+      <div id="contact-info">
         <span id="contact-heading">Contact Information</span>
 
         <div>
@@ -270,7 +270,7 @@
         </div>
       </div>
 
-      <div class="socials">
+      <div id="socials">
         <span id="socials-heading">Socials</span>
 
         <ul class="social-links">
