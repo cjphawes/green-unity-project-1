@@ -16,7 +16,7 @@ body {
 /*Index.html Page*/
 
 /**Header Styling**/
-#header {
+.header {
   display: grid;
   grid-template-columns: 20rem 1fr;
   grid-template-rows: 5rem;
@@ -24,7 +24,7 @@ body {
 }
 
 /***Title Logo Styling***/
-#header > h1 {
+.header > h1 {
   justify-self: center;
   align-self: center;
   font-size: 230%;
@@ -36,7 +36,7 @@ body {
 }
 
 /***Navigation Styling***/
-#header > .nav-bar {
+.header > .nav-bar {
   display: flex;
   font-family: "Quattrocento", sans-serif;
   align-items: center;
@@ -139,7 +139,7 @@ li > #home-link-active:visited {
 }
 
 /**Footer Styling**/
-footer {
+.footer {
   height: 160px;
   background-color: #253c1b;
   display: grid;
@@ -147,7 +147,7 @@ footer {
 }
 
 /***Contact Information Styling***/
-footer > #contact-info {
+.footer > #contact-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -184,7 +184,7 @@ div > #icon-location {
 }
 
 /***Socials Styling***/
-footer > #socials {
+.footer > #socials {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -233,7 +233,7 @@ li > #icon-facebook:active {
 }
 
 /***Copyright Styling***/
-footer > #copyright {
+.footer > #copyright {
   display: flex;
   align-items: end;
   padding-bottom: 20px;
@@ -281,7 +281,7 @@ footer > #copyright {
 }
 
 /**Main Styling**/
-#container {
+#opportunities-container {
   background-color: #ded4b6;
   color: #000;
 }
@@ -369,7 +369,7 @@ h3 {
   border: 2px solid #f8eecf;
 }
 
-/*Volunteer Card Icon Styling*/
+/***Volunteer Card Icon Styling***/
 .donate {
   position: relative;
 }
@@ -455,7 +455,7 @@ h3 {
   color: #775144;
 }
 
-/*Global Volunteering Cards*/
+/****Global Volunteering Cards****/
 #opportunities-section-global {
   margin-left: 50px;
 }
@@ -489,7 +489,7 @@ h3 {
   background-position: 0 40%;
 }
 
-/*Local Volunteering Cards*/
+/****Local Volunteering Cards****/
 #planting-trees {
   background: url(../images/planting-a-tree-min.jpg), no-repeat;
   background-size: cover;
@@ -511,7 +511,7 @@ h3 {
   background-position: 0 40%;
 }
 
-/*Aside Styling*/
+/***Aside Styling***/
 aside {
   position: relative;
   height: 1000px;
@@ -555,3 +555,200 @@ aside > ul {
 .top-pick-links:active {
   text-decoration: underline;
 }
+
+/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+
+/*Member.html Styling*/
+
+/**Header Styling**/
+#member-link-active:link,
+#member-link-active:visited {
+  background-color: #000;
+  color: #f7ecca;
+  border: 2px solid #f7ecca;
+}
+
+/**Main Styling**/
+#become-a-member-container {
+  height: 950px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../images/holding-a-hand-heart-upto-the-sun-min.jpg), no-repeat;
+  background-size: 170%;
+  background-position: 0% 50%;
+}
+
+#form-faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+  justify-items: center;
+}
+
+/***Form Styling***/
+#form-container {
+  height: fit-content;
+  padding: 50px;
+  background-color: #253c1b;
+  border-radius: 10px;
+}
+
+#signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-box {
+  height: 35px;
+  width: 300px;
+  padding: 0 5px;
+  font-size: 100%;
+}
+
+label {
+  color: #f7ecca;
+}
+
+/****Form Title of Form****/
+#form-title {
+  margin-bottom: 20px;
+}
+
+.fa-pen-to-square {
+  position: relative;
+  left: 10px;
+  color: #e8590c;
+}
+
+/****Name Section of Form****/
+#fl-name-container {
+  display: flex;
+  gap: 20px;
+}
+
+#fname,
+#lname,
+#password,
+#re-password {
+  margin-top: 3px;
+  width: 200px;
+}
+
+/****Email Section of Form****/
+#main-email-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#re-email-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#email,
+#re-email {
+  margin-top: 3px;
+}
+
+/****Password Section of Form****/
+#password-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#password-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+/****Checkbox Section of Form****/
+#checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tc-container,
+#pp-container,
+#np-container {
+  display: flex;
+  gap: 5px;
+}
+
+/****Signup Btn of Form****/
+#signup-btn:link,
+#signup-btn:visited {
+  font-size: 120%;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e8590c;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
+}
+
+#signup-btn:hover,
+#signup-btn:active {
+  cursor: pointer;
+  background-color: #ff922b;
+}
+
+/***FAQ Styling***/
+#faq-container {
+  height: fit-content;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #fff;
+}
+
+#faq-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/****FAQ Title of Form****/
+#faq-title {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.fa-circle-question {
+  position: relative;
+  left: 10px;
+  color: #e8590c;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-q-a {
+  background-color: rgb(247, 236, 202);
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+}
+
+/****FAQ Descriptions****/
+.faq-question-title {
+  font-weight: 700;
+  font-size: 120%;
+}
+
+/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+
+/*Completed Signup Styling*/
+
+/**Header Styling - REMAINS THE SAME AS INDEX.HTML**/
