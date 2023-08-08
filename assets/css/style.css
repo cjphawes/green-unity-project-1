@@ -795,6 +795,16 @@ summary {
 .fa-circle-check {
   color: #54e616;
   align-self: center;
+  position: relative;
+  animation: throbbing-check 1s linear infinite alternate-reverse;
+}
+@keyframes throbbing-check {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
 
 #return-back-text {
