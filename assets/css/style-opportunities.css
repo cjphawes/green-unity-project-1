@@ -71,20 +71,20 @@ ul > li {
   background-color: #f7ecca;
 }
 
-#opportunities:link,
-#opportunities:visited {
+#opportunities-link2:link,
+#opportunities-link2:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
 }
 
 /***Main Styling***/
-.container {
+#container {
   background-color: #ded4b6;
   color: #000;
 }
 
-.opportunities {
+#opportunities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1250px;
