@@ -73,3 +73,8 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
   - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to ......
 
 ### Validator testing
+
+- **HTML**
+  - No errors were found using the official [W3C Validator]()
+- **CSS**
+  - No errors were found using the official [(Jigsaw) Validator]()
