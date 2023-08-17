@@ -91,22 +91,24 @@ li > #home-link-active:visited {
 }
 
 #hero-section > #hero-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 150px 1fr 50px;
-  padding: 80px 0 0 20px;
-  margin: 0 120px;
-  text-align: center;
-
+  padding-top: 80px;
+  margin: 0 100px;
   font-size: 230%;
-  color: #f9f9f9;
+  color: #f2f2f2;
 }
 
 #hero-info > #volunteer {
+  display: block;
+  margin-top: 50px;
   font-size: 80%;
+  text-align: center;
+  color: #fff;
 }
 
 #hero-info > #arrows {
+  display: block;
+  color: #fff;
+  text-align: center;
   position: relative;
   animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
 }
@@ -115,26 +117,31 @@ li > #home-link-active:visited {
     top: 0;
   }
   100% {
-    top: 10px;
+    top: 15px;
   }
 }
 
-#hero-info > #join-fight:link,
-#hero-info > #join-fight:visited {
-  font-size: 100%;
+#signup-cta-btn {
+  text-align: center;
+}
+
+#signup-cta-btn > #join-fight:link,
+#signup-cta-btn > #join-fight:visited {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 120%;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: #f7ecca;
   color: #000;
-  background-color: #fff;
+  background-color: #f7ecca;
   border-radius: 15px;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 15px 30px;
   transition: all 0.3s;
 }
 
-#hero-info > #join-fight:hover,
-#hero-info > #join-fight:active {
+#signup-cta-btn > #join-fight:hover,
+#signup-cta-btn > #join-fight:active {
   background-color: #33bd1a;
 }
 
