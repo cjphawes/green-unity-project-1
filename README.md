@@ -45,7 +45,7 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
   - Provides a variety of horizontal card style opportunities for the user to select. They includes a background image relating to the opportunity, with an associated icon, plus a small enticing description on what it entails. A visual element added is when hovering over a oppportunity, increasing in size to help the user identify which opportunity they are focused on. The associated icon helps the user decide what type of volunteering they would like to sign-up for.
   - Each opportunity has a CTA Button and they all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
 - **Aside section**
-  - A selection of recommended external websites, using the `target_blank` attribute for creating external tab so users don't lose the webpage, that also help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional.
+  - A selection of recommended external websites, using the `target="_blank"` attribute for creating external tab so users don't lose the webpage, that also help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional.
 
 ![opportunity_page](/assets/README-file-images/opportunities-page.png)
 
