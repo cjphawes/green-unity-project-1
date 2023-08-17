@@ -67,4 +67,9 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 ## Testing
 
--
+- Testing was completed on Google Chrome, Microsoft Edge and Apple's Safari, on different devices and modes.
+- Every single link goes to the intended location, with the speed of transfer to new page being quick.
+- I used the Lighthouse reporting tool in Google Chrome & Microsoft Edge to test the performance of the website.
+  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to ......
+
+### Validator testing
