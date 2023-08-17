@@ -25,7 +25,7 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
   - Featured on all 4 pages, includes 2 sections, one with contact details and the other with links to social media platforms.
   - The email and phone numbers are accessible directly from the icon if the user has their email/calling set up on their device. The social media links externally go to the respective websites, this is so the user doesnt lose the page they are on, on the website.
 
-  ![footer](/assets/images/footer-of-handinhand-project.png)
+![footer](/assets/images/footer-of-handinhand-project.png)
 
 #### Landing Page
 
@@ -34,19 +34,30 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
   - The landing page includes a background image relating to the future of the planet, with lower brightness, to give visual aid to the paragraph and CTA button on top.
   - CTA button (Join The Fight) is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
 
-  ![landing_page_hero_section](/assets/images/landing-page-hero-section.png)
+![landing_page_hero_section](/assets/images/landing-page-hero-section.png)
 
-  #### Opportunities Page
+#### Opportunities Page
 
 - Opportunities Section
 
   - A small paragraph giving guidance on how to start their jounrey volunteering.
-  - A variety of horizontal card style opportunities that are split into either global or local opportunities for the user to select. It includes a background image relating to the opportunity plus a small enticing description on what it entails. A visual element added is when hovering over the individual oppportunity, they increase in size to help the user identify which opportunity they are focused on.
-  - Each opportunity has a CTA Button. They all link to the Become a Member page for sign-up. Visual aid is also given with changing background and border when hovering over it.
-  - Each opportunity also has an associated icon to help the user visually identify which opportuntiy could suit them better.
+  - Provides a variety of horizontal card style opportunities for the user to select. They includes a background image relating to the opportunity, with an associated icon, plus a small enticing description on what it entails. A visual element added is when hovering over a oppportunity, increasing in size to help the user identify which opportunity they are focused on. The associated icon helps the user decide what type of volunteering they would like to sign-up for.
+  - Each opportunity has a CTA Button and they all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
 
 - Aside section
 
-  - A selection of recommended external websites that also help contribute to helping the planet/society with a description of what they do. This gives the user such a variety of options not just from my website alone, making the user think my website is more professional.
+  - A selection of recommended external websites, using the `target_blank` attribute for creating external tab so users don't lose the webpage, that also help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional.
 
-  ![opportunity_aside_section](/assets/images/opportunities-page.png)
+![opportunity_page](/assets/images/opportunities-page.png)
+
+#### Become a Member Page
+
+- Sign-up Form
+
+  - A visually easy form to fill out for sign-ups, asking basic information needed from the volunteers. Large in size for users to see and also `placeholder` attribute is used to aid users in case of uncertainty for inputs. Each input also has the `required` attribute so no section is missed.
+  - CTA button (Get Started Now) on hover changes colour so the user knows what they're hovering on.
+
+- FAQ's
+  - 4 FAQ's in a dropdown style providing common answers to questions. Low transparency on the background to see the background image which relates to providing care and love to the world.
+
+![become-a-member-page](assets/images/become-a-member-page.png)
