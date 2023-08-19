@@ -71,8 +71,9 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 - Testing was completed on Google Chrome, Microsoft Edge and Apple's Safari, on different devices and modes.
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
+- The form CTA button was originally a anchor element, however I found that form validation was cancelled due to not using a submit button. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect to or use `method="POST"` and use the code institutes formdump link. I have opted for the better user experience option. However with that in mind I also know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would be able to use Javascript or another programmping language to redirect while using the `method="POST"` to ease the struggle but with limited knowledge this was the best I could do.
 - I used the Lighthouse reporting tool in Google Chrome & Microsoft Edge to test the performance of the website.
-  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to ......
+  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp.
 
 ### Validator testing
 
