@@ -85,7 +85,7 @@ li > #home-link-active:visited {
   height: 600px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../images/handing-over-earth-min.jpeg), no-repeat;
+    url(../images/handing-over-earth-min.webp), no-repeat;
   background-size: 100%;
   background-position: 50% 70%;
 }
@@ -468,52 +468,52 @@ h3 {
 }
 
 #amazon-rainforest {
-  background: url(../images/amazon-rainforest-sunset-min.jpg), no-repeat;
+  background: url(../images/amazon-rainforest-sunset-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
   transition: all 1s;
 }
 
 #marine-conservation {
-  background: url(../images/sea-turtle-swimming-min.jpg), no-repeat;
+  background: url(../images/sea-turtle-swimming-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
 #donating-to-charity {
-  background: url(../images/ukraine-flag-waving-min.jpg), no-repeat;
+  background: url(../images/ukraine-flag-waving-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 
 #natural-disaster {
-  background: url(../images/natural-disaster-aftermath-min.jpg), no-repeat;
+  background: url(../images/natural-disaster-aftermath-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
 }
 #educational {
-  background: url(../images/children-at-school-min.jpg), no-repeat;
+  background: url(../images/children-at-school-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 
 /****Local Volunteering Cards****/
 #planting-trees {
-  background: url(../images/planting-a-tree-min.jpg), no-repeat;
+  background: url(../images/planting-a-tree-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 90%;
 }
 #donating-to-charity-2 {
-  background: url(../images/man-preparing-food-for-delivery-min.jpg), no-repeat;
+  background: url(../images/man-preparing-food-for-delivery-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
 }
 #helping-the-homeless {
-  background: url(../images/volunteers-giving-out-water-min.jpg), no-repeat;
+  background: url(../images/volunteers-giving-out-water-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 #wildlife-conservation {
-  background: url(../images/group-of-animals-min.jpg), no-repeat;
+  background: url(../images/group-of-animals-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
@@ -579,7 +579,7 @@ aside > ul {
 #become-a-member-container {
   height: 950px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../images/holding-a-hand-heart-upto-the-sun-min.jpg), no-repeat;
+    url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: 170%;
   background-position: 0% 50%;
 }
@@ -689,10 +689,9 @@ label {
 }
 
 /****Signup Btn of Form****/
-#signup-btn:link,
-#signup-btn:visited {
+#signup-btn {
   font-size: 120%;
-  font-weight: 800;
+  font-weight: 700;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
@@ -702,8 +701,7 @@ label {
   transition: all 0.3s;
 }
 
-#signup-btn:hover,
-#signup-btn:active {
+#signup-btn:hover {
   cursor: pointer;
   background-color: #ff922b;
 }
