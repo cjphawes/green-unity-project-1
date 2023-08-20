@@ -182,7 +182,7 @@ div > #icon-phone:active {
   color: #39a9c8;
 }
 
-div > #icon-location {
+#icon-location {
   color: #f7ecca;
 }
 
@@ -295,8 +295,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  div > #icon-location,
-  div > #icon-location {
+  #icon-location:link,
+  #icon-location:visited {
     font-size: 70%;
   }
 
@@ -344,8 +344,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  div > #icon-location,
-  div > #icon-location {
+  #icon-location:link,
+  #icon-location:visited {
     font-size: 60%;
   }
 
@@ -427,8 +427,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  div > #icon-location,
-  div > #icon-location {
+  #icon-location:link,
+  #icon-location:visited {
     font-size: 50%;
   }
 
