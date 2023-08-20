@@ -546,13 +546,14 @@ aside > ul {
 li > .top-pick-links:link,
 li > .top-pick-links:visited {
   text-decoration: none;
-  color: #f8eecf;
+  color: #fff;
   font-weight: 600;
 }
 
 li > .top-pick-links:hover,
 li > .top-pick-links:active {
   text-decoration: underline;
+  color: #f7ecca;
 }
 
 /**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
