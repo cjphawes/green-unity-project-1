@@ -31,10 +31,6 @@ body {
   color: #f7ecca;
 }
 
-h1 > .fa-hands-holding-circle {
-  color: #fff;
-}
-
 /***Navigation Styling***/
 .header > .nav-bar {
   display: flex;
@@ -163,7 +159,7 @@ li > #home-link-active:visited {
 }
 
 div > .contact-details {
-  color: #8f8f8f;
+  color: #c5c5c5;
 }
 
 div > #icon-email:link,
@@ -265,10 +261,6 @@ li > #icon-facebook:active {
   align-self: center;
   font-size: 230%;
   color: #f7ecca;
-}
-
-h1 > .fa-hands-holding-circle {
-  color: #fff;
 }
 
 /***Navigation Styling***/
