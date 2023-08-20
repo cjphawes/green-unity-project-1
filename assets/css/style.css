@@ -244,28 +244,28 @@ li > #icon-facebook:active {
 /*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 830px**/
 /***Header Styling***/
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-}
-
-.header > h1 {
-  font-size: 230%;
-}
-
-.nav-bar > .nav-links {
-  padding: 15px 0;
-}
-
-li > .links:link,
-li > .links:visited {
-  font-size: 80%;
-}
-
-/***Main Styling***/
 @media screen and (max-width: 830px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header > h1 {
+    font-size: 230%;
+  }
+
+  .nav-bar > .nav-links {
+    padding: 15px 0;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 80%;
+  }
+
+  /***Main Styling***/
   #hero-text {
     font-size: 70%;
   }
@@ -303,7 +303,26 @@ li > .links:visited {
 
 /**FOR SCREEN WIDTHS BELOW 680px**/
 @media screen and (max-width: 690px) {
-  footer {
+  div > .contact-details {
+    font-size: 80%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 80%;
+  }
+
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 90%;
   }
 }
 
