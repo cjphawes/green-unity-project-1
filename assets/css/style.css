@@ -244,9 +244,9 @@ li > #icon-facebook:active {
 }
 
 /*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 800px**/
+/**FOR SCREEN WIDTHS BELOW 840px**/
 /***Header Styling***/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -316,8 +316,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
+  div > #icon-location,
+  div > #icon-location {
     font-size: 70%;
   }
 
@@ -332,42 +332,80 @@ li > #icon-facebook:active {
 }
 
 /**FOR SCREEN WIDTHS BELOW 550px**/
-/***Footer Styling***/
 @media screen and (max-width: 550px) {
-  #hero-info > #volunteer {
-    margin-top: 50px;
+  /***Main Styling***/
+  #hero-text {
     font-size: 60%;
   }
 
-  #hero-info > #arrows {
-    text-align: center;
-    position: relative;
-    animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
-  }
-  @keyframes arrow-down {
-    0% {
-      top: 0;
-    }
-    100% {
-      top: 15px;
-    }
-  }
-
-  #hero-info > #signup-cta-btn {
-    text-align: center;
+  #hero-info > #volunteer {
+    font-size: 60%;
   }
 
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
-    margin-top: 15px;
-    font-size: 80%;
-    padding: 15px 30px;
+    font-size: 70%;
+  }
+
+  /***Footer Styling***/
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 60%;
+  }
+
+  div > .contact-details {
+    font-size: 50%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location,
+  div > #icon-location {
+    font-size: 60%;
+  }
+
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+
+  .footer > #copyright {
+    font-size: 70%;
   }
 }
 
-/**FOR SCREEN WIDTHS BELOW 560px**/
+/**FOR SCREEN WIDTHS BELOW 480px**/
 /***Footer Styling***/
-@media screen {
+@media screen and (max-width: 480px) {
+  /***Header Styling***/
+  li > .links:link,
+  li > .links:visited {
+    font-size: 60%;
+  }
+
+  .header > h1 {
+    font-size: 180%;
+  }
+
+  /***Main Styling***/
+  #hero-text {
+    font-size: 40%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 40%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 380px**/
+@media screen and (max-width: 380px) {
 }
 
 /*Opportunities.html*/
