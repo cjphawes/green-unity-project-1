@@ -22,7 +22,12 @@
   <body>
     <header class="header">
       <h1 id="title-logo">
-        Hand <i class="fa-solid fa-hands-holding-circle"></i> Hand
+        Hand
+        <i
+          class="fa-solid fa-hands-holding-circle"
+          aria-label="icon of two hands holding up a circle representing the earth"
+        ></i>
+        Hand
       </h1>
       <nav class="nav-bar">
         <ul class="nav-links">
@@ -58,6 +63,10 @@
     </header>
 
     <main id="become-a-member-container">
+      <span
+        role="img"
+        aria-label="hands held in the shape of a heart covering around the sun in the middle"
+      ></span>
       <div id="form-faq-container">
         <section id="form-container">
           <form action="completed-signup.html" method="GET" id="signup-form">
@@ -97,7 +106,7 @@
                 <label for="email">Email Address</label>
                 <input
                   type="email"
-                  name="email"
+                  name="email_address"
                   id="email"
                   class="input-box"
                   placeholder="aileenhawes1234@gmail.com"
@@ -135,8 +144,6 @@
               </div>
             </div>
             <button type="submit" id="signup-btn">Get Started Now!</button>
-            <!-- <a href="completed-signup.html" id="signup-btn" type="submit"
-              >Get Started Now!</a> -->
           </form>
         </section>
 
@@ -231,17 +238,29 @@
 
         <ul class="social-links">
           <li>
-            <a href="https://instagram.com" target="_blank" id="icon-instagram"
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              id="icon-instagram"
+              rel="noopener"
               ><i class="fa-brands fa-instagram fa-lg"></i
             ></a>
           </li>
           <li>
-            <a href="https://twitter.com" target="_blank" id="icon-twitter"
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              id="icon-twitter"
+              rel="noopener"
               ><i class="fa-brands fa-twitter fa-lg"></i
             ></a>
           </li>
           <li>
-            <a href="https://facebook.com" target="_blank" id="icon-facebook"
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              id="icon-facebook"
+              rel="noopener"
               ><i class="fa-brands fa-facebook fa-lg"></i
             ></a>
           </li>
