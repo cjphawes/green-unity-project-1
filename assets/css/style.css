@@ -273,33 +273,12 @@ li > #icon-facebook:active {
   }
 
   #hero-info > #volunteer {
-    margin-top: 50px;
     font-size: 80%;
-  }
-
-  #hero-info > #arrows {
-    text-align: center;
-    position: relative;
-    animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
-  }
-  @keyframes arrow-down {
-    0% {
-      top: 0;
-    }
-    100% {
-      top: 15px;
-    }
-  }
-
-  #hero-info > #signup-cta-btn {
-    text-align: center;
   }
 
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
-    margin-top: 15px;
     font-size: 100%;
-    padding: 15px 30px;
   }
 
   /***Footer Styling***/
@@ -334,6 +313,10 @@ li > #icon-facebook:active {
 /**FOR SCREEN WIDTHS BELOW 550px**/
 @media screen and (max-width: 550px) {
   /***Main Styling***/
+  #hero-section > #hero-info {
+    margin: 0 50px;
+  }
+
   #hero-text {
     font-size: 60%;
   }
@@ -378,6 +361,14 @@ li > #icon-facebook:active {
   .footer > #copyright {
     font-size: 70%;
   }
+
+  .footer > #contact-info {
+    gap: 5px;
+  }
+
+  #socials > .social-links {
+    gap: 10px;
+  }
 }
 
 /**FOR SCREEN WIDTHS BELOW 480px**/
@@ -394,18 +385,61 @@ li > #icon-facebook:active {
   }
 
   /***Main Styling***/
+  #hero-info > #arrows {
+    font-size: 20px;
+  }
+
   #hero-text {
     font-size: 40%;
   }
 
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 40%;
+    font-size: 50%;
+    padding: 10px 20px;
   }
 }
 
 /**FOR SCREEN WIDTHS BELOW 380px**/
 @media screen and (max-width: 380px) {
+  /***Header Styling***/
+
+  /***Main Styling***/
+  #hero-info > #volunteer {
+    font-size: 50%;
+  }
+
+  /***Footer Styling***/
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+
+  div > .contact-details {
+    font-size: 30%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location,
+  div > #icon-location {
+    font-size: 50%;
+  }
+
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 40%;
+  }
+
+  .footer > #copyright {
+    font-size: 40%;
+  }
 }
 
 /*Opportunities.html*/
