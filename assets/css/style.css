@@ -18,7 +18,7 @@ body {
 /**Header Styling**/
 .header {
   display: grid;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 20em 1fr;
   grid-template-rows: 5rem;
   background-color: #253c1b;
 }
@@ -77,13 +77,12 @@ li > #home-link-active:visited {
 
 /***Hero Section***/
 #hero-section {
-  position: relative;
-  height: 600px;
+  height: 100vh;
 
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../images/handing-over-earth-min.webp), no-repeat;
-  background-size: 100%;
-  background-position: 50% 70%;
+    url(../images/handing-over-earth-min.webp);
+  background-size: cover;
+  background-position: center center;
 }
 
 #hero-section > #hero-info {
@@ -143,7 +142,7 @@ li > #home-link-active:visited {
 
 /**Footer Styling**/
 .footer {
-  height: 160px;
+  height: 1fr;
   background-color: #253c1b;
   display: grid;
   grid-template-columns: 1fr 160px 1fr;
@@ -240,6 +239,72 @@ li > #icon-facebook:active {
   display: flex;
   align-items: end;
   padding-bottom: 20px;
+}
+
+/*MEDIA QUERIES FOR INDEX.HTML*/
+/**FOR SCREEN WIDTHS BELOW 830px**/
+/***Header Styling***/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.header > h1 {
+  font-size: 230%;
+}
+
+.nav-bar > .nav-links {
+  padding: 15px 0;
+}
+
+li > .links:link,
+li > .links:visited {
+  font-size: 80%;
+}
+
+/***Main Styling***/
+@media screen and (max-width: 830px) {
+  #hero-text {
+    font-size: 70%;
+  }
+
+  #hero-info > #volunteer {
+    margin-top: 50px;
+    font-size: 80%;
+  }
+
+  #hero-info > #arrows {
+    text-align: center;
+    position: relative;
+    animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
+  }
+  @keyframes arrow-down {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: 15px;
+    }
+  }
+
+  #hero-info > #signup-cta-btn {
+    text-align: center;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    margin-top: 15px;
+    font-size: 100%;
+    padding: 15px 30px;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 680px**/
+@media screen and (max-width: 690px) {
+  footer {
+  }
 }
 
 /*Opportunities.html*/
