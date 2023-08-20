@@ -31,7 +31,7 @@ body {
   color: #f7ecca;
 }
 
-.fa-hands-holding-circle {
+h1 > .fa-hands-holding-circle {
   color: #fff;
 }
 
@@ -121,12 +121,12 @@ li > #home-link-active:visited {
   }
 }
 
-#signup-cta-btn {
+#hero-info > #signup-cta-btn {
   text-align: center;
 }
 
-#signup-cta-btn > #join-fight:link,
-#signup-cta-btn > #join-fight:visited {
+#hero-info > #signup-cta-btn > #join-fight:link,
+#hero-info > #signup-cta-btn > #join-fight:visited {
   display: inline-block;
   margin-top: 15px;
   font-size: 120%;
@@ -140,8 +140,8 @@ li > #home-link-active:visited {
   transition: all 0.3s;
 }
 
-#signup-cta-btn > #join-fight:hover,
-#signup-cta-btn > #join-fight:active {
+#hero-info > #signup-cta-btn > #join-fight:hover,
+#hero-info > #signup-cta-btn > #join-fight:active {
   background-color: #33bd1a;
 }
 
@@ -267,7 +267,7 @@ li > #icon-facebook:active {
   color: #f7ecca;
 }
 
-.fa-hands-holding-circle {
+h1 > .fa-hands-holding-circle {
   color: #fff;
 }
 
@@ -280,8 +280,8 @@ li > #icon-facebook:active {
   margin-right: 50px;
 }
 
-#opportunities-link-active:link,
-#opportunities-link-active:visited {
+li > #opportunities-link-active:link,
+li > #opportunities-link-active:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
@@ -293,7 +293,7 @@ li > #icon-facebook:active {
   color: #000;
 }
 
-#opportunities {
+#opportunities-container > #opportunities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1250px;
@@ -301,25 +301,25 @@ li > #icon-facebook:active {
   column-gap: 50px;
 }
 
-#opportunities-text {
+#opportunities > #opportunities-text {
   grid-column: 1 / -1;
   margin-top: 120px;
   font-size: 120%;
   padding: 10px;
 }
 
-.volunteer-title {
+.opportunities-section > .volunteer-title {
   margin-top: 50px;
   font-size: 180%;
 }
 
-.opportunities-section {
+#opportunities > .opportunities-section {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.volunteer-card {
+.opportunities-section > .volunteer-card {
   position: relative;
   height: 200px;
   width: 400px;
@@ -328,12 +328,12 @@ li > #icon-facebook:active {
   transition: all 0.6s;
   box-shadow: 3px 4px 10px #000;
 }
-.volunteer-card:hover {
+.opportunities-section > .volunteer-card:hover {
   transform: scale(1.02);
   box-shadow: 7px 8px 15px -5px #000;
 }
 
-h3 {
+.volunteer-card > h3 {
   background-color: #fff;
   color: #000;
   padding: 10px;
@@ -342,7 +342,7 @@ h3 {
   text-align: center;
 }
 
-.volunteer-card-description {
+.volunteer-card > .volunteer-card-description {
   display: inline-block;
   margin: 10px 80px 0 10px;
   padding: 10px;
@@ -352,8 +352,8 @@ h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
 
-.volunteer-now:link,
-.volunteer-now:visited {
+.volunteer-card > .volunteer-now:link,
+.volunteer-card > .volunteer-now:visited {
   display: inline-block;
   position: absolute;
   bottom: 0;
@@ -368,8 +368,8 @@ h3 {
   border-radius: 10px 0 20px 0;
   border: 2px solid #000;
 }
-.volunteer-now:hover,
-.volunteer-now:active {
+.volunteer-card > .volunteer-now:hover,
+.volunteer-card > .volunteer-now:active {
   background-color: transparent;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   color: #fff;
@@ -377,11 +377,11 @@ h3 {
 }
 
 /***Volunteer Card Icon Styling***/
-.donate {
+.volunteer-card > .donate {
   position: relative;
 }
 
-.donate::after {
+.volunteer-card > .donate::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f4b9";
@@ -390,10 +390,10 @@ h3 {
   color: #f59f00;
 }
 
-.tree {
+.volunteer-card > .tree {
   position: relative;
 }
-.tree::after {
+.volunteer-card > .tree::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f1bb";
@@ -402,10 +402,10 @@ h3 {
   color: #37b24d;
 }
 
-.marine {
+.volunteer-card > .marine {
   position: relative;
 }
-.marine::after {
+.volunteer-card > .marine::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\e4f2";
@@ -414,10 +414,10 @@ h3 {
   color: #339af0;
 }
 
-.book {
+.volunteer-card > .book {
   position: relative;
 }
-.book::after {
+.volunteer-card > .book::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f02d";
@@ -426,10 +426,10 @@ h3 {
   color: #e03131;
 }
 
-.help {
+.volunteer-card > .help {
   position: relative;
 }
-.help::after {
+.volunteer-card > .help::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f4be";
@@ -438,10 +438,10 @@ h3 {
   color: #ff6b6b;
 }
 
-.disaster {
+.volunteer-card > .disaster {
   position: relative;
 }
-.disaster::after {
+.volunteer-card > .disaster::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\e515";
@@ -450,10 +450,10 @@ h3 {
   color: #1864ab;
 }
 
-.wildlife {
+.volunteer-card > .wildlife {
   position: relative;
 }
-.wildlife::after {
+.volunteer-card > .wildlife::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f700";
@@ -463,63 +463,63 @@ h3 {
 }
 
 /****Global Volunteering Cards****/
-#opportunities-section-global {
+#opportunities > #opportunities-section-global {
   margin-left: 50px;
 }
 
-#amazon-rainforest {
+#opportunities-section-global > #amazon-rainforest {
   background: url(../images/amazon-rainforest-sunset-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
   transition: all 1s;
 }
 
-#marine-conservation {
+#opportunities-section-global > #marine-conservation {
   background: url(../images/sea-turtle-swimming-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 50%;
 }
-#donating-to-charity {
+#opportunities-section-global > #donating-to-charity {
   background: url(../images/ukraine-flag-waving-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 
-#natural-disaster {
+#opportunities-section-global > #natural-disaster {
   background: url(../images/natural-disaster-aftermath-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
 }
-#educational {
+#opportunities-section-global > #educational {
   background: url(../images/children-at-school-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 
 /****Local Volunteering Cards****/
-#planting-trees {
+.opportunities-section > #planting-trees {
   background: url(../images/planting-a-tree-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 90%;
 }
-#donating-to-charity-2 {
+.opportunities-section > #donating-to-charity-2 {
   background: url(../images/man-preparing-food-for-delivery-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
 }
-#helping-the-homeless {
+.opportunities-section > #helping-the-homeless {
   background: url(../images/volunteers-giving-out-water-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
-#wildlife-conservation {
+.opportunities-section > #wildlife-conservation {
   background: url(../images/group-of-animals-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 40%;
 }
 
 /***Aside Styling***/
-aside {
+#opportunities > aside {
   position: relative;
   height: 1000px;
   margin-top: 150px;
@@ -532,13 +532,13 @@ aside {
   border-radius: 20px 0 0 20px;
 }
 
-#top-picks {
+aside > #top-picks {
   margin-top: 10px;
   text-align: center;
   font-size: 150%;
 }
 
-#top-picks-description {
+aside > #top-picks-description {
   padding: 10px;
   font-size: 90%;
 }
@@ -551,15 +551,15 @@ aside > ul {
   font-size: 110%;
 }
 
-.top-pick-links:link,
-.top-pick-links:visited {
+li > .top-pick-links:link,
+li > .top-pick-links:visited {
   text-decoration: none;
   color: #f8eecf;
   font-weight: 600;
 }
 
-.top-pick-links:hover,
-.top-pick-links:active {
+li > .top-pick-links:hover,
+li > .top-pick-links:active {
   text-decoration: underline;
 }
 
@@ -568,8 +568,8 @@ aside > ul {
 /*Member.html Styling*/
 
 /**Header Styling**/
-#member-link-active:link,
-#member-link-active:visited {
+li > #member-link-active:link,
+li > #member-link-active:visited {
   background-color: #000;
   color: #f7ecca;
   border: 2px solid #f7ecca;
@@ -584,7 +584,7 @@ aside > ul {
   background-position: 0% 50%;
 }
 
-#form-faq-container {
+#become-a-member-container > #form-faq-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -596,14 +596,14 @@ aside > ul {
 }
 
 /***Form Styling***/
-#form-container {
+#form-faq-container > #form-container {
   height: fit-content;
   padding: 50px;
   background-color: #253c1b;
   border-radius: 10px;
 }
 
-#signup-form {
+#form-container > #signup-form {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -621,75 +621,59 @@ label {
 }
 
 /****Form Title of Form****/
-#form-title {
+#signup-form > #form-title {
   margin-bottom: 20px;
 }
 
-.fa-pen-to-square {
+h2 > .fa-pen-to-square {
   position: relative;
   left: 10px;
   color: #e8590c;
 }
 
 /****Name Section of Form****/
-#fl-name-container {
+#signup-form > #fl-name-container {
   display: flex;
   gap: 20px;
 }
 
 #fname,
 #lname,
-#password,
-#re-password {
+#password {
   margin-top: 3px;
   width: 200px;
 }
 
 /****Email Section of Form****/
-#main-email-container {
+#email-container > #main-email-container {
   display: flex;
   flex-direction: column;
 }
 
-#re-email-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-#email,
-#re-email {
+#email {
   margin-top: 3px;
 }
 
 /****Password Section of Form****/
-#password-1 {
+#password-container > #password-1 {
   display: flex;
   flex-direction: column;
-}
-
-#password-2 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
 }
 
 /****Checkbox Section of Form****/
-#checkbox-container {
+#signup-form > #checkbox-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#tc-container,
-#pp-container,
 #np-container {
   display: flex;
   gap: 5px;
 }
 
 /****Signup Btn of Form****/
-#signup-btn {
+#signup-form > #signup-btn {
   font-size: 120%;
   font-weight: 700;
   padding: 10px 20px;
@@ -701,13 +685,13 @@ label {
   transition: all 0.3s;
 }
 
-#signup-btn:hover {
+#signup-form > #signup-btn:hover {
   cursor: pointer;
   background-color: #ff922b;
 }
 
 /***FAQ Styling***/
-#faq-container {
+#form-faq-container > #faq-container {
   height: fit-content;
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.2);
@@ -715,31 +699,31 @@ label {
   color: #fff;
 }
 
-#faq-questions {
+.faqs > #faq-questions {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 /****FAQ Title of Form****/
-#faq-title {
+.faqs > #faq-title {
   color: #fff;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.fa-circle-question {
+h2 > .fa-circle-question {
   position: relative;
   left: 10px;
   color: #e8590c;
 }
 
-summary {
+.faq-q-a > summary {
   cursor: pointer;
   list-style: none;
 }
 
-.faq-q-a {
+#faq-questions > .faq-q-a {
   background-color: rgb(247, 236, 202);
   padding: 10px;
   border-radius: 10px;
@@ -747,7 +731,7 @@ summary {
 }
 
 /****FAQ Descriptions****/
-.faq-question-title {
+.faq-q-a > .faq-question-title {
   font-weight: 700;
   font-size: 120%;
 }
@@ -767,7 +751,7 @@ summary {
   height: auto;
 }
 
-#completion-container {
+#completed-signup-container > #completion-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -779,25 +763,25 @@ summary {
   padding: 100px;
 }
 
-#completion-title-and-text {
+#completion-container > #completion-title-and-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-#completion-title {
+#completion-title-and-text > #completion-title {
   font-size: 300%;
   font-weight: 700;
   color: #000;
 }
 
-#completion-text {
+#completion-title-and-text > #completion-text {
   font-size: 150%;
   font-weight: 500;
   color: #3a3a3a;
 }
 
-.fa-circle-check {
+#completion-title-and-text > .fa-circle-check {
   color: #54e616;
   align-self: center;
   position: relative;
@@ -812,21 +796,21 @@ summary {
   }
 }
 
-#return-back-text {
+#completion-title-and-text > #return-back-text {
   color: #000;
   font-size: 130%;
   text-align: center;
   margin-top: 30px;
 }
 
-.return-links:link,
-.return-links:visited {
+#return-back-text > .return-links:link,
+#return-back-text > .return-links:visited {
   text-decoration: none;
   color: inherit;
 }
 
-.return-links:hover,
-.return-links:active {
+#return-back-text > .return-links:hover,
+#return-back-text > .return-links:active {
   text-decoration: underline;
   color: inherit;
 }
