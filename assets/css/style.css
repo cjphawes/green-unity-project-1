@@ -182,8 +182,14 @@ div > #icon-phone:active {
   color: #39a9c8;
 }
 
+#icon-location,
 #icon-location {
   color: #f7ecca;
+}
+
+#icon-location:hover,
+#icon-location:active {
+  color: #339af0;
 }
 
 /***Socials Styling***/
@@ -301,7 +307,7 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-loc,
+  #icon-location,
   #icon-location {
     font-size: 70%;
   }
