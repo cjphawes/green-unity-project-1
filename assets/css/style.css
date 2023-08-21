@@ -296,6 +296,10 @@ li > #icon-facebook:active {
     font-size: 70%;
   }
 
+  div > .contact-icons {
+    font-size: 70%;
+  }
+
   div > #icon-email:link,
   div > #icon-email:visited,
   div > #icon-phone:link,
@@ -343,6 +347,10 @@ li > #icon-facebook:active {
 
   div > .contact-details {
     font-size: 50%;
+  }
+
+  div > .contact-icons {
+    font-size: 60%;
   }
 
   div > #icon-email:link,
@@ -407,8 +415,6 @@ li > #icon-facebook:active {
 
 /**FOR SCREEN WIDTHS BELOW 380px**/
 @media screen and (max-width: 380px) {
-  /***Header Styling***/
-
   /***Main Styling***/
   #hero-info > #volunteer {
     font-size: 40%;
@@ -433,6 +439,10 @@ li > #icon-facebook:active {
     font-size: 30%;
   }
 
+  div > .contact-icons {
+    font-size: 50%;
+  }
+
   div > #icon-email:link,
   div > #icon-email:visited,
   div > #icon-phone:link,
@@ -448,6 +458,49 @@ li > #icon-facebook:active {
   }
 
   .footer > #copyright {
+    font-size: 40%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 330px**/
+@media screen and (max-width: 330px) {
+  /***Header Styling***/
+  .nav-bar > .nav-links {
+    padding: 0 0 20px 0;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 50%;
+    padding: 5px 10px;
+  }
+
+  .header > h1 {
+    font-size: 140%;
+  }
+
+  /***Main Styling***/
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    padding: 10px 10px;
+    font-size: 50%;
+  }
+
+  /***Footer Styling***/
+  div > .contact-details {
+    font-size: 20%;
+  }
+
+  div > .contact-icons {
+    font-size: 40%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
     font-size: 40%;
   }
 }
