@@ -158,38 +158,31 @@ li > #home-link-active:visited {
   margin: 0 20px;
 }
 
-div > .contact-details {
+.contact-details {
   color: #c5c5c5;
 }
 
-div > #icon-email:link,
-div > #icon-email:visited {
+div > .contact-icons {
   color: #f7ecca;
-  transition: all 0.3s;
-}
-div > #icon-email:hover,
-div > #icon-email:active {
-  color: #39a9c8;
 }
 
+div > #icon-location:link,
+div > #icon-location:visited,
+div > #icon-email:link,
+div > #icon-email:visited,
 div > #icon-phone:link,
 div > #icon-phone:visited {
-  color: #f7ecca;
-  transition: all 0.3s;
+  text-decoration: none;
 }
+
+div > #icon-location:hover,
+div > #icon-location:active,
+div > #icon-email:hover,
+div > #icon-email:active,
 div > #icon-phone:hover,
 div > #icon-phone:active {
-  color: #39a9c8;
-}
-
-#icon-location,
-#icon-location {
   color: #f7ecca;
-}
-
-#icon-location:hover,
-#icon-location:active {
-  color: #339af0;
+  text-decoration: underline;
 }
 
 /***Socials Styling***/
@@ -307,8 +300,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location,
-  #icon-location {
+  div > #icon-location:link,
+  div > #icon-location:visited {
     font-size: 70%;
   }
 
@@ -356,8 +349,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location,
-  #icon-location {
+  div > #icon-location:link,
+  div > #icon-location:visited {
     font-size: 60%;
   }
 
@@ -444,8 +437,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location,
-  #icon-location {
+  div > #icon-location:link,
+  div > #icon-location:visited {
     font-size: 50%;
   }
 
