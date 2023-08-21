@@ -248,18 +248,24 @@ li > #icon-facebook:active {
 /***Header Styling***/
 @media screen and (max-width: 840px) {
   .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #253c1b;
   }
 
   .header > h1 {
     font-size: 230%;
   }
 
+  .header > .nav-bar {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+
   .nav-bar > .nav-links {
-    padding: 15px 0;
+    padding: 10px 0 20px 0;
   }
 
   li > .links:link,
@@ -295,8 +301,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location:link,
-  #icon-location:visited {
+  #icon-loc,
+  #icon-location {
     font-size: 70%;
   }
 
@@ -344,8 +350,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location:link,
-  #icon-location:visited {
+  #icon-location,
+  #icon-location {
     font-size: 60%;
   }
 
@@ -386,7 +392,7 @@ li > #icon-facebook:active {
 
   /***Main Styling***/
   #hero-info > #arrows {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   #hero-text {
@@ -395,7 +401,7 @@ li > #icon-facebook:active {
 
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 50%;
+    font-size: 70%;
     padding: 10px 20px;
   }
 }
@@ -406,7 +412,12 @@ li > #icon-facebook:active {
 
   /***Main Styling***/
   #hero-info > #volunteer {
-    font-size: 50%;
+    font-size: 40%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 60%;
   }
 
   /***Footer Styling***/
@@ -427,8 +438,8 @@ li > #icon-facebook:active {
   div > #icon-email:visited,
   div > #icon-phone:link,
   div > #icon-phone:visited,
-  #icon-location:link,
-  #icon-location:visited {
+  #icon-location,
+  #icon-location {
     font-size: 50%;
   }
 
