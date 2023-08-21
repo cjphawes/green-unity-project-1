@@ -297,7 +297,7 @@ li > #icon-facebook:active {
   }
 
   div > .contact-icons {
-    font-size: 70%;
+    font-size: 60%;
   }
 
   div > #icon-email:link,
@@ -350,7 +350,7 @@ li > #icon-facebook:active {
   }
 
   div > .contact-icons {
-    font-size: 60%;
+    font-size: 50%;
   }
 
   div > #icon-email:link,
@@ -440,7 +440,7 @@ li > #icon-facebook:active {
   }
 
   div > .contact-icons {
-    font-size: 50%;
+    font-size: 40%;
   }
 
   div > #icon-email:link,
@@ -993,6 +993,9 @@ h2 > .fa-circle-question {
 }
 
 /**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+
+/*MEDIA QUERIES FOR MEMBER.HTML*/
+/**FOR SCREEN WIDTH BELOW ...**/
 
 /*Completed Signup Styling*/
 
