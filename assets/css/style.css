@@ -1172,7 +1172,70 @@ h2 > .fa-circle-question {
   color: inherit;
 }
 
-/**Footer Styling - REMAINS THE AME AS INDEX.HTML**/
+/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+
+/*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
+/**FOR SCREEN WIDTH BELOW 840px**/
+@media screen and (max-width: 840px) {
+  #completed-signup-container > #completion-container {
+    width: fit-content;
+    margin: 50px 50px;
+    padding: 30px;
+  }
+
+  #completion-title-and-text > #completion-title {
+    font-size: 150%;
+  }
+
+  #completion-title-and-text > #completion-text {
+    font-size: 100%;
+  }
+
+  #completion-title-and-text > .fa-circle-check {
+    font-size: 300%;
+  }
+
+  #completion-title-and-text > #return-back-text {
+    font-size: 100%;
+    margin-top: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 580px**/
+@media screen and (max-width: 580px) {
+  #completion-title-and-text > #completion-title {
+    font-size: 120%;
+  }
+
+  #completion-title-and-text > #completion-text {
+    font-size: 80%;
+  }
+
+  #completion-title-and-text > .fa-circle-check {
+    font-size: 200%;
+  }
+
+  #completion-title-and-text > #return-back-text {
+    font-size: 70%;
+    margin-top: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 380px**/
+@media screen and (max-width: 380px) {
+  #completion-title-and-text > #completion-title {
+    font-size: 100%;
+  }
+
+  #completion-title-and-text > #completion-text {
+    font-size: 50%;
+  }
+
+  #completion-title-and-text > #return-back-text {
+    font-size: 50%;
+    margin-top: 0px;
+  }
+}
 
 /*MEDIA QUERIES FOR ALL HTML PAGES*/
 /**FOR SCREEN WIDTHS BELOW 840px**/
