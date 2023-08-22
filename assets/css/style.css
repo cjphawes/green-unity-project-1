@@ -642,8 +642,10 @@ li > .top-pick-links:active {
 
 /**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
 
-/*Member.html Styling*/
+/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+/**FOR SCREEN WIDTH BELOW ...px**/
 
+/*Member.html Styling*/
 /**Header Styling**/
 li > #member-link-active:link,
 li > #member-link-active:visited {
@@ -1071,7 +1073,6 @@ h2 > .fa-circle-question {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 75px 40px 40px 20px;
-    /* width: auto; */
   }
 
   #signup-form > #form-title {
@@ -1176,6 +1177,7 @@ h2 > .fa-circle-question {
 
 /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
 /**FOR SCREEN WIDTH BELOW 840px**/
+/***Main Styling***/
 @media screen and (max-width: 840px) {
   #completed-signup-container > #completion-container {
     width: fit-content;
@@ -1202,6 +1204,7 @@ h2 > .fa-circle-question {
 }
 
 /**FOR SCREEN WIDTH BELOW 580px**/
+/***Main Styling***/
 @media screen and (max-width: 580px) {
   #completion-title-and-text > #completion-title {
     font-size: 120%;
@@ -1222,6 +1225,7 @@ h2 > .fa-circle-question {
 }
 
 /**FOR SCREEN WIDTH BELOW 380px**/
+/***Main Styling***/
 @media screen and (max-width: 380px) {
   #completion-title-and-text > #completion-title {
     font-size: 100%;
