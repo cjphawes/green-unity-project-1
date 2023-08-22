@@ -874,9 +874,8 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 1070px**/
 /***Main Styling***/
 @media screen and (max-width: 1070px) {
-  #become-a-member {
-    background-size: 200%;
-    background-position: 40% 50%;
+  #become-a-member-container {
+    height: 100vh;
   }
   #become-a-member-container > #form-faq-container {
     display: grid;
