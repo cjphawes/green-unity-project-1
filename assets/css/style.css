@@ -680,9 +680,9 @@ li > #member-link-active:visited {
 }
 
 #form-container > #signup-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .input-box {
@@ -698,6 +698,7 @@ label {
 
 /****Form Title of Form****/
 #signup-form > #form-title {
+  grid-column: 1 / -1;
   margin-bottom: 20px;
 }
 
@@ -721,6 +722,10 @@ h2 > .fa-pen-to-square {
 }
 
 /****Email Section of Form****/
+#signup-form > #email-container {
+  grid-column: 1 / -1;
+}
+
 #email-container > #main-email-container {
   display: flex;
   flex-direction: column;
@@ -738,9 +743,7 @@ h2 > .fa-pen-to-square {
 
 /****Checkbox Section of Form****/
 #signup-form > #checkbox-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  grid-column: 1 / -1;
 }
 
 #np-container {
@@ -750,6 +753,7 @@ h2 > .fa-pen-to-square {
 
 /****Signup Btn of Form****/
 #signup-form > #signup-btn {
+  width: 200px;
   font-size: 120%;
   font-weight: 700;
   padding: 10px 20px;
