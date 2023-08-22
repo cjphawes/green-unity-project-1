@@ -654,24 +654,26 @@ li > #member-link-active:visited {
 
 /**Main Styling**/
 #become-a-member-container {
-  height: 850px;
+  height: 750px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: 170%;
   background-position: 0% 50%;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin: 0 auto;
 }
 
 #bg-img-sr {
   display: none;
 }
 
+#become-a-member-container > #form-faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0 auto;
+}
+
 /***Form Styling***/
-#become-a-member-container > #form-container {
+#form-faq-container > #form-container {
   height: fit-content;
   margin: 50px 100px 0 50px;
   padding: 50px;
@@ -682,7 +684,8 @@ li > #member-link-active:visited {
 #form-container > #signup-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 30px 1fr;
+  row-gap: 10px;
 }
 
 .input-box {
@@ -771,9 +774,9 @@ h2 > .fa-pen-to-square {
 }
 
 /***FAQ Styling***/
-#become-a-member-container > #faq-container {
+#form-faq-container > #faq-container {
   height: fit-content;
-  padding: 50px;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: #fff;
@@ -820,29 +823,30 @@ h2 > .fa-circle-question {
 /**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
 
 /*MEDIA QUERIES FOR MEMBER.HTML*/
-/**FOR SCREEN WIDTH BELOW 1280px**/
+/**FOR SCREEN WIDTH BELOW 1300px**/
 @media screen and (max-width: 1300px) {
   /***Main Styling***/
   #become-a-member-container {
-    height: 950px;
+    height: 750px;
+    background-size: 140%;
+    background-position: 0% 50%;
   }
 
-  #become-a-member-container > #form-faq-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 50px;
-    max-width: min-content;
-    margin: 0 auto;
+  /* ***Form Styling****/
+  #form-container > #signup-form {
+    grid-template-rows: 1fr 1fr 1fr 1fr 20px 1fr;
   }
 
-  /****Form Styling****/  
+  #form-faq-container > #form-container {
+    margin-right: 50px;
+  }
+
   .input-box {
     height: 25px;
     width: 200px;
     font-size: 80%;
   }
-  
+
   label {
     font-size: 100%;
   }
@@ -850,12 +854,10 @@ h2 > .fa-circle-question {
   #signup-form > #form-title {
     font-size: 130%;
   }
-  
+
   h2 > .fa-pen-to-square {
     font-size: 130%;
   }
-
-  
 
   /****FAQ Styling****/
   .faqs > #faq-title {
@@ -872,15 +874,107 @@ h2 > .fa-circle-question {
 
   #faq-questions > .faq-q-a {
     font-size: 80%;
-
+  }
 }
 
 /**FOR SCREEN WIDTH BELOW 1070px**/
 /***Main Styling***/
 @media screen and (max-width: 1070px) {
-  #become-a-member-container > #faq-container {
-    padding: 30px;
+  #become-a-member-container > #form-faq-container {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+  }
 
+  /****Form Styling****/
+  #form-container > #signup-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr 1fr 20px 1fr;
+  }
+
+  #form-faq-container > #form-container {
+    padding: 30px;
+  }
+
+  .input-box {
+    height: 20px;
+    width: 200px;
+    font-size: 70%;
+  }
+
+  #fname,
+  #lname,
+  #password {
+    width: 100px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 70%;
+  }
+
+  label {
+    font-size: 80%;
+  }
+
+  #signup-form > #form-title {
+    font-size: 120%;
+    line-height: 1.4;
+  }
+
+  h2 > .fa-pen-to-square {
+    font-size: 130%;
+  }
+
+  #signup-form > #signup-btn {
+    padding: 0px;
+    font-size: 100%;
+  }
+
+  /****FAQ Styling****/
+  .faqs > #faq-title {
+    font-size: 100%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 80%;
+  }
+
+  #faq-questions > .faq-q-a {
+    font-size: 60%;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 840px**/
+/***Main Styling***/
+@media screen and (max-width: 840px) {
+  #become-a-member-container > #form-faq-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: left;
+    width: 500px;
+  }
+
+  #form-container > #signup-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 20px 1fr;
+    row-gap: 10px;
+    height: 400px;
+  }
+
+  #signup-form > #fl-name-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 150%;
+    line-height: 1.2;
+  }
 }
 
 /*Completed Signup Styling*/
