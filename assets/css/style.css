@@ -998,7 +998,7 @@ h2 > .fa-circle-question {
   #become-a-member-container > #form-faq-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   #form-faq-container > #form-container {
