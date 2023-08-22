@@ -656,7 +656,7 @@ li > #member-link-active:visited {
 
 /**Main Styling**/
 #become-a-member-container {
-  height: 750px;
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: cover;
@@ -1102,6 +1102,7 @@ h2 > .fa-circle-question {
 
 /*Main Styling*/
 #completed-signup-container {
+  height: 100vh;
   background-color: #f7ecca;
   display: grid;
   grid-template-columns: 1fr;
@@ -1115,6 +1116,7 @@ h2 > .fa-circle-question {
   background-color: #fff;
   border-radius: 20px;
 
+  height: fit-content;
   width: 700px;
   margin: 100px auto;
   padding: 100px;
