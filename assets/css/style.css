@@ -927,6 +927,7 @@ h2 > .fa-circle-question {
   /****FAQ Styling****/
   .faqs > #faq-title {
     font-size: 100%;
+    margin-bottom: 20px;
   }
 
   .faq-q-a > .faq-question-title {
@@ -994,10 +995,21 @@ h2 > .fa-circle-question {
 /***Main Styling***/
 /****Form Styling****/
 @media screen and (max-width: 490px) {
-  #form-container > #signup-form {
+  #become-a-member-container > #form-faq-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 1fr 1fr 1fr 50px;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #form-faq-container > #form-container {
+    margin-left: 20px;
+  }
+
+  #form-container > #signup-form {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 40px 35px 40px 15px 1fr;
   }
 
   #signup-form > #form-title {
@@ -1012,11 +1024,11 @@ h2 > .fa-circle-question {
 
   #np-container {
     height: 6px;
-    width: 6px;
+    gap: 0;
   }
 
   #news-and-promo-label {
-    font-size: 10px;
+    font-size: 7px;
   }
 
   #fname,
@@ -1036,6 +1048,51 @@ h2 > .fa-circle-question {
   }
 
   /****FAQ Styling****/
+  #form-faq-container > #faq-container {
+    margin-left: 20px;
+  }
+
+  .faqs > #faq-title {
+    font-size: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 380px**/
+/***Main Styling***/
+/****Form Styling****/
+@media screen and (max-width: 380px) {
+  #become-a-member-container > #form-faq-container {
+    row-gap: 10px;
+  }
+
+  #form-container > #signup-form {
+    height: 230px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 75px 40px 40px 20px;
+    /* width: auto; */
+  }
+
+  #signup-form > #form-title {
+    font-size: 60%;
+  }
+
+  #signup-form > #fl-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #fname-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lname-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*Completed Signup Styling*/
