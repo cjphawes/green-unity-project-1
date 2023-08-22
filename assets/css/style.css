@@ -244,35 +244,8 @@ li > #icon-facebook:active {
 
 /*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 840px**/
-/***Header Styling***/
+/***Main Styling***/
 @media screen and (max-width: 840px) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #253c1b;
-  }
-
-  .header > h1 {
-    font-size: 230%;
-  }
-
-  .header > .nav-bar {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .nav-bar > .nav-links {
-    padding: 10px 0 20px 0;
-  }
-
-  li > .links:link,
-  li > .links:visited {
-    font-size: 80%;
-  }
-
-  /***Main Styling***/
   #hero-text {
     font-size: 70%;
   }
@@ -285,43 +258,12 @@ li > #icon-facebook:active {
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 100%;
   }
-
-  /***Footer Styling***/
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 80%;
-  }
-
-  div > .contact-details {
-    font-size: 70%;
-  }
-
-  div > .contact-icons {
-    font-size: 60%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 70%;
-  }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
 }
 
+/*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 550px**/
+/***Main Styling***/
 @media screen and (max-width: 550px) {
-  /***Main Styling***/
   #hero-section > #hero-info {
     margin: 0 50px;
   }
@@ -338,66 +280,12 @@ li > #icon-facebook:active {
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 70%;
   }
-
-  /***Footer Styling***/
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 60%;
-  }
-
-  div > .contact-details {
-    font-size: 50%;
-  }
-
-  div > .contact-icons {
-    font-size: 50%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 60%;
-  }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
-
-  .footer > #copyright {
-    font-size: 70%;
-  }
-
-  .footer > #contact-info {
-    gap: 5px;
-  }
-
-  #socials > .social-links {
-    gap: 10px;
-  }
 }
 
+/*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 480px**/
-/***Footer Styling***/
+/***Main Styling***/
 @media screen and (max-width: 480px) {
-  /***Header Styling***/
-  li > .links:link,
-  li > .links:visited {
-    font-size: 60%;
-  }
-
-  .header > h1 {
-    font-size: 180%;
-  }
-
-  /***Main Styling***/
   #hero-info > #arrows {
     font-size: 30px;
   }
@@ -413,9 +301,10 @@ li > #icon-facebook:active {
   }
 }
 
+/*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 380px**/
+/***Main Styling***/
 @media screen and (max-width: 380px) {
-  /***Main Styling***/
   #hero-info > #volunteer {
     font-size: 40%;
   }
@@ -424,84 +313,16 @@ li > #icon-facebook:active {
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 60%;
   }
-
-  /***Footer Styling***/
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
-
-  div > .contact-details {
-    font-size: 30%;
-  }
-
-  div > .contact-icons {
-    font-size: 40%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 50%;
-  }
-
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 40%;
-  }
-
-  .footer > #copyright {
-    font-size: 40%;
-  }
 }
 
+/*MEDIA QUERIES FOR INDEX.HTML*/
 /**FOR SCREEN WIDTHS BELOW 330px**/
+/***Main Styling***/
 @media screen and (max-width: 330px) {
-  /***Header Styling***/
-  .nav-bar > .nav-links {
-    padding: 0 0 20px 0;
-  }
-
-  li > .links:link,
-  li > .links:visited {
-    font-size: 50%;
-    padding: 5px 10px;
-  }
-
-  .header > h1 {
-    font-size: 140%;
-  }
-
-  /***Main Styling***/
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
     padding: 10px 10px;
     font-size: 50%;
-  }
-
-  /***Footer Styling***/
-  div > .contact-details {
-    font-size: 20%;
-  }
-
-  div > .contact-icons {
-    font-size: 40%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 40%;
   }
 }
 
@@ -833,27 +654,26 @@ li > #member-link-active:visited {
 
 /**Main Styling**/
 #become-a-member-container {
-  height: 950px;
+  height: 850px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: 170%;
   background-position: 0% 50%;
-}
 
-#become-a-member-container > #form-faq-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 50px;
-  max-width: 1100px;
   margin: 0 auto;
-  padding: 50px 0;
-  justify-items: center;
+}
+
+#bg-img-sr {
+  display: none;
 }
 
 /***Form Styling***/
-#form-faq-container > #form-container {
+#become-a-member-container > #form-container {
   height: fit-content;
+  margin: 50px 100px 0 50px;
   padding: 50px;
   background-color: #253c1b;
   border-radius: 10px;
@@ -947,12 +767,13 @@ h2 > .fa-pen-to-square {
 }
 
 /***FAQ Styling***/
-#form-faq-container > #faq-container {
+#become-a-member-container > #faq-container {
   height: fit-content;
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: #fff;
+  margin: 50px 50px 0 0;
 }
 
 .faqs > #faq-questions {
@@ -995,7 +816,68 @@ h2 > .fa-circle-question {
 /**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
 
 /*MEDIA QUERIES FOR MEMBER.HTML*/
-/**FOR SCREEN WIDTH BELOW ...**/
+/**FOR SCREEN WIDTH BELOW 1280px**/
+@media screen and (max-width: 1300px) {
+  /***Main Styling***/
+  #become-a-member-container {
+    height: 950px;
+  }
+
+  #become-a-member-container > #form-faq-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    max-width: min-content;
+    margin: 0 auto;
+  }
+
+  /****Form Styling****/  
+  .input-box {
+    height: 25px;
+    width: 200px;
+    font-size: 80%;
+  }
+  
+  label {
+    font-size: 100%;
+  }
+
+  #signup-form > #form-title {
+    font-size: 130%;
+  }
+  
+  h2 > .fa-pen-to-square {
+    font-size: 130%;
+  }
+
+  
+
+  /****FAQ Styling****/
+  .faqs > #faq-title {
+    font-size: 130%;
+  }
+
+  h2 > .fa-circle-question {
+    font-size: 130%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 100%;
+  }
+
+  #faq-questions > .faq-q-a {
+    font-size: 80%;
+
+}
+
+/**FOR SCREEN WIDTH BELOW 1070px**/
+/***Main Styling***/
+@media screen and (max-width: 1070px) {
+  #become-a-member-container > #faq-container {
+    padding: 30px;
+
+}
 
 /*Completed Signup Styling*/
 
@@ -1075,3 +957,201 @@ h2 > .fa-circle-question {
 }
 
 /**Footer Styling - REMAINS THE AME AS INDEX.HTML**/
+
+/*MEDIA QUERIES FOR ALL HTML PAGES*/
+/**FOR SCREEN WIDTHS BELOW 840px**/
+/***Header Styling***/
+@media screen and (max-width: 840px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #253c1b;
+  }
+
+  .header > h1 {
+    font-size: 230%;
+  }
+
+  .header > .nav-bar {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .nav-bar > .nav-links {
+    padding: 10px 0 20px 0;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 80%;
+  }
+
+  /***Footer Styling***/
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 80%;
+  }
+
+  div > .contact-details {
+    font-size: 70%;
+  }
+
+  div > .contact-icons {
+    font-size: 60%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 70%;
+  }
+
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 550px**/
+/***Footer Styling***/
+@media screen and (max-width: 550px) {
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 60%;
+  }
+
+  div > .contact-details {
+    font-size: 50%;
+  }
+
+  div > .contact-icons {
+    font-size: 50%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 60%;
+  }
+
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+
+  .footer > #copyright {
+    font-size: 70%;
+  }
+
+  .footer > #contact-info {
+    gap: 5px;
+  }
+
+  #socials > .social-links {
+    gap: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 480px**/
+/***Header Styling***/
+@media screen and (max-width: 480px) {
+  li > .links:link,
+  li > .links:visited {
+    font-size: 60%;
+  }
+
+  .header > h1 {
+    font-size: 180%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 380px**/
+/***Footer Styling***/
+@media screen and (max-width: 380px) {
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+
+  div > .contact-details {
+    font-size: 30%;
+  }
+
+  div > .contact-icons {
+    font-size: 40%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 50%;
+  }
+
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 40%;
+  }
+
+  .footer > #copyright {
+    font-size: 40%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 330px**/
+/***Header Styling***/
+@media screen and (max-width: 330px) {
+  .nav-bar > .nav-links {
+    padding: 0 0 20px 0;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 50%;
+    padding: 5px 10px;
+  }
+
+  .header > h1 {
+    font-size: 140%;
+  }
+
+  /***Footer Styling***/
+  div > .contact-details {
+    font-size: 20%;
+  }
+
+  div > .contact-icons {
+    font-size: 40%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 40%;
+  }
+}
