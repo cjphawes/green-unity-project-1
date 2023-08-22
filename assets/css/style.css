@@ -997,10 +997,15 @@ h2 > .fa-circle-question {
 /***Main Styling***/
 /****Form Styling****/
 @media screen and (max-width: 490px) {
+  #become-a-member-container {
+    height: auto;
+  }
+
   #become-a-member-container > #form-faq-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    row-gap: 10px;
   }
 
   #form-faq-container > #form-container {
