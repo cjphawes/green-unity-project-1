@@ -657,8 +657,7 @@ li > #member-link-active:visited {
   height: 750px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
-  background-size: 170%;
-  background-position: 0% 50%;
+  background-size: cover;
 }
 
 #bg-img-sr {
@@ -781,6 +780,7 @@ h2 > .fa-pen-to-square {
   border-radius: 10px;
   color: #fff;
   margin: 50px 50px 0 0;
+  width: auto;
 }
 
 .faqs > #faq-questions {
@@ -828,8 +828,6 @@ h2 > .fa-circle-question {
   /***Main Styling***/
   #become-a-member-container {
     height: 750px;
-    background-size: 140%;
-    background-position: 0% 50%;
   }
 
   /* ***Form Styling****/
@@ -839,12 +837,6 @@ h2 > .fa-circle-question {
 
   #form-faq-container > #form-container {
     margin-right: 50px;
-  }
-
-  .input-box {
-    height: 25px;
-    width: 200px;
-    font-size: 80%;
   }
 
   label {
@@ -880,6 +872,10 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 1070px**/
 /***Main Styling***/
 @media screen and (max-width: 1070px) {
+  #become-a-member {
+    background-size: 200%;
+    background-position: 40% 50%;
+  }
   #become-a-member-container > #form-faq-container {
     display: grid;
     grid-template-columns: 450px 1fr;
@@ -908,10 +904,6 @@ h2 > .fa-circle-question {
   #lname,
   #password {
     width: 100px;
-  }
-
-  #signup-form > #form-title {
-    font-size: 70%;
   }
 
   label {
@@ -949,32 +941,101 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 840px**/
 /***Main Styling***/
 @media screen and (max-width: 840px) {
+  #become-a-member-container {
+    height: auto;
+  }
   #become-a-member-container > #form-faq-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-self: left;
-    width: 500px;
+    grid-template-rows: 350px 1fr;
+  }
+
+  /****Form Styling****/
+  #form-faq-container > #form-container {
+    width: fit-content;
+    margin-right: 0;
   }
 
   #form-container > #signup-form {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 20px 1fr;
-    row-gap: 10px;
-    height: 400px;
-  }
-
-  #signup-form > #fl-name-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+    grid-template-rows: 30px 1fr 1fr 1fr 20px;
+    row-gap: 0px;
+    height: 230px;
   }
 
   #signup-form > #form-title {
-    font-size: 150%;
-    line-height: 1.2;
+    font-size: 120%;
+    line-height: 1;
   }
+
+  h2 > .fa-pen-to-square {
+    font-size: 110%;
+  }
+
+  #signup-form > #fl-name-container {
+    gap: 10px;
+    width: 200px;
+  }
+
+  #signup-form > #signup-btn {
+    padding: 10px;
+    font-size: 70%;
+  }
+
+  /****FAQ Styling****/
+  #form-faq-container > #faq-container {
+    margin: 0 50px 50px 50px;
+    width: fit-content;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 490px**/
+/***Main Styling***/
+/****Form Styling****/
+@media screen and (max-width: 490px) {
+  #form-container > #signup-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr 1fr 1fr 50px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 80%;
+  }
+
+  .input-box {
+    height: 15px;
+    width: 150px;
+    font-size: 50%;
+  }
+
+  #np-container {
+    height: 6px;
+    width: 6px;
+  }
+
+  #news-and-promo-label {
+    font-size: 10px;
+  }
+
+  #fname,
+  #lname,
+  #password {
+    width: 100px;
+  }
+
+  label {
+    font-size: 60%;
+  }
+
+  #signup-form > #signup-btn {
+    padding: 5px;
+    font-size: 50%;
+    display: inline-block;
+  }
+
+  /****FAQ Styling****/
 }
 
 /*Completed Signup Styling*/
