@@ -1106,7 +1106,6 @@ h2 > .fa-circle-question {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  height: auto;
 }
 
 #completed-signup-container > #completion-container {
@@ -1117,7 +1116,7 @@ h2 > .fa-circle-question {
   border-radius: 20px;
 
   width: 700px;
-  margin: 50px auto;
+  margin: 100px auto;
   padding: 100px;
 }
 
@@ -1180,9 +1179,8 @@ h2 > .fa-circle-question {
 /***Main Styling***/
 @media screen and (max-width: 840px) {
   #completed-signup-container > #completion-container {
-    width: fit-content;
-    margin: 50px 50px;
     padding: 30px;
+    width: 400px;
   }
 
   #completion-title-and-text > #completion-title {
@@ -1221,6 +1219,17 @@ h2 > .fa-circle-question {
   #completion-title-and-text > #return-back-text {
     font-size: 70%;
     margin-top: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 480px**/
+/***Main Styling***/
+@media screen and (max-width: 480px) {
+  #completed-signup-container > #completion-container {
+    width: 200px;
+  }
+  #completion-title-and-text > #completion-text {
+    font-size: 60%;
   }
 }
 
