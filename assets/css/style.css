@@ -1009,6 +1009,7 @@ h2 > .fa-circle-question {
 
   #form-faq-container > #form-container {
     margin-left: 20px;
+    padding-bottom: 40px;
   }
 
   #form-container > #signup-form {
@@ -1029,8 +1030,11 @@ h2 > .fa-circle-question {
   }
 
   #np-container {
-    height: 6px;
     gap: 0;
+  }
+
+  #news-and-promo {
+    height: 7px;
   }
 
   #news-and-promo-label {
