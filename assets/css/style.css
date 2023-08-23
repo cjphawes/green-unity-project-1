@@ -1211,35 +1211,15 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTH BELOW 580px**/
-/***Main Styling***/
-@media screen and (max-width: 580px) {
-  #completion-title-and-text > #completion-title {
-    font-size: 120%;
-  }
-
-  #completion-title-and-text > #completion-text {
-    font-size: 80%;
-  }
-
-  #completion-title-and-text > .fa-circle-check {
-    font-size: 200%;
-  }
-
-  #completion-title-and-text > #return-back-text {
-    font-size: 70%;
-    margin-top: 10px;
-  }
-}
-
 /**FOR SCREEN WIDTH BELOW 480px**/
 /***Main Styling***/
 @media screen and (max-width: 480px) {
   #completed-signup-container > #completion-container {
-    width: 200px;
+    margin: 50px;
+    width: auto;
   }
   #completion-title-and-text > #completion-text {
-    font-size: 60%;
+    font-size: 80%;
   }
 }
 
@@ -1247,18 +1227,30 @@ h2 > .fa-circle-question {
 /***Main Styling***/
 @media screen and (max-width: 380px) {
   #completion-title-and-text > #completion-title {
-    font-size: 100%;
+    font-size: 120%;
   }
 
   #completion-title-and-text > #completion-text {
     font-size: 50%;
   }
 
+  #completion-title-and-text > .fa-circle-check {
+    font-size: 200%;
+  }
+
   #completion-title-and-text > #return-back-text {
-    font-size: 50%;
+    font-size: 60%;
     margin-top: 0px;
   }
 }
+
+/**FOR SCREEN WIDTH BELOW 330px**/
+/***Main Styling***/
+@media screen and (max-width: 330px) {
+  #completion-title-and-text > #completion-title {
+    font-size: 100%;
+  }
+
 
 /*MEDIA QUERIES FOR ALL HTML PAGES*/
 /**FOR SCREEN WIDTHS BELOW 840px**/
