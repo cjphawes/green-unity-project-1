@@ -6,9 +6,13 @@
 
 Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants and needs. This project targets anyone who is willing to volunteer to help society and the planet as a whole in any aspect, either being location or type of volunteering.
 
-This website aims to aid not only avid volunteers but also newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK). As well as being able to sign-up for up to date information on new opportunities to volunteer.
+This website aims to aid not only avid volunteers but also newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK). As well as being able to sign-up for up to date information and news on new opportunities to volunteer for.
 
 Here is a quick look using what my website looks like on a variety of device widths.
+
+![A variety of screen widths of my website](/assets/README-file-images/A%20variety%20of%20different%20screen%20widths%20of%20website.png)
+
+Am I Responsive webpage &rarr; [My website](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
 
 ---
 
