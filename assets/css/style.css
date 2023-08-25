@@ -802,6 +802,145 @@ aside > ul {
   }
 }
 
+/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+/**FOR SCREEN WIDTH BELOW 650px**/
+@media screen and (max-width: 650px) {
+  /***Main Styling***/
+  #opportunities-container > #opportunities {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  #opportunities-container > #opportunities-text {
+    font-size: 100%;
+    margin: 0 40px 0 40px;
+    text-align: left;
+  }
+
+  #opportunities > #opportunities-section-local {
+    margin: 0 50px 0 50px;
+  }
+
+  #opportunities > #opportunities-section-global {
+    margin: 0 50px 0 50px;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 150%;
+  }
+
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 110%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 100%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: inherit;
+  }
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 120%;
+  }
+}
+
+/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+/**FOR SCREEN WIDTH BELOW 480px**/
+@media screen and (max-width: 480px) {
+  /***Main Styling***/
+  #opportunities > .opportunities-section {
+    gap: 10px;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 80%;
+  }
+
+  #opportunities > #opportunities-section-local {
+    margin: 0 30px 0 30px;
+  }
+
+  #opportunities > #opportunities-section-global {
+    margin: 0 30px 0 30px;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 120%;
+  }
+
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 150px;
+    width: auto;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 90%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 60%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: 50%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 60%;
+  }
+}
+
+/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+/**FOR SCREEN WIDTH BELOW 380px**/
+@media screen and (max-width: 380px) {
+  /***Main Styling***/
+  #opportunities-container > #opportunities-text {
+    font-size: 60%;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 70%;
+  }
+
+  /****Aside Styling****/
+  aside > #top-picks {
+    font-size: 120%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 80%;
+  }
+
+  li > .extra-links {
+    font-size: 60%;
+    line-height: 1.2;
+  }
+}
+
+/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+/**FOR SCREEN WIDTH BELOW 350px**/
+@media screen and (max-width: 350px) {
+  /***Main Styling***/
+  .volunteer-card > .volunteer-card-description {
+    font-size: 50%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: 40%;
+  }
+}
+
 /*Member.html Styling*/
 /**Header Styling**/
 li > #member-link-active:link,
@@ -1547,6 +1686,10 @@ h2 > .fa-circle-question {
   .header > h1 {
     font-size: 180%;
   }
+
+  #header-fixed > h1 {
+    font-size: 180%;
+  }
 }
 
 /**FOR SCREEN WIDTHS BELOW 380px**/
@@ -1602,6 +1745,10 @@ h2 > .fa-circle-question {
   }
 
   .header > h1 {
+    font-size: 140%;
+  }
+
+  #header-fixed > h1 {
     font-size: 140%;
   }
 
