@@ -158,7 +158,7 @@ li > #home-link-active:visited {
   margin: 0 20px;
 }
 
-div > .contact-details {
+a > .contact-details {
   color: #c5c5c5;
 }
 
@@ -686,6 +686,7 @@ aside > ul {
   .extra-links > .top-pick-links:link,
   .extra-links > .top-pick-links:visited {
     font-size: 100%;
+    text-decoration: underline;
   }
 }
 
@@ -1601,8 +1602,10 @@ h2 > .fa-circle-question {
     font-size: 80%;
   }
 
-  div > .contact-details {
+  a > .contact-details {
     font-size: 70%;
+    text-decoration: underline;
+    color: #fff;
   }
 
   div > .contact-icons {
