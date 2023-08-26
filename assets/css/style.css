@@ -954,7 +954,7 @@ li > #member-link-active:visited {
 
 /**Main Styling**/
 #become-a-member-container {
-  height: 100vh;
+  height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: cover;
@@ -974,7 +974,7 @@ li > #member-link-active:visited {
 /***Form Styling***/
 #form-faq-container > #form-container {
   height: fit-content;
-  margin: 50px 100px 0 50px;
+  margin: 50px 100px 50px 50px;
   padding: 50px;
   background-color: #253c1b;
   border-radius: 10px;
@@ -1079,7 +1079,7 @@ h2 > .fa-pen-to-square {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   color: #fff;
-  margin: 50px 50px 0 0;
+  margin: 50px 50px 50px 0;
   width: auto;
 }
 
@@ -1242,7 +1242,7 @@ h2 > .fa-circle-question {
 /***Main Styling***/
 @media screen and (max-width: 840px) {
   #become-a-member-container {
-    height: 100vh;
+    height: auto;
   }
   #become-a-member-container > #form-faq-container {
     display: grid;
