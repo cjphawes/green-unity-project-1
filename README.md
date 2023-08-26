@@ -1,4 +1,4 @@
-# HAND <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/hands-holding-circle.svg" width="50" height="50"> HAND
+# HAND <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/hands-holding-circle.svg" width="50" height="29"> HAND
 
 ---
 
@@ -8,11 +8,10 @@ Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants an
 
 This website aims to aid not only avid volunteers but also newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK). As well as being able to sign-up for up to date information and news on new opportunities to volunteer for.
 
-Here is a quick look using what my website looks like on a variety of device widths.
+Here is a quick look at my website on a variety of device widths.
 
-![A variety of screen widths of my website](/assets/README-file-images/A%20variety%20of%20different%20screen%20widths%20of%20website.png)
-
-Am I Responsive webpage &rarr; [My website](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
+![A variety of screen widths of my website](/assets/README-file-images/variety-of-different-screen-widths-of-website.png)
+Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
 
 ---
 
@@ -61,13 +60,21 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 - **FAQ's**
   - 4 FAQ's in a dropdown style providing common answers to questions. Low transparency on the background to see the background image which relates to providing care and love to the world.
 
-![become-a-member-page](assets/README-file-images/become-a-member-page.png)
+![become-a-member-page](/assets/readme-file-images/become-a-member-page.png)
+
+#### Completed Sign-up Page
+
+- Visualisation for the user to show the CTA button has worked and they have signed up successfully.
+- Added animation of green tick pulsating for more creativity to the page and make it come alive more.
+
+![completed-signup-page](/assets/readme-file-images/completed-signup-page.png)
 
 ### Future features
 
 - A profile page for the volunteer once they've signed up which integrates with the future feature below.
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
 - Always space for more volunteering opportunities, and with more could comes a filter element for finding opportunities the user wants more easily.
+- A log in feature as well as sign-up so returning users can log in
 
 ---
 
@@ -75,9 +82,9 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 - Testing was completed on Google Chrome, Microsoft Edge and Apple's Safari, on different devices and modes.
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
-- The form CTA button was originally a anchor element, however I found that form validation was cancelled due to not using a submit button. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect to or use `method="POST"` and use the code institutes formdump link. I have opted for the better user experience option. However with that in mind I also know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would be able to use Javascript or another programmping language to redirect while using the `method="POST"` to ease the struggle but with limited knowledge this was the best I could do.
+- The form CTA button was originally a anchor element, however I found that form validation was cancelled due to not using a submit button. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect too or use `method="POST"` and use the code institutes formdump link. I opted for the better user experience option. However with that in mind I also know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would be able to use Javascript or another programmping language to redirect while using the `method="POST"` to ease the struggle but with limited knowledge this was the best I could do.
 - I used the Lighthouse reporting tool in Google Chrome & Microsoft Edge to test the performance of the website.
-  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp.
+  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp. However this didn't help enough on the opportunities.html page as page load times were still slow.
 
 ### Validator testing
 
@@ -91,4 +98,4 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 ### Unfixed Bugs
 
-- None
+- Become a member page FAQ's caused the background image to move upon opening of the individual FAQ's, I was unable to find a fix for this while using the same background image due to the dimensions of the image.
