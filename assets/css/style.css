@@ -219,9 +219,10 @@ li > #icon-twitter:visited {
   color: #f7ecca;
   transition: all 0.3s;
 }
+
 li > #icon-twitter:hover,
 li > #icon-twitter:active {
-  color: #00acee;
+  color: #000;
 }
 
 li > #icon-facebook:link,
@@ -1407,7 +1408,7 @@ h2 > .fa-circle-question {
 
 /*Main Styling*/
 #completed-signup-container {
-  height: 100vh;
+  height: auto;
   background-color: #f7ecca;
   display: grid;
   grid-template-columns: 1fr;
@@ -1511,10 +1512,15 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 480px**/
 /***Main Styling***/
 @media screen and (max-width: 480px) {
+  #completed-signup-container {
+    height: 100vh;
+  }
+
   #completed-signup-container > #completion-container {
     margin: 50px;
     width: auto;
   }
+
   #completion-title-and-text > #completion-text {
     font-size: 80%;
   }
