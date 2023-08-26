@@ -890,11 +890,11 @@ aside > ul {
   }
 
   .volunteer-card > .volunteer-card-description {
-    font-size: 60%;
+    font-size: 70%;
   }
 
   #donating-to-charity > #global-charity-text {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   .volunteer-card > .volunteer-now:link,
@@ -935,13 +935,13 @@ aside > ul {
 @media screen and (max-width: 350px) {
   /***Main Styling***/
   .volunteer-card > .volunteer-card-description {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   #donating-to-charity > #global-charity-text {
-    font-size: 40%;
+    font-size: 50%;
   }
-}
+
 
 /*Member.html Styling*/
 /**Header Styling**/
