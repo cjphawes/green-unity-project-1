@@ -1,4 +1,4 @@
-# HAND <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/hands-holding-circle.svg" width="50" height="29"> HAND
+# HAND IN HAND
 
 ---
 
@@ -12,6 +12,12 @@ Here is a quick look at my website on a variety of device widths.
 
 ![A variety of screen widths of my website](/assets/README-file-images/variety-of-different-screen-widths-of-website.png)
 Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
+
+---
+
+## The Process
+
+#### Wiregrams
 
 ---
 
@@ -74,7 +80,7 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 - A profile page for the volunteer once they've signed up which integrates with the future feature below.
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
 - Always space for more volunteering opportunities, and with more could comes a filter element for finding opportunities the user wants more easily.
-- A log in feature as well as sign-up so returning users can log in
+- A log in feature as well as sign-up so returning users can log in.
 
 ---
 
@@ -111,6 +117,41 @@ The website was deployed to Github Pages.
   **1.** From your website Github repository, navigate to **Settings**.
   **2.** Make sure your default branch is set to `main` and then, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
   **3.** Make sure the branch selected is `main`, and upon a refresh of the page, at the top of the page automatically, a link will populate detailing your live web address.
-  <br>
 
-  The live link can be found here - https://cjphawes.github.io/handinhand-project-1/
+The live link can be found here - https://cjphawes.github.io/handinhand-project-1/
+
+---
+
+## Credits
+
+#### Content
+
+- **All Pages**
+  - The footer icons, including social media platform logos, were taken from [Font Awesome](https://fontawesome.com/).
+    <br>
+- **Landing Page**
+  - I used [Chat GPT](https://chat.openai.com/) for the brief user enticing text.
+    <br>
+- **Opportunities Page**
+  - All the aside links and description, apart from British Red Cross and WWF, are from [Climate Volunteering](https://www.climatevolunteering.com/opportunities).
+  - All the card descriptions are from Chat GPT that I auto-generated.
+    <br>
+- **Become a Member Page**
+  - Sign-up and FAQ icons were taken from Font Awesome.
+  - The FAQ question and answers were taken from [International Volunteer HQ](https://www.volunteerhq.org/gb/faq/).
+    <br>
+- **Completed Sign-up Page**
+  - The green tick icon was taken from Font Awesome.
+
+#### Media
+
+- **Landing Page**
+  - The hero background image was taken from [Adobe Stock](https://stock.adobe.com/uk/).
+    <br>
+- **Opportunities Page**
+- The card style opportunity background images are from [Pexels](https://www.pexels.com/) & [Unsplash](https://unsplash.com/).
+  <br>
+- **Become a Member Page**
+  - The background image was taken from Unsplash.
+
+---
