@@ -80,11 +80,12 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 ## Testing
 
-- Testing was completed on Google Chrome, Microsoft Edge and Apple's Safari, on different devices and modes.
+- Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers, on different devices and screen widths.
+
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
-- The form CTA button was originally a anchor element, however I found that form validation was cancelled due to not using a submit button. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect too or use `method="POST"` and use the code institutes formdump link. I opted for the better user experience option. However with that in mind I also know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would be able to use Javascript or another programmping language to redirect while using the `method="POST"` to ease the struggle but with limited knowledge this was the best I could do.
-- I used the Lighthouse reporting tool in Google Chrome & Microsoft Edge to test the performance of the website.
-  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp. However this didn't help enough on the opportunities.html page as page load times were still slow.
+- The sign-up form CTA button was originally an anchor element, however I found that form validation was cancelled due to not being a button element. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect the user too or use `method="POST"` and use the Code Institute's formdump link. I opted for the better user experience option. However with that in mind, I know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would use Javascript or another programming language to redirect the user, whilst using the `method="POST"` to ease the struggle, but with limited knowledge this was the best I could do.
+- I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge & Firefox to test the performance of the website.
+  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp. However this didn't help enough on the opportunities.html page as the load time is still slow.
 
 ### Validator testing
 
@@ -98,4 +99,18 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 
 ### Unfixed Bugs
 
-- Become a member page FAQ's caused the background image to move upon opening of the individual FAQ's, I was unable to find a fix for this while using the same background image due to the dimensions of the image.
+- Become a member page FAQ's causes the background image to move upon opening of the individual FAQ's, I was unable to find a fix for this while using the same background image due to the dimensions of the image.
+
+---
+
+## Deployment
+
+The website was deployed to Github Pages.
+
+- To do so, follow these steps:
+  **1.** From your website Github repository, navigate to **Settings**.
+  **2.** Make sure your default branch is set to `main` and then, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
+  **3.** Make sure the branch selected is `main`, and upon a refresh of the page, at the top of the page automatically, a link will populate detailing your live web address.
+  <br>
+
+  The live link can be found here - https://cjphawes.github.io/handinhand-project-1/
