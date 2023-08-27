@@ -145,21 +145,33 @@ li > #home-link-active:visited {
 .footer {
   height: auto;
   background-color: #253c1b;
-  display: grid;
-  grid-template-columns: 1fr 90px 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+#socials > #socials-heading,
+#contact-info > #contact-heading {
+  font-size: 120%;
+}
 /***Contact Information Styling***/
 .footer > #contact-info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  gap: 15px;
   padding: 20px 10px;
   margin: 0 20px;
 }
 
+#contact-info > #contact-us {
+  display: flex;
+  gap: 20px;
+}
+
 a > .contact-details {
   color: #c5c5c5;
+  font-size: 110%;
 }
 
 div > .contact-icons {
@@ -189,14 +201,15 @@ div > #icon-phone:active {
 .footer > #socials {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   padding: 20px 10px;
+  align-items: center;
 }
 
 #socials > .social-links {
   display: flex;
-  flex-direction: column;
   gap: 20px;
+  font-size: 20px;
 }
 
 li > #icon-instagram:link,
@@ -233,14 +246,6 @@ li > #icon-facebook:visited {
 li > #icon-facebook:hover,
 li > #icon-facebook:active {
   color: #3b5998;
-}
-
-/***Copyright Styling***/
-.footer > #copyright {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  padding-bottom: 20px;
 }
 
 /*MEDIA QUERIES FOR INDEX.HTML*/
@@ -1605,17 +1610,16 @@ h2 > .fa-circle-question {
   /***Footer Styling***/
   #contact-info > #contact-heading,
   #socials > #socials-heading {
-    font-size: 80%;
+    font-size: 100%;
   }
 
   a > .contact-details {
-    font-size: 70%;
     text-decoration: underline;
     color: #fff;
   }
 
   div > .contact-icons {
-    font-size: 60%;
+    font-size: 70%;
   }
 
   div > #icon-email:link,
@@ -1624,41 +1628,23 @@ h2 > .fa-circle-question {
   div > #icon-phone:visited,
   div > #icon-location:link,
   div > #icon-location:visited {
-    font-size: 70%;
-  }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
+    font-size: 80%;
   }
 }
 
-/**FOR SCREEN WIDTHS BELOW 550px**/
-/***Footer Styling***/
-@media screen and (max-width: 550px) {
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 60%;
+/**FOR SCREEN WIDTH BELOW 650px**/
+@media screen and (max-width: 650px) {
+  /***Footer Styling***/
+  a > .contact-details {
+    font-size: 100%;
   }
 
-  div > .contact-details {
-    font-size: 50%;
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 90%;
   }
 
   div > .contact-icons {
-    font-size: 50%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
     font-size: 60%;
   }
 
@@ -1671,22 +1657,14 @@ h2 > .fa-circle-question {
     font-size: 70%;
   }
 
-  .footer > #copyright {
+  #socials > #copyright {
     font-size: 70%;
-  }
-
-  .footer > #contact-info {
-    gap: 5px;
-  }
-
-  #socials > .social-links {
-    gap: 10px;
   }
 }
 
-/**FOR SCREEN WIDTHS BELOW 480px**/
+/**FOR SCREEN WIDTHS BELOW 510px**/
 /***Header Styling***/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
   li > .links:link,
   li > .links:visited {
     font-size: 60%;
@@ -1699,26 +1677,33 @@ h2 > .fa-circle-question {
   #header-fixed > h1 {
     font-size: 180%;
   }
+
+  /***Footer Styling***/
+  .footer > #contact-info {
+    gap: 10px;
+  }
+
+  #contact-info > #contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
-/**FOR SCREEN WIDTHS BELOW 380px**/
+/**FOR SCREEN WIDTHS BELOW 390px**/
 /***Footer Styling***/
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   li > #icon-instagram:link,
   li > #icon-instagram:visited,
   li > #icon-twitter:link,
   li > #icon-twitter:visited,
   li > #icon-facebook:link,
   li > #icon-facebook:visited {
-    font-size: 70%;
+    font-size: 80%;
   }
 
   div > .contact-details {
-    font-size: 30%;
-  }
-
-  div > .contact-icons {
-    font-size: 40%;
+    font-size: 60%;
   }
 
   div > #icon-email:link,
@@ -1727,16 +1712,16 @@ h2 > .fa-circle-question {
   div > #icon-phone:visited,
   div > #icon-location:link,
   div > #icon-location:visited {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   #contact-info > #contact-heading,
   #socials > #socials-heading {
-    font-size: 40%;
+    font-size: 70%;
   }
 
-  .footer > #copyright {
-    font-size: 40%;
+  #socials > #copyright {
+    font-size: 60%;
   }
 }
 
@@ -1762,20 +1747,21 @@ h2 > .fa-circle-question {
   }
 
   /***Footer Styling***/
-  div > .contact-details {
-    font-size: 20%;
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 60%;
   }
 
-  div > .contact-icons {
-    font-size: 40%;
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
   }
 
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 40%;
+  #socials > #copyright {
+    font-size: 50%;
   }
 }
