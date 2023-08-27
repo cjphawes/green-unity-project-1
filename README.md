@@ -43,40 +43,42 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 #### Landing Page
 
 - **Landing Page Hero Section**
-  - The landing page includes a background image relating to the future of the planet, with lower brightness, to give visual aid to the paragraph and CTA button on top.
-  - CTA button (Join The Fight) is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
+  - It includes a background image relating to the future of the planet, with low brightness, to give visual aid to the paragraph and CTA button on top.
+  - The CTA button is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
 
 ![landing_page_hero_section](/assets/README-file-images/landing-page-hero-section.png)
 
 #### Opportunities Page
 
 - **Opportunities Section**
-  - A small paragraph giving guidance on how to start their jounrey volunteering.
-  - Provides a variety of horizontal card style opportunities for the user to select. They includes a background image relating to the opportunity, with an associated icon, plus a small enticing description on what it entails. A visual element added is when hovering over a oppportunity, increasing in size to help the user identify which opportunity they are focused on. The associated icon helps the user decide what type of volunteering they would like to sign-up for.
-  - Each opportunity has a CTA Button and they all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
+  - There's a small paragraph giving guidance on how to start their journey volunteering.
+  - It provides a variety of horizontal card style opportunities for the user to select. They include a background image relating to the opportunity, with an associated icon, plus a small enticing description on the opportunity entails. A visual element added is when hovering over a oppportunity card, increasing in size to help the user identify which opportunity they are focused on.
+  - The associated icons help the user further identify which type of volunteering they have available to them.
+  - Each opportunity card has a CTA button, that all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
 - **Aside section**
-  - A selection of recommended external websites, using the `target="_blank"` attribute for creating external tab so users don't lose the webpage, that also help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional.
+  - A selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
 
 ![opportunity_page](/assets/README-file-images/opportunities-page.png)
 
 #### Become a Member Page
 
 - **Sign-up Form**
-  - A visually easy form to fill out for sign-ups, asking basic information needed from the volunteers. Large in size for users to see and also `placeholder` attribute is used to aid users in case of uncertainty for inputs. Each input also has the `required` attribute so no section is missed.
-  - CTA button (Get Started Now) on hover changes colour so the user knows what they're hovering on.
+  - A visually easy form to fill out for new sign-ups, asking for basic information needed from new volunteers. It's large in size for users to see and the `placeholder` attribute is used to aid users in cases of uncertainty for inputs. Each input also has the `required` attribute so no section is missed.
+  - The CTA button, on hover, changes colour so the user knows what they're hovering over.
 - **FAQ's**
-  - 4 FAQ's in a dropdown style providing common answers to questions. Low transparency on the background to see the background image which relates to providing care and love to the world.
+  - There's four FAQ's in a dropdown style, providing common answers to questions. Low transparency is used on the background to make the background image, relating to providing care and love to the world, and text stand out more to the user.
 
 ![become-a-member-page](/assets/readme-file-images/become-a-member-page.png)
 
 #### Completed Sign-up Page
 
-- Visualisation for the user to show the CTA button has worked and they have signed up successfully.
-- Added animation of green tick pulsating for more creativity to the page and make it come alive more.
+- This shows visualisation for the user, showing the CTA button has worked and they have successfully signed up.
+- There's an animation of green tick pulsating, adding more creatviity to the page and make it come alive more.
+- There's two redirection links, back to the landing page and opportunities page in case they want to continue browsing the website without using the browsers back/fowards buttons.
 
 ![completed-signup-page](/assets/readme-file-images/completed-signup-page.png)
 
-### Future features
+### Future Features to Implement
 
 - A profile page for the volunteer once they've signed up which integrates with the future feature below.
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
