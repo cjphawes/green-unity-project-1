@@ -81,6 +81,7 @@ We have 4 pages. Landing and opportunities page, become a member page with sign-
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
 - Always space for more volunteering opportunities, and with more could comes a filter element for finding opportunities the user wants more easily.
 - A log in feature as well as sign-up so returning users can log in.
+- A visual map for showing where in the world these opportunities are located.
 
 ---
 
