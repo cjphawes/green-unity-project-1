@@ -4,9 +4,9 @@
 
 **Hello Fellow Coders!**
 
-Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants and needs. This project targets anyone who is willing to volunteer to help society and the planet as a whole in any aspect, either being location or type of volunteering.
+Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants and needs. This project targets anyone who is willing to volunteer to help society and the planet as a whole, this being by location or type of volunteering.
 
-This website aims to aid not only avid volunteers but also newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK). As well as being able to sign-up for up to date information and news on new opportunities to volunteer for.
+This website aims to aid, not only avid volunteers but, newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK) and being able to sign-up for up to date information and news on new opportunities to volunteer for.
 
 Here is a quick look at my website on a variety of device widths.
 
@@ -23,19 +23,20 @@ Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.gith
 
 ## Features
 
-We have 4 pages. Landing and opportunities page, become a member page with sign-up form and a completed sign-up page giving the user visual confirmation of sign-up completion.
+We have 4 pages. A landing page, an opportunities page with all the options for volunteering, a become a member page with a sign-up form and a completed sign-up page, giving the user visual confirmation of their successful sign-up form.
 
 ### Existing Features
 
 - **Navigation Bar**
-  - Featured on all 4 pages, includes the website name/logo and the navigation links. Theese are a Home, Opportunities and Become a member link.
-  - It's identical on every page and there is an active styling on individual links to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the back button to navigate forwards and backwards.
+  - Featured on all 4 pages, it includes the website name/logo and navigation links. These are Home, Opportunities and Become a member links.
+  - It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
 
 ![nav_bar](/assets/README-file-images/nav-bar-of-handinhand-project.png)
 
 - **Footer**
-  - Featured on all 4 pages, includes 2 sections, one with contact details and the other with links to social media platforms.
-  - The email and phone numbers are accessible directly from the icon if the user has their email/calling set up on their device. The social media links externally go to the respective websites, this is so the user doesnt lose the page they are on, on the website.
+  - Featured on all 4 pages, it includes 2 sections, one with contact details and the other with links to social media platforms and the copyright notice.
+  - The email and phone numbers are accessible directly from the words themselves, if the user has their email/calling set up on their device. On smaller screen widths they are underlined for user visualisation that they are clickable links.
+  - The social media links externally go to their respective websites, this is so the user doesnt lose the page they're on within the website.
 
 ![footer](/assets/README-file-images/footer-of-handinhand-project.png)
 
@@ -136,6 +137,7 @@ The live link can be found here - https://cjphawes.github.io/handinhand-project-
 - **Opportunities Page**
   - All the aside links and description, apart from British Red Cross and WWF, are from [Climate Volunteering](https://www.climatevolunteering.com/opportunities).
   - All the card descriptions are from Chat GPT that I auto-generated.
+  - The individual card icons are taken from Font Awesome.
     <br>
 - **Become a Member Page**
   - Sign-up and FAQ icons were taken from Font Awesome.
