@@ -80,20 +80,19 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 
 ### Future Features to Implement
 
-- A profile page for the volunteer once they've signed up which integrates with the future feature below.
+- A profile page for the volunteer once they've signed up.
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
-- Always space for more volunteering opportunities, and with more could comes a filter element for finding opportunities the user wants more easily.
-- A log in feature as well as sign-up so returning users can log in.
+- A log-in feature as well as sign-up so returning users can log in to their profile.
+- Always space for more volunteering opportunities, and with more, a filter element for finding opportunities the user wants more easily.
 - A visual map for showing where in the world these opportunities are located.
 
 ---
 
 ## Testing
 
-- Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers, on different devices and screen widths.
-
+- Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers, on different device screen widths.
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
-- The sign-up form CTA button was originally an anchor element, however I found that form validation was cancelled due to not being a button element. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect the user too or use `method="POST"` and use the Code Institute's formdump link. I opted for the better user experience option. However with that in mind, I know I have used the incorrect method due to the nature of a form wanting to POST data not GET, in the real world I would use Javascript or another programming language to redirect the user, whilst using the `method="POST"` to ease the struggle, but with limited knowledge this was the best I could do.
+- The sign-up form CTA button was originally an anchor element, however I found that form validation was cancelled due to not being a button element. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect the user too or use `method="POST"` and use the Code Institute's formdump link. I opted for the better user experience option. However with that in mind, I know I have used the incorrect method due to the nature of a form wanting to **POST** data not **GET**. In the real world, I would use Javascript or another programming language to redirect the user, whilst using the `method="POST"` to ease the struggle, but with limited knowledge, this was the best I could do.
 - I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge & Firefox to test the performance of the website.
   - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp. However this didn't help enough on the opportunities.html page as the load time is still slow.
 
@@ -117,9 +116,9 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 
 The website was deployed to Github Pages.
 
-- To do so, follow these steps:
+- To do so, I followed these steps:
   **1.** From your website Github repository, navigate to **Settings**.
-  **2.** Make sure your default branch is set to `main` and then, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
+  **2.** Make sure your default branch is set to `main`, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
   **3.** Make sure the branch selected is `main`, and upon a refresh of the page, at the top of the page automatically, a link will populate detailing your live web address.
 
 The live link can be found here - https://cjphawes.github.io/handinhand-project-1/
@@ -154,8 +153,8 @@ The live link can be found here - https://cjphawes.github.io/handinhand-project-
   - The hero background image was taken from [Adobe Stock](https://stock.adobe.com/uk/).
     <br>
 - **Opportunities Page**
-- The card style opportunity background images are from [Pexels](https://www.pexels.com/) & [Unsplash](https://unsplash.com/).
-  <br>
+  - The card style opportunity background images are from [Pexels](https://www.pexels.com/) & [Unsplash](https://unsplash.com/).
+    <br>
 - **Become a Member Page**
   - The background image was taken from Unsplash.
 
