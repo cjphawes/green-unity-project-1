@@ -1,4 +1,4 @@
-# HAND IN HAND
+# Hand In Hand
 
 ---
 
