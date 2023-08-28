@@ -28,8 +28,13 @@ body {
 .header > h1 {
   justify-self: center;
   align-self: center;
-  font-size: 230%;
+}
+
+h1 > #logo-link:link,
+h1 > #logo-link:visited {
   color: #f7ecca;
+  text-decoration: none;
+  font-size: 130%;
 }
 
 /***Navigation Styling***/
@@ -80,7 +85,7 @@ li > #home-link-active:visited {
 #hero-section {
   height: 100vh;
 
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url(../images/handing-over-earth-min.webp);
   background-size: cover;
   background-position: center center;
@@ -349,8 +354,13 @@ li > #icon-facebook:active {
 #header-fixed > h1 {
   justify-self: center;
   align-self: center;
-  font-size: 230%;
+}
+
+h1 > #logo-link:link,
+h1 > #logo-link:visited {
   color: #f7ecca;
+  text-decoration: none;
+  font-size: 130%;
 }
 
 /***Navigation Styling***/
@@ -432,7 +442,7 @@ li > #opportunities-link-active:visited {
   border-radius: 10px;
   color: #fff;
   font-size: 90%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .volunteer-card > .volunteer-now:link,
@@ -1604,17 +1614,21 @@ h2 > .fa-circle-question {
   }
 
   #header-fixed > h1 {
-    font-size: 230%;
+    justify-self: center;
+    align-self: center;
+  }
+
+  h1 > #logo-link:link,
+  h1 > #logo-link:visited {
+    color: #f7ecca;
+    text-decoration: none;
+    font-size: 130%;
   }
 
   #header-fixed > .nav-bar {
     display: grid;
     justify-content: center;
     margin: 0;
-  }
-
-  .header > h1 {
-    font-size: 230%;
   }
 
   .header > .nav-bar {
