@@ -17,7 +17,31 @@ Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.gith
 
 ## The Process
 
-#### Wiregrams
+#### Wireframes
+
+This was my first design I wanted to acheive. Initially, I set out to create one webpage with multiple sections. As you can see it has slightly changed but some elements remain included, however all on different pages now.
+
+##### Header Section [Take me there!](#navigation-bar)
+
+- This remains almost exactly the same just with fewer links in the navigation bar.
+
+##### Hero Section [Take me there!](#landing-page-hero-section)
+
+- This has slightly changed albeit, I still kept the description text and CTA button with background image. But I decided to opt out for the email notifications and turn that into a whole page with the [Become a Member page](#become-a-member-page).
+
+##### Endorsement Section
+
+- I decided to completely remove this section due to uncertainty of copyright issues with using certain companies logos.
+
+##### Opportunities Section [Take me there!](#opportunities-section)
+
+- I took some elements of this design and implemented them while also adding additional elements, such as the [Aside Section](#aside-section).
+
+##### Footer Section [Take me there!](#footer)
+
+- This has remnants of the original design, however some elements have moved around the footer section while removing a title, link row and a few more links.
+
+![first-initial-design](/assets/readme-file-images/first-wireframe-design.svg)
 
 ---
 
@@ -27,46 +51,55 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 
 ### Existing Features
 
-- **Navigation Bar**
-  - Featured on all 4 pages, it includes the website name/logo and navigation links. These are Home, Opportunities and Become a member links.
-  - It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
+##### Navigation Bar
 
-![nav_bar](/assets/README-file-images/nav-bar-of-handinhand-project.png)
+- Featured on all 4 pages, it includes the website name/logo and navigation links. These are Home, Opportunities and Become a member links.
+- It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
 
-- **Footer**
-  - Featured on all 4 pages, it includes 2 sections, one with contact details and the other with links to social media platforms and the copyright notice.
-  - The email and phone numbers are accessible directly from the words themselves, if the user has their email/calling set up on their device. On smaller screen widths they are underlined for user visualisation that they are clickable links.
-  - The social media links externally go to their respective websites, this is so the user doesnt lose the page they're on within the website.
+![nav-bar](/assets/README-file-images/nav-bar-of-handinhand-project.png)
+
+##### Footer
+
+- Featured on all 4 pages, it includes 2 sections, one with contact details and the other with links to social media platforms and the copyright notice.
+- The email and phone numbers are accessible directly from the words themselves, if the user has their email/calling set up on their device. On smaller screen widths they are underlined for user visualisation that they are clickable links.
+- The social media links externally go to their respective websites, this is so the user doesnt lose the page they're on within the website.
 
 ![footer](/assets/README-file-images/footer-of-handinhand-project.png)
 
 #### Landing Page
 
-- **Landing Page Hero Section**
-  - It includes a background image relating to the future of the planet, with low brightness, to give visual aid to the paragraph and CTA button on top.
-  - The CTA button is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
+##### Landing Page Hero Section
 
-![landing_page_hero_section](/assets/README-file-images/landing-page-hero-section.png)
+- It includes a background image relating to the future of the planet, with low brightness, to give visual aid to the paragraph and CTA button on top.
+- The CTA button is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
+
+![landing-page-hero-section](/assets/README-file-images/landing-page-hero-section.png)
 
 #### Opportunities Page
 
-- **Opportunities Section**
-  - There's a small paragraph giving guidance on how to start their journey volunteering.
-  - It provides a variety of horizontal card style opportunities for the user to select. They include a background image relating to the opportunity, with an associated icon, plus a small enticing description on the opportunity entails. A visual element added is when hovering over a oppportunity card, increasing in size to help the user identify which opportunity they are focused on.
-  - The associated icons help the user further identify which type of volunteering they have available to them.
-  - Each opportunity card has a CTA button, that all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
-- **Aside section**
-  - A selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
+##### Opportunities Section
 
-![opportunity_page](/assets/README-file-images/opportunities-page.png)
+- There's a small paragraph giving guidance on how to start their journey volunteering.
+- It provides a variety of horizontal card style opportunities for the user to select. They include a background image relating to the opportunity, with an associated icon, plus a small enticing description on the opportunity entails. A visual element added is when hovering over a oppportunity card, increasing in size to help the user identify which opportunity they are focused on.
+- The associated icons help the user further identify which type of volunteering they have available to them.
+- Each opportunity card has a CTA button, that all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
+
+##### Aside section
+
+- A selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
+
+![opportunity-page](/assets/README-file-images/opportunities-page.png)
 
 #### Become a Member Page
 
-- **Sign-up Form**
-  - A visually easy form to fill out for new sign-ups, asking for basic information needed from new volunteers. It's large in size for users to see and the `placeholder` attribute is used to aid users in cases of uncertainty for inputs. Each input also has the `required` attribute so no section is missed.
-  - The CTA button, on hover, changes colour so the user knows what they're hovering over.
-- **FAQ's**
-  - There's four FAQ's in a dropdown style, providing common answers to questions. Low transparency is used on the background to make the background image, relating to providing care and love to the world, and text stand out more to the user.
+##### Sign-up Form
+
+- A visually easy form to fill out for new sign-ups, asking for basic information needed from new volunteers. It's large in size for users to see and the `placeholder` attribute is used to aid users in cases of uncertainty for inputs. Each input also has the `required` attribute so no section is missed.
+- The CTA button, on hover, changes colour so the user knows what they're hovering over.
+
+##### FAQ's
+
+- There's four FAQ's in a dropdown style, providing common answers to questions. Low transparency is used on the background to make the background image, relating to providing care and love to the world, and text stand out more to the user.
 
 ![become-a-member-page](/assets/readme-file-images/become-a-member-page.png)
 
@@ -98,13 +131,16 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 
 ### Validator testing
 
-- **HTML**
-  - No errors were found using the official [W3C Validator (completed-signup.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fcompleted-signup.html)
-  - No errors were found using the official [W3C Validator (member.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fmember.html)
-  - No errors were found using the official [W3C Validator (opportunities.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fopportunities.html)
-  - No errors were found using the official [W3C Validator (index.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Findex.html)
-- **CSS**
-  - No errors were found using the official [(Jigsaw) Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fassets%2Fcss%2Fstyle.css&usermedium=all&vextwarning=&warning=1)
+##### HTML
+
+- No errors were found using the official [W3C Validator (completed-signup.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fcompleted-signup.html)
+- No errors were found using the official [W3C Validator (member.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fmember.html)
+- No errors were found using the official [W3C Validator (opportunities.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fopportunities.html)
+- No errors were found using the official [W3C Validator (index.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Findex.html)
+
+##### CSS
+
+- No errors were found using the official [(Jigsaw) Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fassets%2Fcss%2Fstyle.css&usermedium=all&vextwarning=&warning=1)
 
 ### Unfixed Bugs
 
