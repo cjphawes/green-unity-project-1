@@ -8,10 +8,13 @@ Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants an
 
 This website aims to aid, not only avid volunteers but, newbies who want to start their volunteering journey! The website does this by offering various opportunities both globally or locally (based in the UK) and being able to sign-up for up to date information and news on new opportunities to volunteer for.
 
-Here is a quick look at my website on a variety of device widths.
+Take a look at my website [Here!](https://cjphawes.github.io/handinhand-project-1/)
+
+Here's a quick glance at my website on a variety of device widths.
 
 ![A variety of screen widths of my website](/assets/README-file-images/variety-of-different-screen-widths-of-website.png)
-Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
+
+- Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
 
 ---
 
@@ -19,15 +22,17 @@ Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.gith
 
 #### Wireframes
 
-This was my first design I wanted to acheive. Initially, I set out to create one webpage with multiple sections. As you can see it has slightly changed but some elements remain included, however all on different pages now.
+This was my first design I wanted to acheive. Initially, I set out to create one webpage with multiple sections. As you can see, it has slightly changed due to me splitting it down into multiple pages, however the majority of elements remain included.
+
+![first-initial-design](/assets/readme-file-images/first-wireframe-design.svg)
 
 ##### Header Section [Take me there!](#navigation-bar)
 
-- This remains almost exactly the same just with fewer links in the navigation bar.
+- This remains almost exactly the same, just with fewer links in the navigation bar.
 
 ##### Hero Section [Take me there!](#landing-page-hero-section)
 
-- This has slightly changed albeit, I still kept the description text and CTA button with background image. But I decided to opt out for the email notifications and turn that into a whole page with the [Become a Member page](#become-a-member-page).
+- This has slightly changed, albeit I still kept the description text and CTA button with background image. But I decided to opt out for the email notifications and turn that into a whole page with the [Become a Member page](#become-a-member-page).
 
 ##### Endorsement Section
 
@@ -41,19 +46,18 @@ This was my first design I wanted to acheive. Initially, I set out to create one
 
 - This has remnants of the original design, however some elements have moved around the footer section while removing a title, link row and a few more links.
 
-![first-initial-design](/assets/readme-file-images/first-wireframe-design.svg)
-
 ---
 
 ## Features
 
-We have 4 pages. A landing page, an opportunities page with all the options for volunteering, a become a member page with a sign-up form and a completed sign-up page, giving the user visual confirmation of their successful sign-up form.
+There are 4 pages for the user to navigate around. A [Landing Page](#landing-page), an [Opportunities Page](#opportunities-page) with all the options for volunteering, a [Become a Member Page](#become-a-member-page) with a sign-up form and a [Completed Sign-up Page](#completed-sign-up-page), giving the user visual confirmation of their successful sign-up form.
 
 ### Existing Features
 
 ##### Navigation Bar
 
 - Featured on all 4 pages, it includes the website name/logo and navigation links. These are Home, Opportunities and Become a member links.
+- The logo is interactive, allowing the user to click on it to return to the home page.
 - It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
 
 ![nav-bar](/assets/README-file-images/nav-bar-of-handinhand-project.png)
@@ -82,11 +86,11 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 - There's a small paragraph giving guidance on how to start their journey volunteering.
 - It provides a variety of horizontal card style opportunities for the user to select. They include a background image relating to the opportunity, with an associated icon, plus a small enticing description on the opportunity entails. A visual element added is when hovering over a oppportunity card, increasing in size to help the user identify which opportunity they are focused on.
 - The associated icons help the user further identify which type of volunteering they have available to them.
-- Each opportunity card has a CTA button, that all link to the Become a Member page. Visual aid is also given with changing background and border when hovering over it.
+- Each opportunity card has a CTA button, that all link to the Become a Member page. Visual aid is also given with changing the background and border when hovering over it.
 
 ##### Aside section
 
-- A selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
+- I have added selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
 
 ![opportunity-page](/assets/README-file-images/opportunities-page.png)
 
@@ -116,8 +120,8 @@ We have 4 pages. A landing page, an opportunities page with all the options for 
 - A profile page for the volunteer once they've signed up.
 - Favouriting volunteering opportunities, which can then be viewed in your profile section.
 - A log-in feature as well as sign-up so returning users can log in to their profile.
-- Always space for more volunteering opportunities, and with more, a filter element for finding opportunities the user wants more easily.
-- A visual map for showing where in the world these opportunities are located.
+- A filtering element for finding opportunities the user wants more easily.
+- A visual map for showing the user where in the world the opportunities are located.
 
 ---
 
