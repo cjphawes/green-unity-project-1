@@ -135,10 +135,10 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 ##### HTML
 
-- No errors were found using the official [W3C Validator (completed-signup.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fcompleted-signup.html)
-- No errors were found using the official [W3C Validator (member.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fmember.html)
-- No errors were found using the official [W3C Validator (opportunities.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fopportunities.html)
-- No errors were found using the official [W3C Validator (index.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Findex.html)
+- No errors were found using the official [W3C Validator (completed-signup.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fcompleted-signup.html)![completed-signup-page-html-validation](/assets/readme-file-imgs/completed-signup-html-val.png)
+- No errors were found using the official [W3C Validator (member.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fmember.html)![become-a-member-page-html-validation](/assets/readme-file-imgs/become-a-member-page-html-val.png)
+- No errors were found using the official [W3C Validator (opportunities.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fopportunities.html)![opportunities-page-html-validation](/assets/readme-file-imgs/opportunities-page-html-val.png)
+- No errors were found using the official [W3C Validator (index.html)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Findex.html)![index-page-html-validation](/assets/readme-file-imgs/index-page-html-val.png)
 
 ##### CSS
 
@@ -154,10 +154,11 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 The website was deployed to Github Pages.
 
-- To do so, I followed these steps:
-  **1.** From your website Github repository, navigate to **Settings**.
-  **2.** Make sure your default branch is set to `main`, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
-  **3.** Make sure the branch selected is `main`, and upon a refresh of the page, at the top of the page automatically, a link will populate detailing your live web address.
+To do so, I followed these steps:
+
+- **1.** From your website Github repository, navigate to **Settings**.
+- **2.** Make sure your default branch is set to `main`, in the left-hand side drop down menu, under **Code and Automation**, select **Pages**.
+- **3.** Make sure the branch selected is `main`, and upon a refresh of the page, at the top of the page automatically, a link will populate detailing your live web address.
 
 The live link can be found here - https://cjphawes.github.io/handinhand-project-1/
 
