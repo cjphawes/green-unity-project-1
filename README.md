@@ -12,7 +12,7 @@ Take a look at my website [Here!](https://cjphawes.github.io/handinhand-project-
 
 Here's a quick glance at my website on a variety of device widths.
 
-![A variety of screen widths of my website](/assets/README-file-imgs/variety-of-different-screen-widths-of-website.png)
+![A variety of screen widths of my website](/assets/readme-file-imgs/variety-of-different-screen-widths-of-website.png)
 
 - Am I Responsive [Webpage](https://ui.dev/amiresponsive?url=https://cjphawes.github.io/handinhand-project-1/)
 
@@ -60,7 +60,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - The logo is interactive, allowing the user to click on it to return to the home page.
 - It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
 
-![nav-bar](/assets/README-file-imgs/nav-bar-of-handinhand-project.png)
+![nav-bar](/assets/readme-file-imgs/nav-bar-of-handinhand-project.png)
 
 ##### Footer
 
@@ -68,7 +68,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - The email and phone numbers are accessible directly from the words themselves, if the user has their email/calling set up on their device. On smaller screen widths they are underlined for user visualisation that they are clickable links.
 - The social media links externally go to their respective websites, this is so the user doesnt lose the page they're on within the website.
 
-![footer](/assets/README-file-imgs/footer-of-handinhand-project.png)
+![footer](/assets/readme-file-imgs/footer-of-handinhand-project.png)
 
 #### Landing Page
 
@@ -77,7 +77,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - It includes a background image relating to the future of the planet, with low brightness, to give visual aid to the paragraph and CTA button on top.
 - The CTA button is big and in the center providing visual hierarchy to the user to focus their attention on what I as the developer want them to click on, with an added visual animation of arrows pointing towards the CTA button.
 
-![landing-page-hero-section](/assets/README-file-imgs/landing-page-hero-section.png)
+![landing-page-hero-section](/assets/readme-file-imgs/landing-page-hero-section.png)
 
 #### Opportunities Page
 
@@ -92,7 +92,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 - I have added selection of recommended external websites, that help contribute to helping the planet/society with a description of what they do. This gives the user a variety of options not just from my website alone, making the user think my website is more official and professional. I also used the `target="_blank"` attribute, for creating external tab so users don't lose the webpage.
 
-![opportunity-page](/assets/README-file-imgs/opportunities-page.png)
+![opportunity-page](/assets/readme-file-imgs/opportunities-page.png)
 
 #### Become a Member Page
 
