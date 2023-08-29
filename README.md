@@ -1,7 +1,5 @@
 # Hand In Hand
 
----
-
 **Hello Fellow Coders!**
 
 Welcome to Hand in Hand, a volunteering hub for everyone's volunteering wants and needs. This project targets anyone who is willing to volunteer to help society and the planet as a whole, this being by location or type of volunteering.
