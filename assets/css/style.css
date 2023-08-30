@@ -264,8 +264,8 @@ li > #icon-facebook:active {
 /**Header Styling**/
 #header-fixed {
   display: grid;
-  grid-template-columns: 20rem 1fr;
-  grid-template-rows: 5rem;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 15rem;
   background-color: #253c1b;
   position: fixed;
   width: 100%;
@@ -274,8 +274,8 @@ li > #icon-facebook:active {
 
 /***Title Logo Styling***/
 #header-fixed > h1 {
-  justify-self: center;
   align-self: center;
+  margin: 100px;
 }
 
 h1 > #logo-link:link,
@@ -853,6 +853,11 @@ h2 > .fa-circle-question {
     grid-template-rows: 10rem;
   }
 
+  #header-fixed {
+    display: grid;
+    grid-template-rows: 10rem;
+  }
+
   /***Title Logo***/
   #title-logo > #logo-link:link,
   #title-logo > #logo-link:visited {
@@ -889,6 +894,10 @@ h2 > .fa-circle-question {
 @media screen and (max-width: 1670px) {
   /**Header Styling for ALL PAGES**/
   .header > .nav-bar {
+    margin-right: 50px;
+  }
+
+  #header-fixed > .nav-bar {
     margin-right: 50px;
   }
 
@@ -962,8 +971,9 @@ h2 > .fa-circle-question {
     grid-template-rows: 8rem;
   }
 
-  .header > .nav-bar {
-    margin-right: 50px;
+  #header-fixed {
+    display: grid;
+    grid-template-rows: 8rem;
   }
 
   /***Title Logo***/
@@ -1112,10 +1122,20 @@ h2 > .fa-circle-question {
     grid-template-rows: 6rem;
   }
 
+  #header-fixed {
+    display: grid;
+    grid-template-rows: 6rem;
+  }
+
   /***Title Logo***/
   .header > h1 {
     margin: 0;
   }
+
+  #header-fixed > h1 {
+    margin: 0;
+  }
+
   #title-logo > #logo-link:link,
   #title-logo > #logo-link:visited {
     font-size: 120%;
@@ -1265,6 +1285,15 @@ h2 > .fa-circle-question {
     margin-right: 20px;
   }
 
+  #header-fixed {
+    display: grid;
+    grid-template-rows: 4rem;
+  }
+
+  #header-fixed > .nav-bar {
+    margin-right: 20px;
+  }
+
   /***Title Logo***/
   #title-logo > #logo-link:link,
   #title-logo > #logo-link:visited {
@@ -1308,98 +1337,39 @@ h2 > .fa-circle-question {
   }
 
   /**Footer Styling for ALL PAGES**/
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 130%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 20px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
+    font-size: 100%;
+  }
+
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 100%;
+  }
+
+  /****Socials Styling****/
+  #socials > .social-links {
+    display: flex;
+    gap: 30px;
+    font-size: 130%;
+  }
+
+  #socials > #copyright {
+    font-size: 100%;
+  }
 }
 
 /**FOR SCREEN WIDTHS BELOW 840px**/
 @media screen and (max-width: 840px) {
-  /*MEDIA QUERIES FOR ALL HTML PAGES, HEADER/FOOTER*/
-  /***Header Styling***/
-  .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #253c1b;
-  }
-
-  #header-fixed {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #253c1b;
-  }
-
-  #header-fixed > h1 {
-    justify-self: center;
-    align-self: center;
-  }
-
-  h1 > #logo-link:link,
-  h1 > #logo-link:visited {
-    color: #f7ecca;
-    text-decoration: none;
-    font-size: 130%;
-  }
-
-  #header-fixed > .nav-bar {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .header > .nav-bar {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .nav-bar > .nav-links {
-    padding: 10px 0 20px 0;
-  }
-
-  li > .links:link,
-  li > .links:visited {
-    font-size: 80%;
-  }
-
-  /***Footer Styling***/
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 100%;
-  }
-
-  a > .contact-details {
-    text-decoration: underline;
-    color: #fff;
-  }
-
-  div > .contact-icons {
-    font-size: 70%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 80%;
-  }
-
-  /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
-  #hero-text {
-    font-size: 70%;
-  }
-
-  #hero-info > #volunteer {
-    font-size: 80%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 100%;
-  }
-
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
   /***Main Styling***/
   #opportunities-container > #opportunities {
@@ -1526,6 +1496,86 @@ h2 > .fa-circle-question {
   }
 }
 
+/**FOR SCREEN WIDTH BELOW 770px**/
+@media screen and (max-width: 770px) {
+  /**Header Styling for ALL PAGES**/
+  .nav-bar > .nav-links {
+    gap: 10px;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    font-size: 80%;
+    margin-left: 20px;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 70%;
+    padding: 10px 15px;
+  }
+
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-section > #hero-info {
+    margin: 100px;
+  }
+  #hero-info > #hero-text {
+    font-size: 150%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 130%;
+    margin-top: 50px;
+  }
+
+  #hero-info > #arrows {
+    font-size: 150%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 130%;
+    padding: 15px 20px;
+  }
+
+  /**Footer Styling for ALL PAGES**/
+  .footer > #contact-info {
+    margin: 30px 0;
+  }
+
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 100%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 10px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
+    font-size: 80%;
+  }
+
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 80%;
+  }
+
+  /****Socials Styling****/
+  #socials > .social-links {
+    display: flex;
+    gap: 30px;
+    font-size: 90%;
+  }
+
+  #socials > #copyright {
+    font-size: 70%;
+  }
+}
+
 /**FOR SCREEN WIDTH BELOW 650px**/
 @media screen and (max-width: 650px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
@@ -1575,83 +1625,124 @@ h2 > .fa-circle-question {
   .volunteer-card > .volunteer-now:visited {
     font-size: 120%;
   }
-
-  /***Footer Styling***/
-  a > .contact-details {
-    font-size: 100%;
-  }
-
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 90%;
-  }
-
-  div > .contact-icons {
-    font-size: 60%;
-  }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
-
-  #socials > #copyright {
-    font-size: 70%;
-  }
 }
 
 /**FOR SCREEN WIDTHS BELOW 550px**/
 @media screen and (max-width: 550px) {
+  /**Header Styling for ALL PAGES**/
+  .header {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .header > .nav-bar {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-right: 0;
+  }
+
+  #header-fixed {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #header-fixed > .nav-bar {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-right: 0;
+  }
+
+  /***Title Logo***/
+  .header > h1 {
+    text-align: center;
+  }
+
+  #header-fixed > h1 {
+    text-align: center;
+  }
+
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    text-align: center;
+    font-size: 100%;
+    margin-left: 0px;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 80%;
+    padding: 10px 15px;
+  }
+
   /*MEDIA QUERIES FOR INDEX.HTML*/
   /***Main Styling***/
   #hero-section > #hero-info {
-    margin: 0 50px;
+    margin: 50px 50px;
   }
 
-  #hero-text {
-    font-size: 60%;
+  #hero-info > #hero-text {
+    font-size: 90%;
   }
 
   #hero-info > #volunteer {
-    font-size: 60%;
+    font-size: 80%;
+    margin-top: 30px;
+  }
+
+  #hero-info > #arrows {
+    font-size: 100%;
   }
 
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 70%;
+    padding: 10px 15px;
   }
-}
 
-/**FOR SCREEN WIDTHS BELOW 510px**/
-@media screen and (max-width: 510px) {
-  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Header Styling***/
-  li > .links:link,
-  li > .links:visited {
+  /**Footer Styling for ALL PAGES**/
+  .footer > #contact-info {
+    margin: 30px 0;
+    gap: 10px;
+  }
+
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 80%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 10px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
     font-size: 60%;
   }
 
-  .header > h1 {
-    font-size: 180%;
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 60%;
   }
 
-  #header-fixed > h1 {
-    font-size: 180%;
-  }
-
-  /***Footer Styling***/
-  .footer > #contact-info {
+  /****Socials Styling****/
+  .footer > #socials {
     gap: 10px;
   }
 
-  #contact-info > #contact-us {
+  #socials > .social-links {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    font-size: 90%;
+  }
+
+  #socials > #copyright {
+    font-size: 60%;
   }
 }
 
@@ -1742,22 +1833,6 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 480px**/
 @media screen and (max-width: 480px) {
-  /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
-  #hero-info > #arrows {
-    font-size: 30px;
-  }
-
-  #hero-text {
-    font-size: 40%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 70%;
-    padding: 10px 20px;
-  }
-
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
   /***Main Styling***/
   #opportunities > .opportunities-section {
@@ -1819,54 +1894,73 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTHS BELOW 390px**/
+/**FOR SCREEN WIDTHS BELOW 400px**/
 /***Footer Styling***/
-@media screen and (max-width: 390px) {
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
+@media screen and (max-width: 400px) {
+  /**Header Styling for ALL PAGES**/
+  .header {
+    height: 80px;
+  }
+
+  #header-fixed {
+    height: 80px;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
     font-size: 80%;
   }
 
-  div > .contact-details {
-    font-size: 60%;
+  li > .links:link,
+  li > .links:visited {
+    font-size: 50%;
+    padding: 8px 10px;
   }
 
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 60%;
+  /**Footer Styling for ALL PAGES**/
+  .footer > #contact-info {
+    margin: 20px 0;
+    gap: 5px;
   }
 
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 70%;
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 60%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 10px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
+    font-size: 40%;
+  }
+
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 40%;
+  }
+
+  /****Socials Styling****/
+  .footer > #socials {
+    gap: 10px;
+  }
+
+  #socials > .social-links {
+    display: flex;
+    gap: 20px;
+    font-size: 60%;
   }
 
   #socials > #copyright {
-    font-size: 60%;
+    font-size: 40%;
   }
 }
 
 /**FOR SCREEN WIDTHS BELOW 380px**/
 @media screen and (max-width: 380px) {
-  /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
-  #hero-info > #volunteer {
-    font-size: 40%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 60%;
-  }
-
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
   /***Main Styling***/
   #opportunities-container > #opportunities-text {
@@ -2009,34 +2103,6 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 330px**/
 @media screen and (max-width: 330px) {
-  /**FOR SCREEN WIDTHS BELOW 330px**/
-  /***Header Styling***/
-  .nav-bar > .nav-links {
-    padding: 0 0 20px 0;
-  }
-
-  li > .links:link,
-  li > .links:visited {
-    font-size: 50%;
-    padding: 5px 10px;
-  }
-
-  .header > h1 {
-    font-size: 140%;
-  }
-
-  #header-fixed > h1 {
-    font-size: 140%;
-  }
-
-  /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    padding: 10px 10px;
-    font-size: 50%;
-  }
-
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Main Styling***/
   #completion-title-and-text > #completion-title {
@@ -2044,21 +2110,12 @@ h2 > .fa-circle-question {
   }
 
   /***Footer Styling***/
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 60%;
+  .footer > #contact-info {
+    gap: 0px;
   }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
-
-  #socials > #copyright {
-    font-size: 50%;
+  #contact-info > #contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
   }
 }
