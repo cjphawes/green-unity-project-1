@@ -128,8 +128,11 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers, on different device screen widths.
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
 - The sign-up form CTA button was originally an anchor element, however I found that form validation was cancelled due to not being a button element. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect the user too or use `method="POST"` and use the Code Institute's formdump link. I opted for the better user experience option. However with that in mind, I know I have used the incorrect method due to the nature of a form wanting to **POST** data not **GET**. In the real world, I would use Javascript or another programming language to redirect the user, whilst using the `method="POST"` to ease the struggle, but with limited knowledge, this was the best I could do.
-- I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge & Firefox to test the performance of the website.
-  - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes and changed their formats to webp. However this didn't help enough on the opportunities.html page as the load time is still slow.
+- I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge and Firefox to test the performance of the website. I was happy to recevie above 98% on all scores!
+  - **Index.html**![Index-page-lighthouse-test](/assets/readme-file-imgs/lighthouse-index.png)
+  - **Opportunities.html**![Opportunities-page-lighthouse-testing](/assets/readme-file-imgs/lighthouse-opportunities.png)
+  - **Member.html**![Become-a-member-page-lighthouse-test](/assets/readme-file-imgs/lighthouse-member.png)
+  - **Completed-signup.html**![Completed-signup-page-lighthouse-test](/assets/readme-file-imgs/lighthouse-completed-signup.png)
 
 ### Validator testing
 
@@ -144,9 +147,10 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 - No errors were found using the official [(Jigsaw) Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fassets%2Fcss%2Fstyle.css&usermedium=all&vextwarning=&warning=1)
 
-### Unfixed Bugs
+### Fixed Bugs
 
 - Become a member page FAQ's causes the background image to move upon opening of the individual FAQ's, I was unable to find a fix for this while using the same background image due to the dimensions of the image.
+- First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes, changed their formats to webp and re-sized them.
 
 ---
 
