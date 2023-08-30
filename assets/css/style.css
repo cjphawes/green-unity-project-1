@@ -11,16 +11,17 @@ body {
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   color: #fff;
-  height: 100vh;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 /*Index.html Page*/
-
 /**Header Styling**/
 .header {
   display: grid;
-  grid-template-columns: 20em 1fr;
-  grid-template-rows: 5rem;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 15rem;
   background-color: #253c1b;
 }
 
@@ -34,7 +35,7 @@ h1 > #logo-link:link,
 h1 > #logo-link:visited {
   color: #f7ecca;
   text-decoration: none;
-  font-size: 130%;
+  font-size: 300%;
 }
 
 /***Navigation Styling***/
@@ -80,10 +81,9 @@ li > #home-link-active:visited {
 }
 
 /**Main Styling**/
-
 /***Hero Section***/
 #hero-section {
-  height: 100vh;
+  flex: 1 0 auto;
 
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url(../images/handing-over-earth-min.webp);
@@ -96,6 +96,10 @@ li > #home-link-active:visited {
   margin: 0 100px;
   font-size: 230%;
   color: #f2f2f2;
+}
+
+#hero-info > #hero-text {
+  text-align: center;
 }
 
 #hero-info > #volunteer {
@@ -253,92 +257,7 @@ li > #icon-facebook:active {
   color: #3b5998;
 }
 
-/*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 840px**/
-/***Main Styling***/
-@media screen and (max-width: 840px) {
-  #hero-text {
-    font-size: 70%;
-  }
-
-  #hero-info > #volunteer {
-    font-size: 80%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 100%;
-  }
-}
-
-/*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 550px**/
-/***Main Styling***/
-@media screen and (max-width: 550px) {
-  #hero-section > #hero-info {
-    margin: 0 50px;
-  }
-
-  #hero-text {
-    font-size: 60%;
-  }
-
-  #hero-info > #volunteer {
-    font-size: 60%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 70%;
-  }
-}
-
-/*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 480px**/
-/***Main Styling***/
-@media screen and (max-width: 480px) {
-  #hero-info > #arrows {
-    font-size: 30px;
-  }
-
-  #hero-text {
-    font-size: 40%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 70%;
-    padding: 10px 20px;
-  }
-}
-
-/*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 380px**/
-/***Main Styling***/
-@media screen and (max-width: 380px) {
-  #hero-info > #volunteer {
-    font-size: 40%;
-  }
-
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    font-size: 60%;
-  }
-}
-
-/*MEDIA QUERIES FOR INDEX.HTML*/
-/**FOR SCREEN WIDTHS BELOW 330px**/
-/***Main Styling***/
-@media screen and (max-width: 330px) {
-  #hero-info > #signup-cta-btn > #join-fight:link,
-  #hero-info > #signup-cta-btn > #join-fight:visited {
-    padding: 10px 10px;
-    font-size: 50%;
-  }
-}
-
 /*Opportunities.html*/
-
 /**Header Styling**/
 #header-fixed {
   display: grid;
@@ -383,7 +302,7 @@ li > #opportunities-link-active:visited {
 #opportunities-container {
   background-color: #ded4b6;
   color: #000;
-  height: auto;
+  flex: 1 0 auto;
 }
 
 #opportunities-container > #opportunities {
@@ -658,307 +577,8 @@ aside > ul {
   color: #f7ecca;
 }
 
-/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+/*Member.html*/
 
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 1250px**/
-@media screen and (max-width: 1250px) {
-  /***Main Styling***/
-  #opportunities-container > #opportunities {
-    column-gap: 50px;
-  }
-
-  #opportunities > .opportunities-section {
-    align-items: flex-start;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 100%;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 150%;
-  }
-
-  .opportunities-section > .volunteer-card {
-    width: 300px;
-  }
-
-  .volunteer-card > .volunteer-card-description {
-    font-size: 70%;
-  }
-
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
-    font-size: 80%;
-  }
-
-  /****Aside Styling****/
-  li > .extra-links {
-    font-size: 80%;
-    line-height: 1.2;
-  }
-
-  .extra-links > .top-pick-links:link,
-  .extra-links > .top-pick-links:visited {
-    font-size: 100%;
-    text-decoration: underline;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 1070px**/
-@media screen and (max-width: 1070px) {
-  /***Main Styling***/
-  #donating-to-charity > #global-charity-text {
-    font-size: 60%;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 90%;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 130%;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 90%;
-  }
-
-  /****Aside Styling****/
-  li > .extra-links {
-    font-size: 60%;
-    line-height: 1.2;
-  }
-
-  aside > #top-picks {
-    font-size: 130%;
-  }
-
-  aside > #top-picks-description {
-    font-size: 80%;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 920px**/
-@media screen and (max-width: 920px) {
-  /***Main Styling***/
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 150px;
-    width: 250px;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 80%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: 50%;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 100%;
-  }
-
-  .volunteer-card > .volunteer-card-description {
-    font-size: 50%;
-  }
-
-  /****Aside Styling****/
-  aside > #top-picks {
-    font-size: 100%;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 840px**/
-@media screen and (max-width: 840px) {
-  /***Main Styling***/
-  #opportunities-container > #opportunities {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-bottom: 0px;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 60%;
-  }
-
-  #opportunities > #opportunities-section-local {
-    margin-right: 50px;
-  }
-
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 150px;
-    width: auto;
-  }
-
-  /****Aside Styling****/
-  #opportunities > aside {
-    grid-column: 1 / -1;
-    border-radius: 20px 0 20px 0;
-    margin: 80px 0 100px 0;
-  }
-
-  aside > #top-picks {
-    font-size: 150%;
-  }
-
-  aside > #top-picks-description {
-    font-size: 100%;
-  }
-
-  li > .extra-links {
-    font-size: 80%;
-    line-height: 1.2;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 650px**/
-@media screen and (max-width: 650px) {
-  /***Main Styling***/
-  #opportunities-container > #opportunities {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  #opportunities-container > #opportunities-text {
-    font-size: 100%;
-    margin: 0 40px 0 40px;
-    text-align: left;
-  }
-
-  #opportunities > #opportunities-section-local {
-    margin: 0 50px 0 50px;
-  }
-
-  #opportunities > #opportunities-section-global {
-    margin: 0 50px 0 50px;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 150%;
-  }
-
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 200px;
-    width: auto;
-    margin-top: 10px;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 110%;
-  }
-
-  .volunteer-card > .volunteer-card-description {
-    font-size: 100%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: inherit;
-  }
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
-    font-size: 120%;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 480px**/
-@media screen and (max-width: 480px) {
-  /***Main Styling***/
-  #opportunities > .opportunities-section {
-    gap: 10px;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 80%;
-  }
-
-  #opportunities > #opportunities-section-local {
-    margin: 0 30px 0 30px;
-  }
-
-  #opportunities > #opportunities-section-global {
-    margin: 0 30px 0 30px;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 120%;
-  }
-
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 150px;
-    width: auto;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 90%;
-  }
-
-  .volunteer-card > .volunteer-card-description {
-    font-size: 70%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: 60%;
-  }
-
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
-    font-size: 60%;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 380px**/
-@media screen and (max-width: 380px) {
-  /***Main Styling***/
-  #opportunities-container > #opportunities-text {
-    font-size: 60%;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 70%;
-  }
-
-  /****Aside Styling****/
-  aside > #top-picks {
-    font-size: 120%;
-  }
-
-  aside > #top-picks-description {
-    font-size: 80%;
-  }
-
-  li > .extra-links {
-    font-size: 60%;
-    line-height: 1.2;
-  }
-}
-
-/*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-/**FOR SCREEN WIDTH BELOW 350px**/
-@media screen and (max-width: 350px) {
-  /***Main Styling***/
-  .volunteer-card > .volunteer-card-description {
-    font-size: 60%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: 50%;
-  }
-}
-
-/*Member.html Styling*/
 /**Header Styling**/
 li > #member-link-active:link,
 li > #member-link-active:visited {
@@ -969,7 +589,7 @@ li > #member-link-active:visited {
 
 /**Main Styling**/
 #become-a-member-container {
-  height: auto;
+  flex: 1 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: cover;
@@ -989,6 +609,7 @@ li > #member-link-active:visited {
 /***Form Styling***/
 #form-faq-container > #form-container {
   height: fit-content;
+  width: fit-content;
   margin: 50px 100px 50px 50px;
   padding: 50px;
   background-color: #253c1b;
@@ -997,9 +618,10 @@ li > #member-link-active:visited {
 
 #form-container > #signup-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 30px 1fr;
-  row-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr;
+  height: 500px;
+  row-gap: 20px;
 }
 
 .input-box {
@@ -1011,14 +633,10 @@ li > #member-link-active:visited {
 
 label {
   color: #f7ecca;
+  font-size: 130%;
 }
 
 /****Form Title of Form****/
-#signup-form > #form-title {
-  grid-column: 1 / -1;
-  margin-bottom: 20px;
-}
-
 h2 > .fa-pen-to-square {
   position: relative;
   left: 10px;
@@ -1028,7 +646,20 @@ h2 > .fa-pen-to-square {
 /****Name Section of Form****/
 #signup-form > #fl-name-container {
   display: flex;
+  flex-direction: column;
   gap: 20px;
+}
+
+#fl-name-container > #fname-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#fl-name-container > #lname-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 #fname,
@@ -1039,41 +670,40 @@ h2 > .fa-pen-to-square {
 }
 
 /****Email Section of Form****/
-#signup-form > #email-container {
-  grid-column: 1 / -1;
-}
-
 #email-container > #main-email-container {
   display: flex;
   flex-direction: column;
-}
-
-#email {
-  margin-top: 3px;
+  gap: 5px;
 }
 
 /****Password Section of Form****/
 #password-container > #password-1 {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 /****Checkbox Section of Form****/
-#signup-form > #checkbox-container {
-  grid-column: 1 / -1;
-}
-
 #np-container {
   display: flex;
+  align-items: center;
   gap: 5px;
+}
+
+#news-and-promo {
+  height: 40px;
+}
+
+#news-and-promo-label {
+  font-size: 130%;
 }
 
 /****Signup Btn of Form****/
 #signup-form > #signup-btn {
-  width: 200px;
-  font-size: 120%;
+  width: 300px;
+  font-size: 150%;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 10px;
   background-color: #e8590c;
@@ -1135,11 +765,102 @@ h2 > .fa-circle-question {
   font-size: 120%;
 }
 
-/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
+/**FOR SCREEN WIDTH BELOW 340px**/
+/***Main Styling***/
+/****Form Styling****/
+@media screen and (max-width: 340px) {
+  #signup-form > #form-title {
+    font-size: 70%;
+  }
 
-/*MEDIA QUERIES FOR MEMBER.HTML*/
+  #news-and-promo {
+    height: 7px;
+  }
+
+  #news-and-promo-label {
+    font-size: 55%;
+  }
+}
+
+/*Completed Signup Styling*/
+/**Main Styling**/
+#completed-signup-container {
+  flex: 1 0 auto;
+  height: auto;
+  background-color: #f7ecca;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#completed-signup-container > #completion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+
+  height: fit-content;
+  width: 700px;
+  margin: 100px auto;
+  padding: 100px;
+}
+
+#completion-container > #completion-title-and-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#completion-title-and-text > #completion-title {
+  font-size: 300%;
+  font-weight: 700;
+  color: #000;
+}
+
+#completion-title-and-text > #completion-text {
+  font-size: 150%;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+#completion-title-and-text > .fa-circle-check {
+  color: #54e616;
+  align-self: center;
+  position: relative;
+  animation: throbbing-check 1s linear infinite alternate-reverse;
+}
+@keyframes throbbing-check {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+#completion-title-and-text > #return-back-text {
+  color: #000;
+  font-size: 130%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#return-back-text > .return-links:link,
+#return-back-text > .return-links:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+#return-back-text > .return-links:hover,
+#return-back-text > .return-links:active {
+  text-decoration: underline;
+  color: inherit;
+}
+
 /**FOR SCREEN WIDTH BELOW 1300px**/
 @media screen and (max-width: 1300px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Main Styling***/
   #become-a-member-container {
     height: 750px;
@@ -1184,9 +905,88 @@ h2 > .fa-circle-question {
   }
 }
 
+/**FOR SCREEN WIDTH BELOW 1250px**/
+@media screen and (max-width: 1250px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #opportunities-container > #opportunities {
+    column-gap: 50px;
+  }
+
+  #opportunities > .opportunities-section {
+    align-items: flex-start;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 100%;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 150%;
+  }
+
+  .opportunities-section > .volunteer-card {
+    width: 300px;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 70%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 80%;
+  }
+
+  /****Aside Styling****/
+  li > .extra-links {
+    font-size: 80%;
+    line-height: 1.2;
+  }
+
+  .extra-links > .top-pick-links:link,
+  .extra-links > .top-pick-links:visited {
+    font-size: 100%;
+    text-decoration: underline;
+  }
+}
+
 /**FOR SCREEN WIDTH BELOW 1070px**/
-/***Main Styling***/
 @media screen and (max-width: 1070px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #donating-to-charity > #global-charity-text {
+    font-size: 60%;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 90%;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 130%;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 90%;
+  }
+
+  /****Aside Styling****/
+  li > .extra-links {
+    font-size: 60%;
+    line-height: 1.2;
+  }
+
+  aside > #top-picks {
+    font-size: 130%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 80%;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
   #become-a-member-container {
     height: 100vh;
   }
@@ -1253,9 +1053,173 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTH BELOW 840px**/
-/***Main Styling***/
+/**FOR SCREEN WIDTH BELOW 920px**/
+@media screen and (max-width: 920px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 150px;
+    width: 250px;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 80%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: 50%;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 100%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 50%;
+  }
+
+  /****Aside Styling****/
+  aside > #top-picks {
+    font-size: 100%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 840px**/
 @media screen and (max-width: 840px) {
+  /*MEDIA QUERIES FOR ALL HTML PAGES, HEADER/FOOTER*/
+  /***Header Styling***/
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #253c1b;
+  }
+
+  #header-fixed {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #253c1b;
+  }
+
+  #header-fixed > h1 {
+    justify-self: center;
+    align-self: center;
+  }
+
+  h1 > #logo-link:link,
+  h1 > #logo-link:visited {
+    color: #f7ecca;
+    text-decoration: none;
+    font-size: 130%;
+  }
+
+  #header-fixed > .nav-bar {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .header > .nav-bar {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .nav-bar > .nav-links {
+    padding: 10px 0 20px 0;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 80%;
+  }
+
+  /***Footer Styling***/
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 100%;
+  }
+
+  a > .contact-details {
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  div > .contact-icons {
+    font-size: 70%;
+  }
+
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited,
+  div > #icon-location:link,
+  div > #icon-location:visited {
+    font-size: 80%;
+  }
+
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-text {
+    font-size: 70%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 80%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 100%;
+  }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #opportunities-container > #opportunities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 0px;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 60%;
+  }
+
+  #opportunities > #opportunities-section-local {
+    margin-right: 50px;
+  }
+
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 150px;
+    width: auto;
+  }
+
+  /****Aside Styling****/
+  #opportunities > aside {
+    grid-column: 1 / -1;
+    border-radius: 20px 0 20px 0;
+    margin: 80px 0 100px 0;
+  }
+
+  aside > #top-picks {
+    font-size: 150%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 100%;
+  }
+
+  li > .extra-links {
+    font-size: 80%;
+    line-height: 1.2;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
   #become-a-member-container {
     height: auto;
   }
@@ -1311,12 +1275,166 @@ h2 > .fa-circle-question {
   #faq-questions > .faq-q-a {
     font-size: 90%;
   }
+
+  /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
+  /***Main Styling***/
+  #completed-signup-container > #completion-container {
+    padding: 30px;
+    width: 400px;
+  }
+
+  #completion-title-and-text > #completion-title {
+    font-size: 150%;
+  }
+
+  #completion-title-and-text > #completion-text {
+    font-size: 100%;
+  }
+
+  #completion-title-and-text > .fa-circle-check {
+    font-size: 300%;
+  }
+
+  #completion-title-and-text > #return-back-text {
+    font-size: 100%;
+    margin-top: 10px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 650px**/
+@media screen and (max-width: 650px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #opportunities-container > #opportunities {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  #opportunities-container > #opportunities-text {
+    font-size: 100%;
+    margin: 0 40px 0 40px;
+    text-align: left;
+  }
+
+  #opportunities > #opportunities-section-local {
+    margin: 0 50px 0 50px;
+  }
+
+  #opportunities > #opportunities-section-global {
+    margin: 0 50px 0 50px;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 150%;
+  }
+
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 200px;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 110%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 100%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: inherit;
+  }
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 120%;
+  }
+
+  /***Footer Styling***/
+  a > .contact-details {
+    font-size: 100%;
+  }
+
+  #contact-info > #contact-heading,
+  #socials > #socials-heading {
+    font-size: 90%;
+  }
+
+  div > .contact-icons {
+    font-size: 60%;
+  }
+
+  li > #icon-instagram:link,
+  li > #icon-instagram:visited,
+  li > #icon-twitter:link,
+  li > #icon-twitter:visited,
+  li > #icon-facebook:link,
+  li > #icon-facebook:visited {
+    font-size: 70%;
+  }
+
+  #socials > #copyright {
+    font-size: 70%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 550px**/
+@media screen and (max-width: 550px) {
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-section > #hero-info {
+    margin: 0 50px;
+  }
+
+  #hero-text {
+    font-size: 60%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 60%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 70%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 510px**/
+@media screen and (max-width: 510px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Header Styling***/
+  li > .links:link,
+  li > .links:visited {
+    font-size: 60%;
+  }
+
+  .header > h1 {
+    font-size: 180%;
+  }
+
+  #header-fixed > h1 {
+    font-size: 180%;
+  }
+
+  /***Footer Styling***/
+  .footer > #contact-info {
+    gap: 10px;
+  }
+
+  #contact-info > #contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 /**FOR SCREEN WIDTH BELOW 490px**/
-/***Main Styling***/
-/****Form Styling****/
 @media screen and (max-width: 490px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
+  /****Form Styling****/
   #become-a-member-container {
     height: auto;
   }
@@ -1397,161 +1515,71 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTH BELOW 380px**/
-/***Main Styling***/
-/****Form Styling****/
-@media screen and (max-width: 380px) {
-  #become-a-member-container > #form-faq-container {
-    row-gap: 10px;
+/**FOR SCREEN WIDTHS BELOW 480px**/
+@media screen and (max-width: 480px) {
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-info > #arrows {
+    font-size: 30px;
   }
 
-  #form-container > #signup-form {
-    height: 230px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30px 75px 40px 40px 20px;
+  #hero-text {
+    font-size: 40%;
   }
 
-  #signup-form > #form-title {
-    font-size: 60%;
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 70%;
+    padding: 10px 20px;
   }
 
-  #signup-form > #fl-name-container {
-    display: flex;
-    flex-direction: column;
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #opportunities > .opportunities-section {
     gap: 10px;
   }
 
-  #fname-container {
-    display: flex;
-    flex-direction: column;
+  #opportunities-container > #opportunities-text {
+    font-size: 80%;
   }
 
-  #lname-container {
-    display: flex;
-    flex-direction: column;
+  #opportunities > #opportunities-section-local {
+    margin: 0 30px 0 30px;
   }
 
-  /****FAQ Styling****/
-  .faq-q-a > .faq-question-title {
+  #opportunities > #opportunities-section-global {
+    margin: 0 30px 0 30px;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 120%;
+  }
+
+  .opportunities-section > .volunteer-card {
+    position: relative;
+    height: 150px;
+    width: auto;
+  }
+
+  .volunteer-card > h3 {
     font-size: 90%;
   }
 
-  #faq-questions > .faq-q-a {
+  .volunteer-card > .volunteer-card-description {
     font-size: 70%;
   }
-}
 
-/*Completed Signup Styling*/
-
-/**Header Styling - REMAINS THE SAME AS INDEX.HTML**/
-
-/*Main Styling*/
-#completed-signup-container {
-  height: auto;
-  background-color: #f7ecca;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-}
-
-#completed-signup-container > #completion-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: #fff;
-  border-radius: 20px;
-
-  height: fit-content;
-  width: 700px;
-  margin: 100px auto;
-  padding: 100px;
-}
-
-#completion-container > #completion-title-and-text {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-#completion-title-and-text > #completion-title {
-  font-size: 300%;
-  font-weight: 700;
-  color: #000;
-}
-
-#completion-title-and-text > #completion-text {
-  font-size: 150%;
-  font-weight: 500;
-  color: #3a3a3a;
-}
-
-#completion-title-and-text > .fa-circle-check {
-  color: #54e616;
-  align-self: center;
-  position: relative;
-  animation: throbbing-check 1s linear infinite alternate-reverse;
-}
-@keyframes throbbing-check {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-}
-
-#completion-title-and-text > #return-back-text {
-  color: #000;
-  font-size: 130%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-#return-back-text > .return-links:link,
-#return-back-text > .return-links:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-#return-back-text > .return-links:hover,
-#return-back-text > .return-links:active {
-  text-decoration: underline;
-  color: inherit;
-}
-
-/**Footer Styling - REMAINS THE SAME AS INDEX.HTML**/
-
-/*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
-/**FOR SCREEN WIDTH BELOW 840px**/
-/***Main Styling***/
-@media screen and (max-width: 840px) {
-  #completed-signup-container > #completion-container {
-    padding: 30px;
-    width: 400px;
+  #donating-to-charity > #global-charity-text {
+    font-size: 60%;
   }
 
-  #completion-title-and-text > #completion-title {
-    font-size: 150%;
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 60%;
   }
 
-  #completion-title-and-text > #completion-text {
-    font-size: 100%;
-  }
-
-  #completion-title-and-text > .fa-circle-check {
-    font-size: 300%;
-  }
-
-  #completion-title-and-text > #return-back-text {
-    font-size: 100%;
-    margin-top: 10px;
-  }
-}
-
-/**FOR SCREEN WIDTH BELOW 480px**/
-/***Main Styling***/
-@media screen and (max-width: 480px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
   #completed-signup-container {
     height: 100vh;
   }
@@ -1563,169 +1591,6 @@ h2 > .fa-circle-question {
 
   #completion-title-and-text > #completion-text {
     font-size: 80%;
-  }
-}
-
-/**FOR SCREEN WIDTH BELOW 380px**/
-/***Main Styling***/
-@media screen and (max-width: 380px) {
-  #completion-title-and-text > #completion-title {
-    font-size: 120%;
-  }
-
-  #completion-title-and-text > #completion-text {
-    font-size: 50%;
-  }
-
-  #completion-title-and-text > .fa-circle-check {
-    font-size: 200%;
-  }
-
-  #completion-title-and-text > #return-back-text {
-    font-size: 60%;
-    margin-top: 0px;
-  }
-}
-
-/**FOR SCREEN WIDTH BELOW 330px**/
-/***Main Styling***/
-@media screen and (max-width: 330px) {
-  #completion-title-and-text > #completion-title {
-    font-size: 100%;
-  }
-}
-
-/*MEDIA QUERIES FOR ALL HTML PAGES*/
-/**FOR SCREEN WIDTHS BELOW 840px**/
-/***Header Styling***/
-@media screen and (max-width: 840px) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #253c1b;
-  }
-
-  #header-fixed {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #253c1b;
-  }
-
-  #header-fixed > h1 {
-    justify-self: center;
-    align-self: center;
-  }
-
-  h1 > #logo-link:link,
-  h1 > #logo-link:visited {
-    color: #f7ecca;
-    text-decoration: none;
-    font-size: 130%;
-  }
-
-  #header-fixed > .nav-bar {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .header > .nav-bar {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .nav-bar > .nav-links {
-    padding: 10px 0 20px 0;
-  }
-
-  li > .links:link,
-  li > .links:visited {
-    font-size: 80%;
-  }
-
-  /***Footer Styling***/
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 100%;
-  }
-
-  a > .contact-details {
-    text-decoration: underline;
-    color: #fff;
-  }
-
-  div > .contact-icons {
-    font-size: 70%;
-  }
-
-  div > #icon-email:link,
-  div > #icon-email:visited,
-  div > #icon-phone:link,
-  div > #icon-phone:visited,
-  div > #icon-location:link,
-  div > #icon-location:visited {
-    font-size: 80%;
-  }
-}
-
-/**FOR SCREEN WIDTH BELOW 650px**/
-@media screen and (max-width: 650px) {
-  /***Footer Styling***/
-  a > .contact-details {
-    font-size: 100%;
-  }
-
-  #contact-info > #contact-heading,
-  #socials > #socials-heading {
-    font-size: 90%;
-  }
-
-  div > .contact-icons {
-    font-size: 60%;
-  }
-
-  li > #icon-instagram:link,
-  li > #icon-instagram:visited,
-  li > #icon-twitter:link,
-  li > #icon-twitter:visited,
-  li > #icon-facebook:link,
-  li > #icon-facebook:visited {
-    font-size: 70%;
-  }
-
-  #socials > #copyright {
-    font-size: 70%;
-  }
-}
-
-/**FOR SCREEN WIDTHS BELOW 510px**/
-/***Header Styling***/
-@media screen and (max-width: 510px) {
-  li > .links:link,
-  li > .links:visited {
-    font-size: 60%;
-  }
-
-  .header > h1 {
-    font-size: 180%;
-  }
-
-  #header-fixed > h1 {
-    font-size: 180%;
-  }
-
-  /***Footer Styling***/
-  .footer > #contact-info {
-    gap: 10px;
-  }
-
-  #contact-info > #contact-us {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 }
 
@@ -1764,9 +1629,150 @@ h2 > .fa-circle-question {
   }
 }
 
+/**FOR SCREEN WIDTHS BELOW 380px**/
+@media screen and (max-width: 380px) {
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-info > #volunteer {
+    font-size: 40%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 60%;
+  }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  #opportunities-container > #opportunities-text {
+    font-size: 60%;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 70%;
+  }
+
+  /****Aside Styling****/
+  aside > #top-picks {
+    font-size: 120%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 80%;
+  }
+
+  li > .extra-links {
+    font-size: 60%;
+    line-height: 1.2;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
+  /****Form Styling****/
+  #become-a-member-container > #form-faq-container {
+    row-gap: 10px;
+  }
+
+  #form-container > #signup-form {
+    height: 230px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 90px 45px 45px 20px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 90%;
+  }
+
+  label {
+    font-size: 80%;
+  }
+
+  #fname,
+  #lname,
+  #password,
+  #email {
+    height: 20px;
+  }
+
+  #signup-form > #fl-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #fname-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lname-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #np-container {
+    gap: 2px;
+  }
+
+  #news-and-promo {
+    height: 10px;
+  }
+
+  #news-and-promo-label {
+    font-size: 70%;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 70%;
+  }
+
+  /****FAQ Styling****/
+  .faq-q-a > .faq-question-title {
+    font-size: 90%;
+  }
+
+  #faq-questions > .faq-q-a {
+    font-size: 70%;
+  }
+
+  /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
+  /***Main Styling***/
+  #completion-title-and-text > #completion-title {
+    font-size: 120%;
+  }
+
+  #completion-title-and-text > #completion-text {
+    font-size: 50%;
+  }
+
+  #completion-title-and-text > .fa-circle-check {
+    font-size: 200%;
+  }
+
+  #completion-title-and-text > #return-back-text {
+    font-size: 60%;
+    margin-top: 0px;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 350px**/
+@media screen and (max-width: 350px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Main Styling***/
+  .volunteer-card > .volunteer-card-description {
+    font-size: 60%;
+  }
+
+  #donating-to-charity > #global-charity-text {
+    font-size: 50%;
+  }
+}
+
 /**FOR SCREEN WIDTHS BELOW 330px**/
-/***Header Styling***/
 @media screen and (max-width: 330px) {
+  /**FOR SCREEN WIDTHS BELOW 330px**/
+  /***Header Styling***/
   .nav-bar > .nav-links {
     padding: 0 0 20px 0;
   }
@@ -1783,6 +1789,20 @@ h2 > .fa-circle-question {
 
   #header-fixed > h1 {
     font-size: 140%;
+  }
+
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /***Main Styling***/
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    padding: 10px 10px;
+    font-size: 50%;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Main Styling***/
+  #completion-title-and-text > #completion-title {
+    font-size: 100%;
   }
 
   /***Footer Styling***/
