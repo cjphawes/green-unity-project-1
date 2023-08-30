@@ -20,19 +20,19 @@ body {
 /**Header Styling**/
 .header {
   display: grid;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 15rem;
   background-color: #253c1b;
 }
 
 /***Title Logo Styling***/
 .header > h1 {
-  justify-self: center;
   align-self: center;
+  margin: 100px;
 }
 
-h1 > #logo-link:link,
-h1 > #logo-link:visited {
+#title-logo > #logo-link:link,
+#title-logo > #logo-link:visited {
   color: #f7ecca;
   text-decoration: none;
   font-size: 300%;
@@ -44,12 +44,12 @@ h1 > #logo-link:visited {
   font-family: "Quattrocento", sans-serif;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .nav-bar > .nav-links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   list-style: none;
 }
 
@@ -61,11 +61,11 @@ li > .links:link,
 li > .links:visited {
   color: #000;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 40px;
 
   text-decoration: none;
-  padding: 10px 15px;
-  font-size: 110%;
+  padding: 20px 30px;
+  font-size: 350%;
   transition: all 0.3s;
 }
 li > .links:hover,
@@ -92,29 +92,30 @@ li > #home-link-active:visited {
 }
 
 #hero-section > #hero-info {
-  padding-top: 80px;
-  margin: 0 100px;
-  font-size: 230%;
+  margin: 300px 100px;
   color: #f2f2f2;
 }
 
 #hero-info > #hero-text {
   text-align: center;
+  font-size: 700%;
 }
 
 #hero-info > #volunteer {
   display: block;
-  margin-top: 50px;
-  font-size: 80%;
+  margin-top: 200px;
+  font-size: 580%;
   text-align: center;
   color: #fff;
 }
 
 #hero-info > #arrows {
   display: block;
-  color: #fff;
   text-align: center;
   position: relative;
+  font-size: 600%;
+
+  color: #fff;
   animation: arrow-down 1s linear 0.5s infinite alternate-reverse;
 }
 @keyframes arrow-down {
@@ -133,15 +134,15 @@ li > #home-link-active:visited {
 #hero-info > #signup-cta-btn > #join-fight:link,
 #hero-info > #signup-cta-btn > #join-fight:visited {
   display: inline-block;
-  margin-top: 15px;
-  font-size: 120%;
+  margin-top: 20px;
+  font-size: 720%;
   font-weight: 600;
   text-transform: uppercase;
   color: #000;
   background-color: #f7ecca;
-  border-radius: 15px;
+  border-radius: 40px;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 30px 45px;
   transition: all 0.3s;
 }
 
@@ -152,7 +153,6 @@ li > #home-link-active:visited {
 
 /**Footer Styling**/
 .footer {
-  height: auto;
   background-color: #253c1b;
   display: flex;
   align-items: center;
@@ -161,30 +161,30 @@ li > #home-link-active:visited {
 
 #socials > #socials-heading,
 #contact-info > #contact-heading {
-  font-size: 120%;
+  font-size: 350%;
 }
 /***Contact Information Styling***/
 .footer > #contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  padding: 20px 10px;
-  margin: 0 20px;
+  gap: 30px;
+  margin: 50px 0;
 }
 
 #contact-info > #contact-us {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 a > .contact-details {
   color: #c5c5c5;
-  font-size: 110%;
+  font-size: 250%;
 }
 
 div > .contact-icons {
   color: #f7ecca;
+  font-size: 200%;
 }
 
 div > #icon-location:link,
@@ -211,14 +211,17 @@ div > #icon-phone:active {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 10px;
   align-items: center;
 }
 
 #socials > .social-links {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   font-size: 20px;
+}
+
+li > .social-icons {
+  font-size: 200%;
 }
 
 li > #icon-instagram:link,
@@ -255,6 +258,10 @@ li > #icon-facebook:visited {
 li > #icon-facebook:hover,
 li > #icon-facebook:active {
   color: #3b5998;
+}
+
+#socials > #copyright {
+  font-size: 200%;
 }
 
 /*Opportunities.html*/
