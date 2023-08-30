@@ -20,7 +20,7 @@ body {
 /**Header Styling**/
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 15rem;
   background-color: #253c1b;
 }
@@ -863,6 +863,53 @@ h2 > .fa-circle-question {
 #return-back-text > .return-links:active {
   text-decoration: underline;
   color: inherit;
+}
+
+/**FOR SCREEN WIDTHS BELOW 2100px**/
+@media screen and (max-width: 2100px) {
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /**Header Styling**/
+  .header {
+    display: grid;
+    grid-template-rows: 10rem;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    color: #f7ecca;
+    text-decoration: none;
+    font-size: 200%;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 250%;
+  }
+
+  /**Main Styling**/
+  #hero-info > #hero-text {
+    font-size: 400%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 380%;
+  }
+
+  #hero-info > #arrows {
+    font-size: 500%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 520%;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 1620px**/
+@media screen and (max-width: 1620px) {
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  /**Header Styling**/
 }
 
 /**FOR SCREEN WIDTH BELOW 1300px**/
