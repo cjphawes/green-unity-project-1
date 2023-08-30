@@ -64,7 +64,7 @@ li > .links:visited {
   border-radius: 40px;
 
   text-decoration: none;
-  padding: 20px 30px;
+  padding: 30px 40px;
   font-size: 350%;
   transition: all 0.3s;
 }
@@ -217,11 +217,7 @@ div > #icon-phone:active {
 #socials > .social-links {
   display: flex;
   gap: 50px;
-  font-size: 20px;
-}
-
-li > .social-icons {
-  font-size: 200%;
+  font-size: 300%;
 }
 
 li > #icon-instagram:link,
@@ -772,24 +768,8 @@ h2 > .fa-circle-question {
   font-size: 120%;
 }
 
-/**FOR SCREEN WIDTH BELOW 340px**/
-/***Main Styling***/
-/****Form Styling****/
-@media screen and (max-width: 340px) {
-  #signup-form > #form-title {
-    font-size: 70%;
-  }
-
-  #news-and-promo {
-    height: 7px;
-  }
-
-  #news-and-promo-label {
-    font-size: 55%;
-  }
-}
-
 /*Completed Signup Styling*/
+
 /**Main Styling**/
 #completed-signup-container {
   flex: 1 0 auto;
@@ -865,10 +845,9 @@ h2 > .fa-circle-question {
   color: inherit;
 }
 
-/**FOR SCREEN WIDTHS BELOW 2100px**/
-@media screen and (max-width: 2100px) {
-  /*MEDIA QUERIES FOR INDEX.HTML*/
-  /**Header Styling**/
+/**FOR SCREEN WIDTHS BELOW 2150px**/
+@media screen and (max-width: 2150px) {
+  /**Header Styling for ALL PAGES**/
   .header {
     display: grid;
     grid-template-rows: 10rem;
@@ -877,8 +856,6 @@ h2 > .fa-circle-question {
   /***Title Logo***/
   #title-logo > #logo-link:link,
   #title-logo > #logo-link:visited {
-    color: #f7ecca;
-    text-decoration: none;
     font-size: 200%;
   }
 
@@ -887,12 +864,14 @@ h2 > .fa-circle-question {
     font-size: 250%;
   }
 
+  /*MEDIA QUERIES FOR INDEX.HTML*/
   /**Main Styling**/
   #hero-info > #hero-text {
     font-size: 400%;
   }
 
   #hero-info > #volunteer {
+    margin-top: 100px;
     font-size: 380%;
   }
 
@@ -906,14 +885,99 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTH BELOW 1620px**/
-@media screen and (max-width: 1620px) {
+/**FOR SCREEN WIDTH BELOW 1670px**/
+@media screen and (max-width: 1670px) {
+  /**Header Styling for ALL PAGES**/
+  .header > .nav-bar {
+    margin-right: 50px;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    font-size: 200%;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 150%;
+    padding: 20px 30px;
+  }
+
   /*MEDIA QUERIES FOR INDEX.HTML*/
-  /**Header Styling**/
+  #hero-info > #hero-text {
+    font-size: 300%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 300%;
+  }
+
+  #hero-info > #arrows {
+    font-size: 400%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 370%;
+  }
+
+  /**Footer Styling for ALL PAGES**/
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 250%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 30px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
+    font-size: 200%;
+  }
+
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 170%;
+  }
+
+  /****Socials Styling****/
+  #socials > .social-links {
+    display: flex;
+    gap: 50px;
+    font-size: 200%;
+  }
+
+  #socials > #copyright {
+    font-size: 160%;
+  }
 }
 
-/**FOR SCREEN WIDTH BELOW 1300px**/
-@media screen and (max-width: 1300px) {
+/**FOR SCREEN WIDTH BELOW 1350px**/
+@media screen and (max-width: 1350px) {
+  /**Header Styling for ALL PAGES**/
+  .header {
+    display: grid;
+    grid-template-rows: 8rem;
+  }
+
+  .header > .nav-bar {
+    margin-right: 50px;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    font-size: 150%;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 130%;
+    padding: 15px 25px;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Main Styling***/
   #become-a-member-container {
@@ -956,6 +1020,41 @@ h2 > .fa-circle-question {
 
   #faq-questions > .faq-q-a {
     font-size: 80%;
+  }
+
+  /**Footer Styling for ALL PAGES**/
+  #socials > #socials-heading,
+  #contact-info > #contact-heading {
+    font-size: 200%;
+  }
+  /***Contact Information Styling***/
+  #contact-info > #contact-us {
+    gap: 20px;
+  }
+
+  a > .contact-details {
+    color: #c5c5c5;
+    font-size: 150%;
+  }
+
+  div > .contact-icons {
+    color: #f7ecca;
+    font-size: 130%;
+  }
+
+  /****Socials Styling****/
+  .footer > #contact-info {
+    gap: 20px;
+  }
+
+  #socials > .social-links {
+    display: flex;
+    gap: 30px;
+    font-size: 150%;
+  }
+
+  #socials > #copyright {
+    font-size: 130%;
   }
 }
 
@@ -1002,6 +1101,53 @@ h2 > .fa-circle-question {
   .extra-links > .top-pick-links:visited {
     font-size: 100%;
     text-decoration: underline;
+  }
+}
+
+/**FOR SCREEN WIDTH BELOW 1150px**/
+@media screen and (max-width: 1150px) {
+  /**Header Styling for ALL PAGES**/
+  .header {
+    display: grid;
+    grid-template-rows: 6rem;
+  }
+
+  /***Title Logo***/
+  .header > h1 {
+    margin: 0;
+  }
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    font-size: 120%;
+    margin-left: 50px;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 120%;
+    padding: 10px 20px;
+  }
+
+  /*MEDIA QUERIES FOR INDEX.HTML*/
+  #hero-section > #hero-info {
+    margin: 200px 100px;
+  }
+  #hero-info > #hero-text {
+    font-size: 200%;
+  }
+
+  #hero-info > #volunteer {
+    font-size: 200%;
+  }
+
+  #hero-info > #arrows {
+    font-size: 300%;
+  }
+
+  #hero-info > #signup-cta-btn > #join-fight:link,
+  #hero-info > #signup-cta-btn > #join-fight:visited {
+    font-size: 270%;
+    padding: 20px 30px;
   }
 }
 
@@ -1109,6 +1255,29 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTH BELOW 920px**/
 @media screen and (max-width: 920px) {
+  /*Header Styling for ALL PAGES*/
+  .header {
+    display: grid;
+    grid-template-rows: 4rem;
+  }
+
+  .header > .nav-bar {
+    margin-right: 20px;
+  }
+
+  /***Title Logo***/
+  #title-logo > #logo-link:link,
+  #title-logo > #logo-link:visited {
+    font-size: 100%;
+    margin-left: 50px;
+  }
+
+  li > .links:link,
+  li > .links:visited {
+    font-size: 90%;
+    padding: 10px 20px;
+  }
+
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
   /***Main Styling***/
   .opportunities-section > .volunteer-card {
@@ -1137,6 +1306,8 @@ h2 > .fa-circle-question {
   aside > #top-picks {
     font-size: 100%;
   }
+
+  /**Footer Styling for ALL PAGES**/
 }
 
 /**FOR SCREEN WIDTHS BELOW 840px**/
@@ -1820,6 +1991,19 @@ h2 > .fa-circle-question {
 
   #donating-to-charity > #global-charity-text {
     font-size: 50%;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  #signup-form > #form-title {
+    font-size: 70%;
+  }
+
+  #news-and-promo {
+    height: 7px;
+  }
+
+  #news-and-promo-label {
+    font-size: 55%;
   }
 }
 
