@@ -2250,6 +2250,10 @@ h2 > .fa-circle-question {
     border-radius: 20px;
   }
 
+  #signup-form > #form-title {
+    line-height: 1.4;
+  }
+
   #news-and-promo-label {
     font-size: 50%;
   }
