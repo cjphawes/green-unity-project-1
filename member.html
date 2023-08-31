@@ -86,83 +86,85 @@
               <i class="fa-solid fa-pen-to-square fa-lg"></i>
             </h2>
 
-            <!--First Name Input-->
-            <div id="fl-name-container">
-              <div id="fname-container">
-                <label for="fname">First Name</label>
-                <input
-                  type="text"
-                  name="first_name"
-                  id="fname"
-                  class="input-box"
-                  placeholder="Aileen"
-                  required
-                  autocomplete="given-name"
-                />
+            <div id="signup-container">
+              <!--First Name Input-->
+              <div id="fl-name-container">
+                <div id="fname-container">
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    name="first_name"
+                    id="fname"
+                    class="input-box"
+                    placeholder="Aileen"
+                    required
+                    autocomplete="given-name"
+                  />
+                </div>
+
+                <!--Last Name Input-->
+                <div id="lname-container">
+                  <label for="lname">Last Name</label>
+                  <input
+                    type="text"
+                    name="last_name"
+                    id="lname"
+                    class="input-box"
+                    placeholder="Hawes"
+                    required
+                    autocomplete="family-name"
+                  />
+                </div>
               </div>
 
-              <!--Last Name Input-->
-              <div id="lname-container">
-                <label for="lname">Last Name</label>
-                <input
-                  type="text"
-                  name="last_name"
-                  id="lname"
-                  class="input-box"
-                  placeholder="Hawes"
-                  required
-                  autocomplete="family-name"
-                />
+              <!--Email Address Input-->
+              <div id="email-container">
+                <div id="main-email-container">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email_address"
+                    id="email"
+                    class="input-box"
+                    placeholder="aileenhawes1234@gmail.com"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
               </div>
-            </div>
 
-            <!--Email Address Input-->
-            <div id="email-container">
-              <div id="main-email-container">
-                <label for="email">Email Address</label>
-                <input
-                  type="email"
-                  name="email_address"
-                  id="email"
-                  class="input-box"
-                  placeholder="aileenhawes1234@gmail.com"
-                  required
-                  autocomplete="email"
-                />
+              <!--Password Input-->
+              <div id="password-container">
+                <div id="password-1">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="input-box"
+                    placeholder="**********"
+                    required
+                  />
+                </div>
               </div>
-            </div>
 
-            <!--Password Input-->
-            <div id="password-container">
-              <div id="password-1">
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  class="input-box"
-                  placeholder="**********"
-                  required
-                />
+              <!--To Receive Updates Checkbox-->
+              <div id="checkbox-container">
+                <div id="np-container">
+                  <input
+                    type="checkbox"
+                    name="receive_news_and_promos"
+                    value="yes"
+                    id="news-and-promo"
+                    checked
+                  />
+                  <label for="news-and-promo" id="news-and-promo-label"
+                    >Receive updates on volunteering opportunities!</label
+                  >
+                </div>
               </div>
+              <!--Submit CTA Button-->
             </div>
-
-            <!--To Receive Updates Checkbox-->
-            <div id="checkbox-container">
-              <div id="np-container">
-                <input
-                  type="checkbox"
-                  name="receive_news_and_promos"
-                  value="yes"
-                  id="news-and-promo"
-                  checked
-                />
-                <label for="news-and-promo" id="news-and-promo-label"
-                  >Receive updates on volunteering opportunities!</label
-                >
-              </div>
-            </div>
-            <!--Submit CTA Button-->
             <button type="submit" id="signup-btn">Get Started Now!</button>
           </form>
         </section>
@@ -181,13 +183,15 @@
                 <summary class="faq-question-title">
                   Why volunteer abroad?
                 </summary>
-                Our volunteering abroad program offers an immersive experience
-                like no other. Engage with diverse cultures, learn new
-                languages, and tackle pressing global issues. Be part of
-                transformative projects, from empowering underprivileged
-                communities to conserving precious environments. Join us to
-                create lasting memories, forge international friendships, and
-                leave a positive mark on the world.
+                <p class="faq-answer">
+                  like no other. Engage with diverse cultures, learn new
+                  languages, and tackle pressing global issues. Be part of
+                  transformative projects, from empowering underprivileged
+                  communities to conserving precious environments. Join us to
+                  create lasting memories, forge international friendships, and
+                  leave a positive mark on the world. Our volunteering abroad
+                  program offers an immersive experience
+                </p>
               </details>
 
               <!--FAQ 2-->
@@ -195,11 +199,13 @@
                 <summary class="faq-question-title">
                   What type of volunteer work can I do?
                 </summary>
-                We are proud to offer a range of affordable volunteer projects
-                both abroad or locally. Whether you want to teach, support
-                conservation projects, volunteer with animals, or provide
-                support within childcare centers, we have volunteer
-                opportunities to suit all interests and skill sets.
+                <p class="faq-answer">
+                  We are proud to offer a range of affordable volunteer projects
+                  both abroad or locally. Whether you want to teach, support
+                  conservation projects, volunteer with animals, or provide
+                  support within childcare centers, we have volunteer
+                  opportunities to suit all interests and skill sets.
+                </p>
               </details>
 
               <!--FAQ 3-->
@@ -207,12 +213,14 @@
                 <summary class="faq-question-title">
                   Can people under the age of 18 volunteer?
                 </summary>
-                Yes, most programs accept under 18 volunteers when traveling
-                with a parent or guardian. Volunteers under the age of 18 will
-                be required to provide HandInHand with parental or guardian
-                consent plus two character reference letters in order to
-                participate, and may be asked to provide further documentation
-                to the local team depending on their chosen project.
+                <p class="faq-answer">
+                  Yes, most programs accept under 18 volunteers when traveling
+                  with a parent or guardian. Volunteers under the age of 18 will
+                  be required to provide HandInHand with parental or guardian
+                  consent plus two character reference letters in order to
+                  participate, and may be asked to provide further documentation
+                  to the local team depending on their chosen project.
+                </p>
               </details>
 
               <!--FAQ 4-->
@@ -220,12 +228,14 @@
                 <summary class="faq-question-title">
                   What are the requirements to volunteer with HandInHand?
                 </summary>
-                Volunteer requirements vary from project to project, however for
-                the majority, the only requirements are a high level of
-                competence in English, a clean criminal background, and a
-                willingness to learn. You do not need to have volunteered before
-                and you do not need to have experience in the type of
-                volunteering you wish to undertake.
+                <p class="faq-answer">
+                  Volunteer requirements vary from project to project, however
+                  for the majority, the only requirements are a high level of
+                  competence in English, a clean criminal background, and a
+                  willingness to learn. You do not need to have volunteered
+                  before and you do not need to have experience in the type of
+                  volunteering you wish to undertake.
+                </p>
               </details>
             </div>
           </div>
