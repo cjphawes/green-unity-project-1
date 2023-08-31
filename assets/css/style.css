@@ -910,8 +910,10 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTHS BELOW 2900px**/
 @media screen and (max-width: 2900px) {
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-
   /***Form Container***/
+  #form-faq-container > #form-container {
+    margin: 100px 50px 100px 50px;
+  }
 
   div > #fname,
   div > #lname,
@@ -957,7 +959,7 @@ h2 > .fa-circle-question {
 
   /***FAQ Container***/
   #form-faq-container > #faq-container {
-    margin: 100px 100px 100px 0;
+    margin: 100px 50px 100px 0;
   }
   .faqs > #faq-title {
     font-size: 250%;
@@ -999,6 +1001,7 @@ h2 > .fa-circle-question {
 
   #signup-form > #form-title {
     font-size: 230%;
+    padding: 0px;
   }
 
   #news-and-promo-label {
@@ -1021,6 +1024,10 @@ h2 > .fa-circle-question {
   /***FAQ Container***/
   .faqs > #faq-title {
     font-size: 180%;
+  }
+
+  #faq-questions > .faq-q-a {
+    padding: 20px;
   }
 
   .faq-q-a > .faq-question-title {
@@ -1119,6 +1126,79 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Form Container***/
+  #signup-form > #signup-container {
+    margin: 20px 0px 0px 0px;
+    gap: 20px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 170%;
+    padding-bottom: 20px;
+  }
+
+  h2 > .fa-pen-to-square {
+    position: relative;
+    left: 10px;
+    color: #e8590c;
+  }
+
+  #signup-container > #fl-name-container {
+    gap: 20px;
+  }
+
+  div > #fname,
+  div > #lname,
+  div > #password,
+  div > #email {
+    height: 70px;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 170%;
+  }
+
+  div > label {
+    color: #f7ecca;
+    font-size: 170%;
+  }
+
+  #np-container {
+    gap: 10px;
+    align-items: center;
+  }
+
+  #news-and-promo-label {
+    font-size: 130%;
+  }
+
+  #np-container > #news-and-promo {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 200%;
+    margin: 50px 0px 20px 20px;
+    padding: 20px 35px;
+  }
+
+  /***FAQ Styling***/
+  .faqs > #faq-questions {
+    gap: 10px;
+  }
+
+  .faqs > #faq-title {
+    font-size: 150%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 130%;
+  }
+
+  .faq-q-a > .faq-answer {
+    font-size: 120%;
+  }
 
   /**Footer Styling for ALL PAGES**/
   #socials > #socials-heading,
@@ -1152,6 +1232,72 @@ h2 > .fa-circle-question {
   }
 }
 
+/*FOR SCREEN WIDTH BELOW 1450px*/
+@media screen and (max-width: 1450px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Form Container***/
+  #form-faq-container > #form-container {
+    padding: 40px;
+  }
+
+  #signup-form > #form-title {
+    font-size: 130%;
+  }
+
+  h2 > .fa-pen-to-square {
+    position: relative;
+    left: 10px;
+    color: #e8590c;
+  }
+
+  #signup-container > #fl-name-container {
+    gap: 20px;
+  }
+
+  div > #fname,
+  div > #lname,
+  div > #password,
+  div > #email {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 120%;
+  }
+
+  div > label {
+    color: #f7ecca;
+    font-size: 120%;
+  }
+
+  #np-container {
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 150%;
+    margin: 20px 0px 0px 0px;
+    padding: 15px 25px;
+  }
+
+  /***FAQ Styling***/
+  #form-faq-container > #faq-container {
+    padding: 40px;
+  }
+
+  .faqs > #faq-title {
+    font-size: 120%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 110%;
+  }
+
+  .faq-q-a > .faq-answer {
+    font-size: 100%;
+  }
+}
+
 /**FOR SCREEN WIDTH BELOW 1350px**/
 @media screen and (max-width: 1350px) {
   /**Header Styling for ALL PAGES**/
@@ -1178,48 +1324,6 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-  /***Main Styling***/
-  #become-a-member-container {
-    height: 750px;
-  }
-
-  /* ***Form Styling****/
-  #form-container > #signup-form {
-    grid-template-rows: 1fr 1fr 1fr 1fr 20px 1fr;
-  }
-
-  #form-faq-container > #form-container {
-    margin-right: 50px;
-  }
-
-  label {
-    font-size: 100%;
-  }
-
-  #signup-form > #form-title {
-    font-size: 130%;
-  }
-
-  h2 > .fa-pen-to-square {
-    font-size: 130%;
-  }
-
-  /****FAQ Styling****/
-  .faqs > #faq-title {
-    font-size: 130%;
-  }
-
-  h2 > .fa-circle-question {
-    font-size: 130%;
-  }
-
-  .faq-q-a > .faq-question-title {
-    font-size: 100%;
-  }
-
-  #faq-questions > .faq-q-a {
-    font-size: 80%;
-  }
 
   /**Footer Styling for ALL PAGES**/
   #socials > #socials-heading,
@@ -1301,6 +1405,12 @@ h2 > .fa-circle-question {
     font-size: 100%;
     text-decoration: underline;
   }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***FAQ Container***/
+  #faq-questions > .faq-q-a {
+    padding: 15px;
+  }
 }
 
 /**FOR SCREEN WIDTH BELOW 1150px**/
@@ -1360,8 +1470,8 @@ h2 > .fa-circle-question {
   }
 }
 
-/**FOR SCREEN WIDTH BELOW 1070px**/
-@media screen and (max-width: 1070px) {
+/**FOR SCREEN WIDTH BELOW 1080px**/
+@media screen and (max-width: 1080px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
   /***Main Styling***/
   #donating-to-charity > #global-charity-text {
@@ -1395,70 +1505,88 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-  /***Main Styling***/
-  #become-a-member-container {
-    height: 100vh;
-  }
+  /***Form Container***/
   #become-a-member-container > #form-faq-container {
     display: grid;
-    grid-template-columns: 450px 1fr;
-    grid-template-rows: 1fr;
-    margin: 0 auto;
-  }
-
-  /****Form Styling****/
-  #form-container > #signup-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 1fr 1fr 1fr 20px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
   }
 
   #form-faq-container > #form-container {
-    padding: 30px;
-  }
-
-  .input-box {
-    height: 20px;
-    width: 200px;
-    font-size: 70%;
-  }
-
-  #fname,
-  #lname,
-  #password {
-    width: 100px;
-  }
-
-  label {
-    font-size: 80%;
+    margin: 100px 100px 0 100px;
   }
 
   #signup-form > #form-title {
-    font-size: 120%;
-    line-height: 1.4;
+    font-size: 200%;
   }
 
-  h2 > .fa-pen-to-square {
-    font-size: 130%;
+  #signup-container > #fl-name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  div > #fname,
+  div > #lname {
+    height: 50px;
+    font-size: 120%;
+    width: 110%;
+  }
+
+  div > #password,
+  div > #email {
+    width: 60%;
+  }
+  div > label {
+    color: #f7ecca;
+    font-size: 150%;
+  }
+
+  #fl-name-container > #fname-container,
+  #fl-name-container > #lname-container,
+  #email-container > #main-email-container,
+  #password-container > #password-1 {
+    gap: 5px;
+  }
+
+  #np-container {
+    gap: 10px;
+    align-items: center;
+  }
+
+  #news-and-promo-label {
+    font-size: 150%;
+  }
+
+  #np-container > #news-and-promo {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
   }
 
   #signup-form > #signup-btn {
-    padding: 0px;
-    font-size: 100%;
+    font-size: 180%;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px;
   }
 
-  /****FAQ Styling****/
+  /***FAQ Container***/
+  #form-faq-container > #faq-container {
+    margin: 0 0 100px 0;
+    border-radius: 20px 0 20px 0;
+  }
+
   .faqs > #faq-title {
-    font-size: 100%;
-    margin-bottom: 20px;
+    font-size: 200%;
   }
 
   .faq-q-a > .faq-question-title {
-    font-size: 80%;
+    font-size: 150%;
   }
 
-  #faq-questions > .faq-q-a {
-    font-size: 60%;
+  .faq-q-a > .faq-answer {
+    font-size: 140%;
   }
 }
 
@@ -1523,6 +1651,26 @@ h2 > .fa-circle-question {
   /****Aside Styling****/
   aside > #top-picks {
     font-size: 100%;
+  }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Form Container***/
+  #signup-container > #fl-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  div > #fname,
+  div > #lname {
+    height: 50px;
+    font-size: 120%;
+    width: 50%;
+  }
+
+  div > #password,
+  div > #email {
+    width: 60%;
   }
 
   /**Footer Styling for ALL PAGES**/
@@ -1603,61 +1751,9 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-  /***Main Styling***/
-  #become-a-member-container {
-    height: auto;
-  }
-  #become-a-member-container > #form-faq-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 350px 1fr;
-  }
-
-  /****Form Styling****/
-  #form-faq-container > #form-container {
-    width: fit-content;
-    margin-right: 0;
-  }
-
-  #form-container > #signup-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30px 1fr 1fr 1fr 20px;
-    row-gap: 0px;
-    height: 230px;
-  }
-
+  /***Form Container***/
   #signup-form > #form-title {
-    font-size: 120%;
-    line-height: 1;
-  }
-
-  h2 > .fa-pen-to-square {
-    font-size: 110%;
-  }
-
-  #signup-form > #fl-name-container {
-    gap: 10px;
-    width: 200px;
-  }
-
-  #signup-form > #signup-btn {
-    padding: 10px;
-    font-size: 70%;
-  }
-
-  /****FAQ Styling****/
-  #form-faq-container > #faq-container {
-    margin: 0 50px 50px 50px;
-    width: fit-content;
-  }
-
-  .faq-q-a > .faq-question-title {
-    font-size: 110%;
-  }
-
-  #faq-questions > .faq-q-a {
-    font-size: 90%;
+    font-size: 150%;
   }
 
   /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
