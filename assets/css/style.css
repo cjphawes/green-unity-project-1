@@ -596,6 +596,7 @@ li > #member-link-active:visited {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
     url(../images/holding-a-hand-heart-upto-the-sun-min.webp), no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 #bg-img-sr {
@@ -606,113 +607,121 @@ li > #member-link-active:visited {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin: 0 auto;
 }
 
 /***Form Styling***/
 #form-faq-container > #form-container {
   height: fit-content;
-  width: fit-content;
-  margin: 50px 100px 50px 50px;
+  margin: 100px;
   padding: 50px;
   background-color: #253c1b;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 #form-container > #signup-form {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr;
-  height: 500px;
-  row-gap: 20px;
+  grid-template-rows: 1fr;
 }
 
-.input-box {
-  height: 35px;
-  width: 300px;
-  padding: 0 5px;
-  font-size: 100%;
+#signup-form > #signup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 100px 0 0 50px;
 }
 
-label {
+div > #fname,
+div > #lname,
+div > #password {
+  height: 100px;
+  width: 700px;
+  padding: 0 20px;
+  font-size: 300%;
+}
+
+div > #email {
+  height: 100px;
+  width: 1000px;
+  padding: 0 20px;
+  font-size: 300%;
+}
+
+div > label {
   color: #f7ecca;
-  font-size: 130%;
+  font-size: 380%;
 }
 
 /****Form Title of Form****/
+#signup-form > #form-title {
+  font-size: 500%;
+  text-align: center;
+  padding: 30px;
+}
+
 h2 > .fa-pen-to-square {
   position: relative;
-  left: 10px;
+  left: 30px;
   color: #e8590c;
 }
 
 /****Name Section of Form****/
-#signup-form > #fl-name-container {
+#signup-container > #fl-name-container {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  gap: 50px;
+  margin-right: 50px;
 }
 
-#fl-name-container > #fname-container {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
+#fl-name-container > #fname-container,
 #fl-name-container > #lname-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-}
-
-#fname,
-#lname,
-#password {
-  margin-top: 3px;
-  width: 200px;
+  gap: 10px;
 }
 
 /****Email Section of Form****/
 #email-container > #main-email-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 /****Password Section of Form****/
 #password-container > #password-1 {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 /****Checkbox Section of Form****/
 #np-container {
   display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-#news-and-promo {
-  height: 40px;
+  gap: 20px;
 }
 
 #news-and-promo-label {
-  font-size: 130%;
+  font-size: 330%;
+}
+
+#np-container > #news-and-promo {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
 }
 
 /****Signup Btn of Form****/
 #signup-form > #signup-btn {
-  width: 300px;
-  font-size: 150%;
+  font-size: 400%;
   font-weight: 700;
-  padding: 20px 30px;
+  margin: 50px 800px 20px 50px;
+  padding: 40px 50px;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: #e8590c;
   text-decoration: none;
   color: #000;
   transition: all 0.3s;
+  display: inline-block;
 }
 
 #signup-form > #signup-btn:hover {
@@ -723,18 +732,17 @@ h2 > .fa-pen-to-square {
 /***FAQ Styling***/
 #form-faq-container > #faq-container {
   height: fit-content;
-  padding: 30px;
+  padding: 50px;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-radius: 50px;
   color: #fff;
-  margin: 50px 50px 50px 0;
-  width: auto;
+  margin: 100px;
 }
 
 .faqs > #faq-questions {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
 
 /****FAQ Title of Form****/
@@ -742,6 +750,7 @@ h2 > .fa-pen-to-square {
   color: #fff;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 400%;
 }
 
 h2 > .fa-circle-question {
@@ -757,7 +766,7 @@ h2 > .fa-circle-question {
 
 #faq-questions > .faq-q-a {
   background-color: rgb(247, 236, 202);
-  padding: 10px;
+  padding: 30px;
   border-radius: 10px;
   color: #000;
 }
@@ -765,7 +774,11 @@ h2 > .fa-circle-question {
 /****FAQ Descriptions****/
 .faq-q-a > .faq-question-title {
   font-weight: 700;
-  font-size: 120%;
+  font-size: 320%;
+}
+
+.faq-q-a > .faq-answer {
+  font-size: 300%;
 }
 
 /*Completed Signup Styling*/
@@ -843,6 +856,180 @@ h2 > .fa-circle-question {
 #return-back-text > .return-links:active {
   text-decoration: underline;
   color: inherit;
+}
+
+/**FOR SCREEN WIDTHS BELOW 3400px**/
+@media screen and (max-width: 3400px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Form Container***/
+  #signup-form > #signup-container {
+    margin: 50px 0 0 50px;
+  }
+  #signup-form > #form-title {
+    font-size: 400%;
+  }
+
+  #signup-container > #fl-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-right: 0px;
+  }
+
+  #news-and-promo-label {
+    font-size: 290%;
+  }
+
+  #np-container > #news-and-promo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 400%;
+    font-weight: 700;
+    margin: 50px 400px 20px 50px;
+    padding: 40px 50px;
+  }
+
+  /***FAQ Container***/
+  .faqs > #faq-title {
+    font-size: 330%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 270%;
+  }
+
+  .faq-q-a > .faq-answer {
+    font-size: 250%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 2900px**/
+@media screen and (max-width: 2900px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+
+  /***Form Container***/
+
+  div > #fname,
+  div > #lname,
+  div > #password {
+    height: 100px;
+    width: 500px;
+    padding: 0 20px;
+    font-size: 250%;
+  }
+
+  div > #email {
+    height: 100px;
+    width: 700px;
+    padding: 0 20px;
+    font-size: 250%;
+  }
+
+  div > label {
+    color: #f7ecca;
+    font-size: 300%;
+  }
+
+  #signup-form > #form-title {
+    font-size: 300%;
+  }
+
+  #news-and-promo-label {
+    font-size: 250%;
+  }
+
+  #np-container > #news-and-promo {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 300%;
+    font-weight: 700;
+    margin: 50px 400px 20px 50px;
+    padding: 30px 40px;
+  }
+
+  /***FAQ Container***/
+  #form-faq-container > #faq-container {
+    margin: 100px 100px 100px 0;
+  }
+  .faqs > #faq-title {
+    font-size: 250%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 220%;
+  }
+
+  .faq-q-a > .faq-answer {
+    font-size: 200%;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 2350px**/
+@media screen and (max-width: 2350px) {
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
+  /***Form Container***/
+  div > #fname,
+  div > #lname,
+  div > #password {
+    height: 70px;
+    width: 500px;
+    padding: 0 20px;
+    font-size: 200%;
+  }
+
+  div > #email {
+    height: 70px;
+    width: 650px;
+    padding: 0 20px;
+    font-size: 200%;
+  }
+
+  div > label {
+    color: #f7ecca;
+    font-size: 200%;
+  }
+
+  #signup-form > #form-title {
+    font-size: 230%;
+  }
+
+  #news-and-promo-label {
+    font-size: 200%;
+  }
+
+  #np-container > #news-and-promo {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+  }
+
+  #signup-form > #signup-btn {
+    font-size: 250%;
+    font-weight: 700;
+    margin: 50px 200px 20px 50px;
+    padding: 30px 40px;
+  }
+
+  /***FAQ Container***/
+  .faqs > #faq-title {
+    font-size: 180%;
+  }
+
+  .faq-q-a > .faq-question-title {
+    font-size: 160%;
+  }
+
+  .faq-q-a > .faq-answer {
+    font-size: 140%;
+  }
 }
 
 /**FOR SCREEN WIDTHS BELOW 2150px**/
@@ -930,6 +1117,8 @@ h2 > .fa-circle-question {
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 370%;
   }
+
+  /*MEDIA QUERIES FOR MEMBER.HTML*/
 
   /**Footer Styling for ALL PAGES**/
   #socials > #socials-heading,
