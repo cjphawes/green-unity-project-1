@@ -1260,7 +1260,7 @@ h2 > .fa-circle-question {
 
   .opportunities-section > .volunteer-card:hover {
     transform: scale(1.03);
-    box-shadow: 14px 16px 30px -30px #000;
+    box-shadow: 21px 24px 45px -15px #000;
   }
 
   .opportunities-section > .volunteer-title {
@@ -1509,7 +1509,7 @@ h2 > .fa-circle-question {
 
   .opportunities-section > .volunteer-card:hover {
     transform: scale(1.03);
-    box-shadow: 14px 16px 30px -30px #000;
+    box-shadow: 21px 24px 45px -15px #000;
   }
 
   .volunteer-card > .volunteer-card-description {
@@ -1801,6 +1801,11 @@ h2 > .fa-circle-question {
     margin: 150px 50px 0 50px;
     font-size: 120%;
   }
+
+  .opportunities-section > .volunteer-card:hover {
+    transform: scale(1.03);
+    box-shadow: 21px 24px 35px -15px #000;
+  }
 }
 
 /**FOR SCREEN WIDTH BELOW 1080px**/
@@ -2003,7 +2008,7 @@ h2 > .fa-circle-question {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    margin: 50px 50px 100px 50px;
+    margin: 50px 50px 0px 50px;
   }
 
   #opportunities-container > #opportunities-text {
@@ -2011,18 +2016,22 @@ h2 > .fa-circle-question {
   }
 
   .opportunities-section > .volunteer-card {
-    height: 200px;
+    height: 170px;
+  }
+
+  .opportunities-section > .volunteer-card:hover {
+    box-shadow: 21px 24px 45px -15px #000;
   }
 
   .volunteer-card > .volunteer-card-description {
-    font-size: 90%;
+    font-size: 70%;
   }
 
   /****Aside Styling****/
   #opportunities > aside {
     grid-column: 1 / -1;
     border-radius: 20px 0 20px 0;
-    margin: 80px 0 100px 0;
+    margin: 50px 0;
   }
 
   aside > #top-picks {
@@ -2030,6 +2039,11 @@ h2 > .fa-circle-question {
   }
 
   aside > #top-picks-description {
+    font-size: 120%;
+  }
+
+  aside > ul {
+    gap: 10px;
     font-size: 100%;
   }
 
@@ -2087,40 +2101,10 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 840px**/
 @media screen and (max-width: 840px) {
-  #opportunities-container > #opportunities {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-bottom: 0px;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 60%;
-  }
-
-  #opportunities > #opportunities-section-local {
-    margin-right: 50px;
-  }
-
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 150px;
-    width: auto;
-  }
-
-  /****Aside Styling****/
-  #opportunities > aside {
-    grid-column: 1 / -1;
-    border-radius: 20px 0 20px 0;
-    margin: 80px 0 100px 0;
-  }
-
-  aside > #top-picks {
-    font-size: 150%;
-  }
-
-  aside > #top-picks-description {
-    font-size: 100%;
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  .opportunities-section > .volunteer-card:hover {
+    transform: scale(1.01);
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -2197,6 +2181,16 @@ h2 > .fa-circle-question {
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 130%;
     padding: 15px 20px;
+  }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  .opportunities-section > .volunteer-title {
+    font-size: 120%;
+  }
+
+  #opportunities-container > #opportunities-text {
+    font-size: 100%;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -2290,52 +2284,36 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTH BELOW 690px**/
 @media screen and (max-width: 690px) {
-  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
+  /* MEDIA QUERIES FOR OPPORTUNITIES.HTML */
   #opportunities-container > #opportunities {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    margin: 30px 50px 0 50px;
   }
+
   #opportunities-container > #opportunities-text {
-    font-size: 100%;
-    margin: 0 40px 0 40px;
-    text-align: left;
-  }
-
-  #opportunities > #opportunities-section-local {
-    margin: 0 50px 0 50px;
-  }
-
-  #opportunities > #opportunities-section-global {
-    margin: 0 50px 0 50px;
-  }
-
-  .opportunities-section > .volunteer-title {
-    font-size: 150%;
+    font-size: 90%;
   }
 
   .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 200px;
-    width: auto;
-    margin-top: 10px;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 110%;
+    height: 150px;
   }
 
   .volunteer-card > .volunteer-card-description {
-    font-size: 100%;
+    font-size: 60%;
   }
 
-  #donating-to-charity > #global-charity-text {
-    font-size: inherit;
+  .volunteer-card > h3 {
+    font-size: 80%;
+    padding: 7px;
   }
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
-    font-size: 120%;
+
+  .volunteer-card > .donate::after,
+  .volunteer-card > .tree::after,
+  .volunteer-card > .marine::after,
+  .volunteer-card > .book::after,
+  .volunteer-card > .help::after,
+  .volunteer-card > .disaster::after,
+  .volunteer-card > .wildlife::after {
+    left: 12px;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -2478,6 +2456,61 @@ h2 > .fa-circle-question {
     padding: 10px 15px;
   }
 
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 50px;
+    margin: 30px 30px 0 30px;
+  }
+
+  #opportunities-container > #opportunities-text {
+    margin: 150px 30px 0 30px;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 130%;
+  }
+
+  .volunteer-card > h3 {
+    font-size: 110%;
+  }
+
+  .volunteer-card > .donate::after,
+  .volunteer-card > .tree::after,
+  .volunteer-card > .marine::after,
+  .volunteer-card > .book::after,
+  .volunteer-card > .help::after,
+  .volunteer-card > .disaster::after,
+  .volunteer-card > .wildlife::after {
+    left: 20px;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 90%;
+  }
+
+  /***Aside Section***/
+  #opportunities > aside {
+    margin: 0 0 50px 0;
+  }
+
+  aside > #top-picks {
+    font-size: 120%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 90%;
+  }
+
+  aside > ul {
+    gap: 10px;
+    font-size: 80%;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
   #form-faq-container > #form-container {
@@ -2557,48 +2590,34 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTHS BELOW 480px**/
 @media screen and (max-width: 480px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
-  #opportunities > .opportunities-section {
-    gap: 10px;
-  }
-
   #opportunities-container > #opportunities-text {
     font-size: 80%;
   }
 
-  #opportunities > #opportunities-section-local {
-    margin: 0 30px 0 30px;
-  }
-
-  #opportunities > #opportunities-section-global {
-    margin: 0 30px 0 30px;
-  }
-
   .opportunities-section > .volunteer-title {
-    font-size: 120%;
-  }
-
-  .opportunities-section > .volunteer-card {
-    position: relative;
-    height: 150px;
-    width: auto;
+    font-size: 100%;
   }
 
   .volunteer-card > h3 {
-    font-size: 90%;
+    font-size: 80%;
   }
 
   .volunteer-card > .volunteer-card-description {
+    padding: 7px;
+  }
+
+  /***Aside Section***/
+  aside > #top-picks {
+    font-size: 100%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 80%;
+  }
+
+  aside > ul {
+    gap: 5px;
     font-size: 70%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: 60%;
-  }
-
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
-    font-size: 60%;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -2658,6 +2677,17 @@ h2 > .fa-circle-question {
   li > .links:visited {
     font-size: 50%;
     padding: 8px 10px;
+  }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  #opportunities-container > #opportunities-text {
+    margin: 100px 30px 0 30px;
+    font-size: 70%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 70%;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -2748,30 +2778,6 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 380px**/
 @media screen and (max-width: 380px) {
-  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
-  #opportunities-container > #opportunities-text {
-    font-size: 60%;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 70%;
-  }
-
-  /****Aside Styling****/
-  aside > #top-picks {
-    font-size: 120%;
-  }
-
-  aside > #top-picks-description {
-    font-size: 80%;
-  }
-
-  li > .extra-links {
-    font-size: 60%;
-    line-height: 1.2;
-  }
-
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Main Styling***/
   /****Form Styling****/
@@ -2836,10 +2842,6 @@ h2 > .fa-circle-question {
   /***Main Styling***/
   .volunteer-card > .volunteer-card-description {
     font-size: 60%;
-  }
-
-  #donating-to-charity > #global-charity-text {
-    font-size: 50%;
   }
 
   /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
