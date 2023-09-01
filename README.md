@@ -52,6 +52,8 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 ### Existing Features
 
+#### Header Section
+
 ##### Navigation Bar
 
 - Featured on all 4 pages, it includes the website name/logo and navigation links. These are Home, Opportunities and Become a member links.
@@ -59,6 +61,8 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - It's identical on every page and there is an active styling on the individual link related to that page, to show the user which page they are currently on (apart from the completed signup page). This will aid the user with navigation without having to use the browsers back and forwards button to navigate.
 
 ![nav-bar](/assets/readme-file-imgs/nav-bar-of-handinhand-project.png)
+
+#### Footer Section
 
 ##### Footer
 
@@ -128,7 +132,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 - Testing was completed in Google Chrome, Microsoft Edge and Firefox web browsers, on different device screen widths.
 - Every single link goes to the intended location, with the speed of transfer to new page being quick.
 - The sign-up form CTA button was originally an anchor element, however I found that form validation was cancelled due to not being a button element. The conumdrum I came across was whether to use the `method="GET"` and my completedsignup.html page to redirect the user too or use `method="POST"` and use the Code Institute's formdump link. I opted for the better user experience option. However with that in mind, I know I have used the incorrect method due to the nature of a form wanting to **POST** data not **GET**. In the real world, I would use Javascript or another programming language to redirect the user, whilst using the `method="POST"` to ease the struggle, but with limited knowledge, this was the best I could do.
-- I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge and Firefox to test the performance of the website. I was happy to recevie above 98% on all scores!
+- I used the Lighthouse reporting tool in Google Chrome, Microsoft Edge and Firefox to test the performance of the website. I was happy to receive above 98% on all scores!
   - **Index.html**![Index-page-lighthouse-test](/assets/readme-file-imgs/lighthouse-index.png)
   - **Opportunities.html**![Opportunities-page-lighthouse-testing](/assets/readme-file-imgs/lighthouse-opportunities.png)
   - **Member.html**![Become-a-member-page-lighthouse-test](/assets/readme-file-imgs/lighthouse-member.png)
@@ -149,7 +153,7 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 ### Fixed Bugs
 
-- Become a member page FAQ's caused the background image to move upon opening of the individual FAQ's, I was able to find a suitable fix for this by making the image center of the screen, there is still some movement but it's 100x better than it was.
+- Become a member page FAQ's section caused the background image to move upon opening of the individual FAQ's, I was able to find a suitable fix for this by making the image center of the screen, there is still some movement but it's 100x better than it was.
 - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes, changed their formats to webp and re-sized them.
 
 ---
@@ -179,7 +183,7 @@ The live link can be found here - https://cjphawes.github.io/handinhand-project-
   - I used [Chat GPT](https://chat.openai.com/) for the brief user enticing text.
     <br>
 - **Opportunities Page**
-  - All the aside links and description, apart from British Red Cross and WWF, are from [Climate Volunteering](https://www.climatevolunteering.com/opportunities).
+  - All the aside links and description, apart from [British Red Cross](https://www.redcross.org.uk/get-involved/volunteer) and [WWF](https://people4planet.wwfindia.org/), are from [Climate Volunteering](https://www.climatevolunteering.com/opportunities).
   - All the card descriptions are from Chat GPT that I auto-generated.
   - The individual card icons are taken from Font Awesome.
     <br>
