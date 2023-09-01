@@ -17,7 +17,7 @@ body {
 }
 
 /*Index.html Page*/
-/**Header Styling**/
+/**Header Section**/
 .header {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -25,7 +25,7 @@ body {
   background-color: #253c1b;
 }
 
-/***Title Logo Styling***/
+/***Title Logo Section***/
 .header > h1 {
   align-self: center;
   margin: 100px;
@@ -38,7 +38,7 @@ body {
   font-size: 300%;
 }
 
-/***Navigation Styling***/
+/***Navigation Section***/
 .header > .nav-bar {
   display: flex;
   font-family: "Quattrocento", sans-serif;
@@ -80,7 +80,7 @@ li > #home-link-active:visited {
   border: 2px solid #f7ecca;
 }
 
-/**Main Styling**/
+/**Main Section**/
 /***Hero Section***/
 #hero-section {
   flex: 1 0 auto;
@@ -151,7 +151,7 @@ li > #home-link-active:visited {
   background-color: #33bd1a;
 }
 
-/**Footer Styling**/
+/**Footer Section**/
 .footer {
   background-color: #253c1b;
   display: flex;
@@ -163,7 +163,7 @@ li > #home-link-active:visited {
 #contact-info > #contact-heading {
   font-size: 350%;
 }
-/***Contact Information Styling***/
+/***Contact Information Section***/
 .footer > #contact-info {
   display: flex;
   flex-direction: column;
@@ -197,7 +197,7 @@ div > #icon-phone:visited {
   text-decoration: underline;
 }
 
-/***Socials Styling***/
+/***Socials Section***/
 .footer > #socials {
   display: flex;
   flex-direction: column;
@@ -252,7 +252,7 @@ li > #icon-facebook:active {
 }
 
 /*Opportunities.html*/
-/**Header Styling**/
+/**Header Section**/
 #header-fixed {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -263,7 +263,7 @@ li > #icon-facebook:active {
   z-index: 1;
 }
 
-/***Title Logo Styling***/
+/***Title Logo Section***/
 #header-fixed > h1 {
   align-self: center;
   margin: 100px;
@@ -276,7 +276,7 @@ h1 > #logo-link:visited {
   font-size: 130%;
 }
 
-/***Navigation Styling***/
+/***Navigation Section***/
 #header-fixed > .nav-bar {
   display: flex;
   font-family: "Quattrocento", sans-serif;
@@ -382,7 +382,7 @@ li > #opportunities-link-active:visited {
   border: 2px solid #f8eecf;
 }
 
-/***Volunteer Card Icon Styling***/
+/***Volunteer Card Icon Section***/
 .volunteer-card > .donate {
   position: relative;
 }
@@ -519,7 +519,7 @@ li > #opportunities-link-active:visited {
   background-position: 0 30%;
 }
 
-/***Aside Styling***/
+/***Aside Section***/
 #opportunities > aside {
   position: relative;
   height: fit-content;
@@ -561,7 +561,7 @@ aside > ul {
 }
 
 /*Member.html*/
-/**Header Styling**/
+/**Header Section**/
 li > #member-link-active:link,
 li > #member-link-active:visited {
   background-color: #000;
@@ -569,7 +569,7 @@ li > #member-link-active:visited {
   border: 2px solid #f7ecca;
 }
 
-/**Main Styling**/
+/**Main Section**/
 #become-a-member-container {
   flex: 1 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
@@ -588,7 +588,7 @@ li > #member-link-active:visited {
   grid-template-rows: 1fr;
 }
 
-/***Form Styling***/
+/***Form Section***/
 #form-faq-container > #form-container {
   height: fit-content;
   margin: 100px;
@@ -631,7 +631,7 @@ div > label {
   font-size: 380%;
 }
 
-/****Form Title of Form****/
+/****Title of Form****/
 #signup-form > #form-title {
   font-size: 500%;
   text-align: center;
@@ -708,7 +708,7 @@ h2 > .fa-pen-to-square {
   background-color: #ff922b;
 }
 
-/***FAQ Styling***/
+/***FAQ Section***/
 #form-faq-container > #faq-container {
   height: fit-content;
   padding: 50px;
@@ -760,9 +760,9 @@ h2 > .fa-circle-question {
   font-size: 300%;
 }
 
-/*Completed Signup Styling*/
+/*Completed Signup Section*/
 
-/**Main Styling**/
+/**Main Section**/
 #completed-signup-container {
   flex: 1 0 auto;
   display: grid;
@@ -923,7 +923,7 @@ h2 > .fa-circle-question {
     font-size: 250%;
   }
 
-  /***Aside Styling***/
+  /***Aside Section***/
   aside > #top-picks {
     font-size: 300%;
   }
@@ -1142,7 +1142,7 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR INDEX.HTML*/
-  /**Main Styling**/
+  /**Main Section**/
   #hero-info > #hero-text {
     font-size: 400%;
   }
@@ -1399,7 +1399,7 @@ h2 > .fa-circle-question {
     padding: 20px 35px;
   }
 
-  /***FAQ Styling***/
+  /***FAQ Section***/
   .faqs > #faq-questions {
     gap: 10px;
   }
@@ -1441,12 +1441,12 @@ h2 > .fa-circle-question {
     margin-top: 50px;
   }
 
-  /**Footer Styling for ALL PAGES**/
+  /**Footer Section for ALL PAGES**/
   #socials > #socials-heading,
   #contact-info > #contact-heading {
     font-size: 250%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 30px;
   }
@@ -1461,7 +1461,7 @@ h2 > .fa-circle-question {
     font-size: 170%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   #socials > .social-links {
     display: flex;
     gap: 50px;
@@ -1568,7 +1568,7 @@ h2 > .fa-circle-question {
     padding: 15px 25px;
   }
 
-  /***FAQ Styling***/
+  /***FAQ Section***/
   #form-faq-container > #faq-container {
     padding: 40px;
   }
@@ -1623,7 +1623,7 @@ h2 > .fa-circle-question {
   #contact-info > #contact-heading {
     font-size: 200%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 20px;
   }
@@ -1638,7 +1638,7 @@ h2 > .fa-circle-question {
     font-size: 130%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   .footer > #contact-info {
     gap: 20px;
   }
@@ -1717,7 +1717,7 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTH BELOW 1150px**/
 @media screen and (max-width: 1150px) {
-  /**Header Styling for ALL PAGES**/
+  /**Header Section for ALL PAGES**/
   .header {
     display: grid;
     grid-template-rows: 6rem;
@@ -1948,7 +1948,7 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTH BELOW 920px**/
 @media screen and (max-width: 920px) {
-  /*Header Styling for ALL PAGES*/
+  /*Header Section for ALL PAGES*/
   .header {
     display: grid;
     grid-template-rows: 4rem;
@@ -2005,7 +2005,7 @@ h2 > .fa-circle-question {
     font-size: 70%;
   }
 
-  /****Aside Styling****/
+  /****Aside Section****/
   #opportunities > aside {
     grid-column: 1 / -1;
     border-radius: 20px 0 20px 0;
@@ -2045,12 +2045,12 @@ h2 > .fa-circle-question {
     width: 100%;
   }
 
-  /**Footer Styling for ALL PAGES**/
+  /**Footer Section for ALL PAGES**/
   #socials > #socials-heading,
   #contact-info > #contact-heading {
     font-size: 130%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 20px;
   }
@@ -2065,7 +2065,7 @@ h2 > .fa-circle-question {
     font-size: 100%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   #socials > .social-links {
     display: flex;
     gap: 30px;
@@ -2108,7 +2108,7 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTH BELOW 770px**/
 @media screen and (max-width: 770px) {
-  /**Header Styling for ALL PAGES**/
+  /**Header Section for ALL PAGES**/
   .nav-bar > .nav-links {
     gap: 10px;
   }
@@ -2127,7 +2127,7 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
+  /***Main Section***/
   #hero-section > #hero-info {
     margin: 100px;
   }
@@ -2213,7 +2213,7 @@ h2 > .fa-circle-question {
     margin-top: 50px;
   }
 
-  /**Footer Styling for ALL PAGES**/
+  /**Footer Section for ALL PAGES**/
   .footer > #contact-info {
     margin: 30px 0;
   }
@@ -2222,7 +2222,7 @@ h2 > .fa-circle-question {
   #contact-info > #contact-heading {
     font-size: 100%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 10px;
   }
@@ -2237,7 +2237,7 @@ h2 > .fa-circle-question {
     font-size: 80%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   #socials > .social-links {
     display: flex;
     gap: 30px;
@@ -2347,7 +2347,7 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 550px**/
 @media screen and (max-width: 550px) {
-  /**Header Styling for ALL PAGES**/
+  /**Header Section for ALL PAGES**/
   .header {
     height: 100px;
     display: grid;
@@ -2513,7 +2513,7 @@ h2 > .fa-circle-question {
     margin-top: 30px;
   }
 
-  /**Footer Styling for ALL PAGES**/
+  /**Footer Section for ALL PAGES**/
   .footer > #contact-info {
     margin: 30px 0;
     gap: 10px;
@@ -2523,7 +2523,7 @@ h2 > .fa-circle-question {
   #contact-info > #contact-heading {
     font-size: 80%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 10px;
   }
@@ -2538,7 +2538,7 @@ h2 > .fa-circle-question {
     font-size: 60%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   .footer > #socials {
     gap: 10px;
   }
@@ -2588,7 +2588,7 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-  /***Form Styling***/
+  /***Form Section***/
   #signup-form > #form-title {
     font-size: 80%;
     line-height: 1;
@@ -2623,9 +2623,8 @@ h2 > .fa-circle-question {
 }
 
 /**FOR SCREEN WIDTHS BELOW 410px**/
-/***Footer Styling***/
 @media screen and (max-width: 410px) {
-  /**Header Styling for ALL PAGES**/
+  /**Header Section for ALL PAGES**/
   .header {
     height: 80px;
   }
@@ -2647,7 +2646,7 @@ h2 > .fa-circle-question {
   }
 
   /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
+  /***Main Section***/
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 170%;
@@ -2710,7 +2709,7 @@ h2 > .fa-circle-question {
     margin-top: 30px;
   }
 
-  /**Footer Styling for ALL PAGES**/
+  /**Footer Section for ALL PAGES**/
   .footer > #contact-info {
     margin: 20px 0;
     gap: 5px;
@@ -2720,7 +2719,7 @@ h2 > .fa-circle-question {
   #contact-info > #contact-heading {
     font-size: 60%;
   }
-  /***Contact Information Styling***/
+  /***Contact Information Section***/
   #contact-info > #contact-us {
     gap: 10px;
   }
@@ -2735,7 +2734,7 @@ h2 > .fa-circle-question {
     font-size: 40%;
   }
 
-  /****Socials Styling****/
+  /****Socials Section****/
   .footer > #socials {
     gap: 10px;
   }
@@ -2754,8 +2753,8 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTHS BELOW 380px**/
 @media screen and (max-width: 380px) {
   /*MEDIA QUERIES FOR MEMBER.HTML*/
-  /***Main Styling***/
-  /****Form Styling****/
+  /***Main Section***/
+  /****Form Section****/
   #signup-form > #form-title {
     font-size: 60%;
     padding-bottom: 10px;
@@ -2792,7 +2791,7 @@ h2 > .fa-circle-question {
     margin: 10px 0 0 0;
   }
 
-  /****FAQ Styling****/
+  /****FAQ Section****/
   #faq-questions > .faq-q-a {
     padding: 10px;
   }
@@ -2814,7 +2813,7 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 350px**/
 @media screen and (max-width: 350px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
+  /***Main Section***/
   .volunteer-card > .volunteer-card-description {
     font-size: 60%;
   }
@@ -2857,7 +2856,7 @@ h2 > .fa-circle-question {
     align-self: flex-start;
   }
 
-  /***Footer Styling***/
+  /***Footer Section***/
   .footer > #contact-info {
     gap: 0px;
   }
@@ -2871,7 +2870,7 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTHS BELOW 295px**/
 @media screen and (max-width: 295px) {
   /*MEDIA QUERIES FOR INDEX.HTML*/
-  /***Main Styling***/
+  /***Main Section***/
   #hero-info > #hero-text {
     font-size: 80%;
   }
