@@ -177,10 +177,14 @@ The live link can be found here - https://cjphawes.github.io/handinhand-project-
 #### Content
 
 - **All Pages**
+  - The favicon logo I made was from [Favicon.io](https://favicon.io/favicon-generator/)
+  - The code for using a sticky footer on all pages was from [Materialize CSS](https://materializecss.com/footer.html)
   - The footer icons, including social media platform logos, were taken from [Font Awesome](https://fontawesome.com/).
+  - The footer copyright notice code I found from [CSS Tricks](https://css-tricks.com/snippets/html/glyphs/)
     <br>
 - **Landing Page**
   - I used [Chat GPT](https://chat.openai.com/) for the brief user enticing text.
+  - The arrows used were also from CSS Tricks.
     <br>
 - **Opportunities Page**
   - All the aside links and description, apart from [British Red Cross](https://www.redcross.org.uk/get-involved/volunteer) and [WWF](https://people4planet.wwfindia.org/), are from [Climate Volunteering](https://www.climatevolunteering.com/opportunities).
