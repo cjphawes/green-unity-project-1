@@ -145,11 +145,11 @@ There are 4 pages for the user to navigate around. A [Landing Page](#landing-pag
 
 ##### CSS
 
-- No errors were found using the official [(Jigsaw) Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fassets%2Fcss%2Fstyle.css&usermedium=all&vextwarning=&warning=1)
+- No errors were found using the official [(Jigsaw) Validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fcjphawes.github.io%2Fhandinhand-project-1%2Fassets%2Fcss%2Fstyle.css&usermedium=all&vextwarning=&warning=1)![W3C CSS Validator](/assets/readme-file-imgs/w3c-css-validator.png)
 
 ### Fixed Bugs
 
-- Become a member page FAQ's causes the background image to move upon opening of the individual FAQ's, I was unable to find a fix for this while using the same background image due to the dimensions of the image.
+- Become a member page FAQ's caused the background image to move upon opening of the individual FAQ's, I was able to find a suitable fix for this by making the image center of the screen, there is still some movement but it's 100x better than it was.
 - First time testing the performance, images massively made the webpage load time slow aswell as the animations. To correct this I reduced my image file sizes, changed their formats to webp and re-sized them.
 
 ---
