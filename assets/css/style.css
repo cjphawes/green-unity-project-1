@@ -314,56 +314,56 @@ li > #opportunities-link-active:visited {
   grid-template-rows: 1fr;
   justify-items: center;
   column-gap: 50px;
-  padding-bottom: 100px;
+  margin: 100px 0 100px 150px;
 }
 
 #opportunities-container > #opportunities-text {
-  font-size: 120%;
-  padding-top: 120px;
+  font-size: 350%;
+  margin-top: 350px;
   text-align: center;
 }
 
 #opportunities > .opportunities-section {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 
 .opportunities-section > .volunteer-title {
-  margin-top: 50px;
-  font-size: 180%;
+  font-size: 400%;
 }
 
 .opportunities-section > .volunteer-card {
   position: relative;
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 95%;
   background-color: #fff;
   border-radius: 20px;
   transition: all 0.6s;
-  box-shadow: 3px 4px 10px #000;
+  box-shadow: 8px 12px 30px #000;
 }
 .opportunities-section > .volunteer-card:hover {
-  transform: scale(1.02);
-  box-shadow: 7px 8px 15px -5px #000;
+  transform: scale(1.03);
+  box-shadow: 21px 24px 45px -15px #000;
 }
 
 .volunteer-card > h3 {
   background-color: #fff;
   color: #000;
-  padding: 10px;
+  padding: 30px;
   display: block;
   border-radius: 20px 20px 0 0;
   text-align: center;
+  font-size: 300%;
 }
 
 .volunteer-card > .volunteer-card-description {
   display: inline-block;
-  margin: 10px 80px 0 10px;
-  padding: 10px;
+  margin: 20px 100px 0 20px;
+  padding: 20px;
   border-radius: 10px;
   color: #fff;
-  font-size: 90%;
+  font-size: 200%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -373,12 +373,12 @@ li > #opportunities-link-active:visited {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 10px;
+  padding: 20px;
 
   text-decoration: none;
   background-color: #253c1b;
   color: #f8eecf;
-  font-size: 110%;
+  font-size: 250%;
   font-weight: 600;
   border-radius: 10px 0 20px 0;
   border: 2px solid #000;
@@ -401,7 +401,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\f4b9";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #f59f00;
 }
 
@@ -413,7 +413,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\f1bb";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #37b24d;
 }
 
@@ -425,7 +425,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\e4f2";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #339af0;
 }
 
@@ -437,7 +437,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\f02d";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #e03131;
 }
 
@@ -449,7 +449,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\f4be";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #ff6b6b;
 }
 
@@ -461,7 +461,7 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\e515";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #1864ab;
 }
 
@@ -473,49 +473,44 @@ li > #opportunities-link-active:visited {
   font-weight: 900;
   content: "\f700";
   position: absolute;
-  left: 20px;
+  left: 30px;
   color: #775144;
 }
 
 /****Global Volunteering Cards****/
-#opportunities > #opportunities-section-global {
-  margin-left: 50px;
-}
-
 #opportunities-section-global > #amazon-rainforest {
   background: url(../images/amazon-rainforest-sunset-min.webp), no-repeat;
   background-size: cover;
   background-position: 0 30%;
-  transition: all 1s;
 }
 
 #opportunities-section-global > #marine-conservation {
   background: url(../images/sea-turtle-swimming-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 0 30%;
 }
 #opportunities-section-global > #donating-to-charity {
   background: url(../images/ukraine-flag-waving-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 40%;
+  background-position: 0 20%;
 }
 
 #opportunities-section-global > #natural-disaster {
   background: url(../images/natural-disaster-aftermath-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 30%;
+  background-position: 0 10%;
 }
 #opportunities-section-global > #educational {
   background: url(../images/children-at-school-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 40%;
+  background-position: 0 20%;
 }
 
 /****Local Volunteering Cards****/
 .opportunities-section > #planting-trees {
   background: url(../images/planting-a-tree-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 90%;
+  background-position: 0 80%;
 }
 .opportunities-section > #donating-to-charity-2 {
   background: url(../images/man-preparing-food-for-delivery-min.webp), no-repeat;
@@ -525,23 +520,23 @@ li > #opportunities-link-active:visited {
 .opportunities-section > #helping-the-homeless {
   background: url(../images/volunteers-giving-out-water-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 40%;
+  background-position: 0 20%;
 }
 .opportunities-section > #wildlife-conservation {
   background: url(../images/group-of-animals-min.webp), no-repeat;
   background-size: cover;
-  background-position: 0 40%;
+  background-position: 0 30%;
 }
 
 /***Aside Styling***/
 #opportunities > aside {
   position: relative;
   height: fit-content;
-  margin-top: 150px;
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
+  gap: 20px;
+  padding: 40px;
 
   background-color: #253c1b;
   color: #fff;
@@ -551,20 +546,20 @@ li > #opportunities-link-active:visited {
 aside > #top-picks {
   margin-top: 10px;
   text-align: center;
-  font-size: 150%;
+  font-size: 350%;
 }
 
 aside > #top-picks-description {
   padding: 10px;
-  font-size: 90%;
+  font-size: 300%;
 }
 
 aside > ul {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  font-size: 110%;
+  gap: 30px;
+  font-size: 250%;
 }
 
 .extra-links > .top-pick-links:link,
@@ -581,7 +576,6 @@ aside > ul {
 }
 
 /*Member.html*/
-
 /**Header Styling**/
 li > #member-link-active:link,
 li > #member-link-active:visited {
@@ -856,6 +850,13 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 3400px**/
 @media screen and (max-width: 3400px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities-text {
+    margin: 350px 150px 0 150px;
+    text-align: left;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
   #signup-form > #signup-container {
@@ -928,6 +929,34 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 2900px**/
 @media screen and (max-width: 2900px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  .volunteer-card > h3 {
+    font-size: 250%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 170%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 250%;
+  }
+
+  /***Aside Styling***/
+  aside > #top-picks {
+    font-size: 300%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 250%;
+  }
+
+  aside > ul {
+    font-size: 200%;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
   #form-faq-container > #form-container {
@@ -1019,6 +1048,16 @@ h2 > .fa-circle-question {
 
 /**FOR SCREEN WIDTHS BELOW 2350px**/
 @media screen and (max-width: 2350px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities-text {
+    font-size: 250%;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 300%;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
   div > #fname,
@@ -1143,6 +1182,53 @@ h2 > .fa-circle-question {
     font-size: 520%;
   }
 
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities {
+    margin: 100px 0 100px 100px;
+  }
+
+  .opportunities-section > .volunteer-card {
+    height: 350px;
+  }
+
+  #opportunities-container > #opportunities-text {
+    margin: 250px 150px 0 150px;
+    font-size: 250%;
+  }
+
+  .volunteer-card > h3 {
+    padding: 20px;
+    font-size: 200%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 130%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 200%;
+  }
+
+  /***Aside Section***/
+  #opportunities > aside {
+    margin-top: 200px;
+  }
+
+  aside > #top-picks {
+    font-size: 250%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 170%;
+  }
+
+  aside > ul {
+    gap: 10px;
+    font-size: 150%;
+  }
+
   /*MEDIA QUERIES FOR COMPLETED-SIGNUP.HTML*/
   #completion-container > #completion-title {
     font-size: 300%;
@@ -1160,6 +1246,34 @@ h2 > .fa-circle-question {
   #completion-container > #return-back-text {
     font-size: 250%;
     margin-top: 50px;
+  }
+}
+
+/**FOR SCREEN WIDTHS BELOW 1820px**/
+@media screen and (max-width: 1820px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  .opportunities-section > .volunteer-card {
+    height: 300px;
+    box-shadow: 6px 8px 15px #000;
+  }
+
+  .opportunities-section > .volunteer-card:hover {
+    transform: scale(1.03);
+    box-shadow: 14px 16px 30px -30px #000;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 250%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 110%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 150%;
   }
 }
 
@@ -1202,6 +1316,50 @@ h2 > .fa-circle-question {
   #hero-info > #signup-cta-btn > #join-fight:link,
   #hero-info > #signup-cta-btn > #join-fight:visited {
     font-size: 370%;
+  }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities-text {
+    margin: 250px 150px 0 150px;
+    font-size: 200%;
+  }
+
+  .opportunities-section > .volunteer-title {
+    font-size: 200%;
+  }
+
+  .volunteer-card > h3 {
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    font-size: 90%;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 120%;
+  }
+
+  /***Aside Section***/
+  #opportunities > aside {
+    margin-top: 150px;
+    padding: 20px;
+  }
+
+  aside > #top-picks {
+    font-size: 200%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 140%;
+  }
+
+  aside > ul {
+    gap: 10px;
+    font-size: 120%;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -1338,6 +1496,53 @@ h2 > .fa-circle-question {
 
 /*FOR SCREEN WIDTH BELOW 1450px*/
 @media screen and (max-width: 1450px) {
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities {
+    margin: 100px 0 100px 50px;
+  }
+
+  .opportunities-section > .volunteer-card {
+    height: 250px;
+    box-shadow: 6px 8px 15px #000;
+  }
+
+  .opportunities-section > .volunteer-card:hover {
+    transform: scale(1.03);
+    box-shadow: 14px 16px 30px -30px #000;
+  }
+
+  .volunteer-card > .volunteer-card-description {
+    margin: 20px 50px 0 20px;
+    padding: 10px;
+  }
+
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 110%;
+    padding: 10px;
+  }
+
+  /***Aside Section***/
+  #opportunities > aside {
+    margin-top: 150px;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  aside > #top-picks {
+    font-size: 150%;
+  }
+
+  aside > #top-picks-description {
+    font-size: 120%;
+  }
+
+  aside > ul {
+    gap: 10px;
+    font-size: 100%;
+  }
+
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
   #form-faq-container > #form-container {
@@ -1427,6 +1632,13 @@ h2 > .fa-circle-question {
     padding: 15px 25px;
   }
 
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  /***Opportunities Section***/
+  #opportunities-container > #opportunities-text {
+    margin: 200px 100px 0 100px;
+    font-size: 150%;
+  }
+
   /**Footer Styling for ALL PAGES**/
   #socials > #socials-heading,
   #contact-info > #contact-heading {
@@ -1466,17 +1678,12 @@ h2 > .fa-circle-question {
 /**FOR SCREEN WIDTH BELOW 1290px**/
 @media screen and (max-width: 1290px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
   #opportunities-container > #opportunities {
-    column-gap: 50px;
+    margin: 50px 0 100px 50px;
   }
 
   #opportunities > .opportunities-section {
-    align-items: flex-start;
-  }
-
-  #opportunities-container > #opportunities-text {
-    font-size: 100%;
+    gap: 20px;
   }
 
   .opportunities-section > .volunteer-title {
@@ -1484,28 +1691,17 @@ h2 > .fa-circle-question {
   }
 
   .opportunities-section > .volunteer-card {
-    width: 300px;
+    height: 200px;
+  }
+
+  .volunteer-card > h3 {
+    padding: 10px;
+    font-size: 100%;
   }
 
   .volunteer-card > .volunteer-card-description {
-    font-size: 70%;
-  }
-
-  .volunteer-card > .volunteer-now:link,
-  .volunteer-card > .volunteer-now:visited {
+    margin: 10px 50px 0 10px;
     font-size: 80%;
-  }
-
-  /****Aside Styling****/
-  li > .extra-links {
-    font-size: 80%;
-    line-height: 1.2;
-  }
-
-  .extra-links > .top-pick-links:link,
-  .extra-links > .top-pick-links:visited {
-    font-size: 100%;
-    text-decoration: underline;
   }
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
@@ -1595,41 +1791,58 @@ h2 > .fa-circle-question {
     font-size: 270%;
     padding: 20px 30px;
   }
+
+  /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
+  #opportunities-container > #opportunities-text {
+    margin: 150px 50px 0 50px;
+    font-size: 120%;
+  }
 }
 
 /**FOR SCREEN WIDTH BELOW 1080px**/
 @media screen and (max-width: 1080px) {
   /*MEDIA QUERIES FOR OPPORTUNITIES.HTML*/
-  /***Main Styling***/
-  #donating-to-charity > #global-charity-text {
+  /***Opportunities Section***/
+  .opportunities-section > .volunteer-card {
+    height: 150px;
+  }
+
+  .volunteer-card > .volunteer-card-description {
     font-size: 60%;
+    margin: 10px 30px 0 10px;
   }
 
-  #opportunities-container > #opportunities-text {
-    font-size: 90%;
+  .volunteer-card > .volunteer-now:link,
+  .volunteer-card > .volunteer-now:visited {
+    font-size: 70%;
+    padding: 10px;
   }
 
-  .opportunities-section > .volunteer-title {
-    font-size: 130%;
-  }
-
-  .volunteer-card > h3 {
-    font-size: 90%;
-  }
-
-  /****Aside Styling****/
-  li > .extra-links {
-    font-size: 60%;
-    line-height: 1.2;
+  /***Aside Section***/
+  #opportunities > aside {
+    margin-top: 100px;
+    padding: 10px;
+    gap: 5px;
   }
 
   aside > #top-picks {
-    font-size: 130%;
+    font-size: 120%;
   }
 
   aside > #top-picks-description {
-    font-size: 80%;
+    font-size: 90%;
   }
+
+  aside > ul {
+    gap: 10px;
+    font-size: 70%;
+  }
+
+  /* .extra-links > .top-pick-links:link,
+  .extra-links > .top-pick-links:visited {
+    font-size: 100%;
+    text-decoration: underline;
+  } */
 
   /*MEDIA QUERIES FOR MEMBER.HTML*/
   /***Form Container***/
@@ -1923,6 +2136,17 @@ h2 > .fa-circle-question {
   #signup-form > #signup-btn {
     font-size: 150%;
     padding: 15px 0px;
+  }
+
+  /**Footer Styling for ALL PAGES**/
+  div > #icon-location:link,
+  div > #icon-location:visited,
+  div > #icon-email:link,
+  div > #icon-email:visited,
+  div > #icon-phone:link,
+  div > #icon-phone:visited {
+    text-decoration: underline;
+    color: #f7ecca;
   }
 }
 
